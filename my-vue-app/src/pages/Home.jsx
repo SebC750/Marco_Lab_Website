@@ -11,7 +11,7 @@ function Home() {
       <div>
         <Navbar></Navbar>
         <div class="container">
-
+          
 
 
 
@@ -26,7 +26,7 @@ function Home() {
           </div>
 
           <div class="team-showcase">
-            <h1> Researchers </h1>
+            <h1> Featured Researchers </h1>
             <div class="leader-description">
               <div class="leader-name">
                 <h3 > Professor Marco Antonio Giraldo </h3>
@@ -42,16 +42,17 @@ function Home() {
             </div>
             <Link to="/team"> <button class="link-to-team"> Meet the rest of the team!  </button> </Link>
           </div>
-          <div class="contact-section">
+          
+        </div>
+        <div class="contact-section">
             <div class="contact-title">
-              <h1> Contact Us! </h1>
+              <h2> Contact Us! </h2>
               <div style={{ borderStyle: "solid", borderWidth: 3, borderColor: "white" }}> </div>
             </div>
             <div class="contact-numbers">
 
             </div>
           </div>
-        </div>
       </div>
     </>
   )

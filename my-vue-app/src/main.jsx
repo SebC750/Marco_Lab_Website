@@ -5,6 +5,8 @@ import Research from "./pages/Research.jsx"
 import Team from "./pages/Team.jsx"
 import About from "./pages/About.jsx"
 import './index.css'
+import './pages/styles/styles.scss'
+
 import {RouterProvider, createBrowserRouter} from "react-router-dom"
 
 const router = createBrowserRouter([
