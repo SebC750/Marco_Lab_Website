@@ -1,59 +1,188 @@
 import "./stylesheets/Home.css"
 import Navbar from "./Navbar.jsx"
+import "./stylesheets/Navbar.css"
 import { Link } from "react-router-dom"
+
 function Home() {
 
-  const goToNextSlide = () =>{
+  const goToNextSlide = () => {
 
   }
   return (
     <>
       <div>
         <Navbar></Navbar>
-        <div class="container">
-          
 
-
-
-          <div class="description-content">
-            <h1 style={{ fontSize: 48 }}> Welcome </h1>
-            <p style={{ fontSize: 36 }}> Welcome to the official page for Marco's research team </p>
-          </div>
-          <div class="image-showcase">
-            <div id="image-slideshow">
-              
+        <div id="home-slideshow" className="carousel slide" data-bs-ride="carousel">
+          <div className="carousel-inner">
+            <div className="carousel-item active" data-bs-interval="5000" style={{ opacity: "50%" }}>
+              <img src="../images/marco-lab-pictures/butterfly-bg.png" className="d-block w-100" height="800px" alt="butterfly" />
             </div>
+            <div className="carousel-item" data-bs-interval="5000" style={{ opacity: "50%" }}>
+              <img src="../images/marco-lab-pictures/butterfly-pic.png" className="d-block w-100" height="800px" alt="butterfly" />
+            </div>
+            <div className="carousel-item" data-bs-interval="5000" style={{ opacity: "50%" }}>
+              <img src="../images/marco-lab-pictures/lab-office.png" className="d-block w-100 " height="800px" alt="research office" />
+            </div>
+            <button className="carousel-control-prev" type="button" data-bs-target="#home-slideshow" data-bs-slide="prev">
+              <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span className="visually-hidden">Previous</span>
+            </button>
+            <button className="carousel-control-next" type="button" data-bs-target="#home-slideshow" data-bs-slide="next">
+              <span className="carousel-control-next-icon" aria-hidden="true"></span>
+              <span className="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div className="description-container">
+            <div className="description-content">
+              <h1> Welcome!</h1>
+              <p> This is the official site for Marco's lab. This website features our research, team members, and our contributions to the field of Optics</p>
+              <div className="home-anchors">
+                <div className="anchor-buttons">
+                  <a href="#home-page"> <button> Learn more! </button></a>
+                </div>
+                <div className="anchor-buttons">
+                  <a href="#contact-us"> <button> Contact Us! </button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <div >
+
+          <div class="research-container">
+            <div class="container-image"> 
+            <img src="../images/marco-lab-pictures/research-pic1.png" class="d-block w-100" alt="research pic 1" />
+
+            </div>
+         
+            <div class="research-description-container" style={{ marginTop: 10 }}>
+              <div class="research-description">
+                <div class="container-border" style={{ textAlign: "center" }} id="home-page">  <h2> Our Research </h2> </div>
+                <div class="container-border" style={{ marginTop: 10 }}>
+                  <p>
+
+                    At Marco's Lab, our research in optics delves into the fascinating world of light and its interactions with matter. We explore cutting-edge advancements in photonics, laser technology, and optical materials to develop innovative solutions for a range of applications. From enhancing communication systems with ultra-fast optical networks to pioneering breakthroughs in medical imaging and diagnostics, our team is dedicated to pushing the boundaries of what is possible with light. By harnessing the power of optics, we aim to create technologies that improve lives, drive scientific discovery, and shape the future of multiple industries.</p>
+                </div>
+              </div>
+              <div class="redirect-button" style={{ marginTop: 10 }}>
+                <Link to="/research"> <button> Learn more about our research! </button></Link>
+              </div>
+            </div>
+
           </div>
 
           <div class="team-showcase">
-            <h1> Featured Researchers </h1>
-            <div class="leader-description">
-              <div class="leader-name">
-                <h3 > Professor Marco Antonio Giraldo </h3>
+
+
+            <div class="team-container">
+              
+              <div class="container-border"> <h1> Featured Team Leaders </h1> </div>
+              
+              <div class="leader-section">
+
+
+                <div class="leader-description">
+                  <div class="container-border" >
+                    <h3 > Professor Marco Antonio Giraldo </h3>
+                  </div>
+                  <div class="container-border-desc"  style={{ marginTop: 10, height: "200vh"}}>
+                    <p> Professor Marco Antonio Giraldo is a PhD at the University of Antioquia. As the leading researcher in this division, he works tirelessly to investigate the effects of optics on Butterflies and instruct his students with his findings.  </p>
+                    
+                      <img src="../images/marco-lab-pictures/logo-uofantioquia-png.png" alt="picture of university of antioquia" class="d-block" width="95%" />
+                   
+                  </div>
+
+
+
+
+                </div>
+                
+                <div class="profile-info">
+                <div class="researcher-image">
+                  <img src="../images/marco-lab-pictures/marcojpg.jpg" alt="picture of Marco Giraldo" width="100%"/>
+                </div>
+                <div class="personal-webpages">
+                    <div class="webpage-link">
+                      
+                     <Link to="https://scholar.google.com/citations?user=SpLyrvoAAAAJ&hl=es" style={{textDecoration: "none", color: "white"}}>  <button> <img src="../images/marco-lab-pictures/Google_Scholar_logo.svg" alt="RG logo" width="10%" height="10%"/> Google Scholar </button> </Link>
+                    </div>
+                  </div>
+                  </div>
               </div>
+              <div class="divider"> </div>
+              <div class="leader-section">
 
 
-            </div>
-            <div class="team-description">
-              <h3> Research Contributors </h3>
-              <div class="team-images">
+                <div class="leader-description">
+                  <div class="container-border">
+                    <h3 > German Ricaurte </h3>
+                  </div>
+                  <div class="container-border-desc" style={{ marginTop: 10,  height: "160vh"}}>
+                    <p> insert description </p>
+                    <div class="university-logo">
+                      <img src="../images/marco-lab-pictures/logo-uofantioquia-png.png" alt="picture of university of antioquia"  width="95%" />
+                    </div>
+                  </div>
 
+
+
+                </div>
+                <div class="profile-info">
+                <div class="researcher-image">
+                  <img src="../images/marco-lab-pictures/GermanRicaurte.jpg" alt="picture of German Ricaurte" class="w-100" />
+                  
+                </div>
+                <div class="personal-webpages">
+                    <div class="webpage-link">
+                    <Link to="https://www.researchgate.net/profile/German-Ricaurte" style={{textDecoration: "none", color: "white"}}>  <button> <img src="../images/marco-lab-pictures/ResearchGate_icon_SVG.svg" alt="RG logo" width="10%" height="10%"/> ResearchGate </button> </Link>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+              <div class="redirect-button">
+                <Link to="/team"> <button> Meet the rest of the team! </button></Link>
               </div>
             </div>
-            <Link to="/team"> <button class="link-to-team"> Meet the rest of the team!  </button> </Link>
           </div>
-          
+
         </div>
-        <div class="contact-section">
-            <div class="contact-title">
-              <h2> Contact Us! </h2>
-              <div style={{ borderStyle: "solid", borderWidth: 3, borderColor: "white" }}> </div>
-            </div>
-            <div class="contact-numbers">
-
-            </div>
-          </div>
       </div>
+      <div class="contact-section" id="contact-us">
+        <div class="contact-title">
+          <h2> Contact Us! </h2>
+          <div class="divider"> </div>
+        </div>
+        <div class="contact-numbers">
+        <h3> Marco Antonio Giraldo Cadavid </h3>
+        <ul>
+          <li class="contact-list-item"> Phone number:  </li>
+          <li class="contact-list-item"> Email: </li>
+        </ul>
+
+        <h3> German Ricaurte </h3>
+        <ul>
+          <li class="contact-list-item"> Phone number:  </li>
+          <li class="contact-list-item"> Email: </li>
+        </ul>
+        </div>
+        <div class="contact-title">
+          <h2> Address </h2>
+        <div class="divider"> </div>
+        <h3> University of Antioquia Faculty of Exact and Natural Sciences</h3>
+        <div class="address-description">
+          
+          <p > Cl. Barranquilla #53188 #53- a, Aranjuez, Medellín, Aranjuez, Medellín, Antioquia, Colombia </p>
+          <img src="../images/marco-lab-pictures/uoa-address.png" class="d-block w-50" height="100%" alt="university natural sciences building address"/>
+        </div>
+        </div>
+      </div>
+
     </>
   )
 }
