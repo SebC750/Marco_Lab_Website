@@ -1,29 +1,192 @@
 .container{
     width: 100%;
 }
-
-.description-content{
-    text-align: center;
-    
+#home-slideshow {
+    position: relative;
 }
-h1{
-    color: black;
-}
-
-.link-to-team{
-    background-color: blueviolet;
-    color: white;
-    font-size: 24px;
+.description-container {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
     width: 100%;
-    text-decoration: none;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-    padding: 20px;
+    color: white;
     
-    transition: background-color 0.3s ease;
 }
-.link-to-team:hover{
-    background-color: rgb(71, 29, 110);
+.description-content{
+    
+    
+    text-align: center;
+    color: white;
+}
+.team-container{
+    background-color: rgb(79, 187, 255);
+    padding: 20px;
+    width: 95%; 
+    
+    margin-top: 50px;
+    margin-left: 2.5%;
+    border-radius: 6px;
+}
+.research-container{
+    margin-top: 20px;
+    background-color: rgb(79, 187, 255);
+    padding: 20px;
+    width: 95%; 
+    
+
+    margin-left: 2.5%;
+    border-radius: 6px;
+}
+.container-border{
+    background-color: rgb(66, 159, 217);
+    width: 100%;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+
+.container-image{
+    
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;
+    border-radius: 6px;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 92vh; 
+  }
+.container-border h2{
+    color: white;
+}
+.container-border h3{ 
+    color: white;
+}
+.container-border p{
+    color: white;
+}
+.container-border h1{ 
+    color: white;
+}
+.container-border-desc{
+    color: white;
+}
+.home-anchors{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.leader-section{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    
+}
+.researcher-image{
+    border-radius: 6px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;
+    
+    height: 70%;
+}
+.researcher-image img{
+    height: 100%;
+}
+.container-border-desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(66, 159, 217);
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    border-radius: 6px;
+}
+.leader-description{
+    width: 50%;
+    margin-right: 10px;
+    height: 100%;
+    
+}
+.divider{
+     border-style: solid ;
+     border-width: 3; 
+     border-color: white;
+     
+}
+.anchor-buttons button{
+    padding:  10px 20px 10px 20px;
+    background-color: rgb(79, 187, 255);
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    border: none;
+    text-decoration: none;
+    
+}
+.contact-list-item{
+    text-decoration: none;
+}
+.anchor-buttons button:hover{
+    background-color: rgb(58, 139, 189);
+}
+.personal-webpages{
+    padding: 20px;
+    background-color: blueviolet;
+    margin-top: 10px;
+    height: 29.4%;
+    width: 100%;
+    border-radius: 6px;
+    background-color: rgb(58, 139, 189)
+}
+.profile-info{
+    width: 100%;
+}
+.webpage-link button{
+    background-color: rgb(79, 187, 255);
+    color: white;
+    font-size: 16px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    
+    width: 100%;
+    padding: 20px;
+    font-size: 36px;
+    transition: all 0.3s ease;
+    
+}
+.webpage-link button:hover{
+    background-color: rgb(58, 139, 189);
+}
+.contact-numbers h3{
+    padding-left: 20px;
+}
+ 
+.redirect-button button{
+    
+    background-color: rgb(79, 187, 255);
+    color: white;
+    font-size: 16px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    margin-right: 20px;
+    width: 100%;
+    padding: 20px;
+    font-size: 36px;
+    transition: all 0.3s ease;
+}
+.redirect-button button:hover{
+    background-color: rgb(58, 139, 189);
+    border-color: rgb(58, 139, 189);
 }
 .news-panel h2{
     text-align: center;
@@ -41,8 +204,13 @@ h1{
     background-color: black;
     color:white;
     width: 100%;
-    height: 50vh;
+    height: 100%;
     margin-top: 20px;
+}
+.address-description{
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
 }
 .contact-title{
     padding: 20px;
@@ -50,4 +218,49 @@ h1{
 }
 button{
     border: none;
+}
+
+@media (max-width: 1080px){
+    .research-container{
+        flex-direction: column;
+    }
+    .research-description{
+        margin-top: 10px;
+        width: 100%;
+
+    }
+    .container-image{
+        width: 100%;
+    }
+    .researcher-image{
+        width: 100%;
+        
+    }
+}
+@media (max-width: 900px){
+    .researcher-image{
+        width: 100%;
+        height: 30%;
+    }
+    .personal-webpages{
+        height: 10%;
+
+    }
+    .carousel-inner img{
+        height: auto;
+    }
+}
+@media (max-width: 720px){
+    .leader-section{
+        flex-direction: column;
+    }
+    .leader-description{
+        width: 100%;
+    }
+    .researcher-image{
+        width: 100%;
+    }
+    .container-border-desc{
+        height: 30%;
+    }
 }
