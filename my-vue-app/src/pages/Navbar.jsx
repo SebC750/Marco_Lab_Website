@@ -8,7 +8,7 @@ function Navbar(){
           <div class="navbar">
             
             <div class="navbar-logo">
-            <Link to="/" style={{textDecoration: "none", color: "white"}}> <h1> Marco's Lab </h1> </Link>
+            <Link to="/" style={{textDecoration: "none", color: "black"}}> <h1> Marco's Lab </h1> </Link>
             </div>
             <div class="navbar-body">
                 <div class="navbar-link">  <Link to="/" style={{textDecoration: "none", color: "white"}}> <button> Home </button></Link>  </div>

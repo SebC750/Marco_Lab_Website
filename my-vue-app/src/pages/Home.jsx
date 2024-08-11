@@ -15,13 +15,13 @@ function Home() {
 
         <div id="home-slideshow" className="carousel slide" data-bs-ride="carousel">
           <div className="carousel-inner">
-            <div className="carousel-item active" data-bs-interval="5000" style={{ opacity: "50%" }}>
+            <div className="carousel-item active" data-bs-interval="5000">
               <img src="../images/marco-lab-pictures/butterfly-bg.png" className="d-block w-100" height="800px" alt="butterfly" />
             </div>
-            <div className="carousel-item" data-bs-interval="5000" style={{ opacity: "50%" }}>
+            <div className="carousel-item" data-bs-interval="5000">
               <img src="../images/marco-lab-pictures/butterfly-pic.png" className="d-block w-100" height="800px" alt="butterfly" />
             </div>
-            <div className="carousel-item" data-bs-interval="5000" style={{ opacity: "50%" }}>
+            <div className="carousel-item" data-bs-interval="5000">
               <img src="../images/marco-lab-pictures/lab-office.png" className="d-block w-100 " height="800px" alt="research office" />
             </div>
             <button className="carousel-control-prev" type="button" data-bs-target="#home-slideshow" data-bs-slide="prev">
