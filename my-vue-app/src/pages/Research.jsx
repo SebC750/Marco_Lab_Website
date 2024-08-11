@@ -1,7 +1,16 @@
 import Navbar from "./Navbar.jsx"
+import React, { useState, useEffect } from 'react';
 import "./stylesheets/Research.css"
 import "./stylesheets/Home.css"
 function Research() {
+    const [researchPapers, updateResearchPapers] = useState([])
+    
+    useEffect(() => {
+        fetch('http://localhost:9000/add_research_paper').then(response => response.json()).then(allPapers => updateResearchPapers(allPapers))
+    },[])
+    
+    
+    
     return (
         <div>
             <Navbar></Navbar>
@@ -24,7 +33,20 @@ function Research() {
                                   <div class="research-redirect-button"> <button class="button-items"> <img src="../images/marco-lab-pictures/Microscope.svg" width="50px" height="50px"/> Subject </button> </div>
                                 </div>
                             </div>
+                            <div class="research-links">
+                                <h3> More research available at: </h3>
+                                <div class="research-link">
+                                    Google Scholar
+                                </div>
+                                <div class="research-link">
+                                    ResearchGate
+                                </div>
+                                <div class="research-link">
+                                    
+                                </div>
+                            </div>
                         </div>
+
                         <div class="col">
                             <div class="research-list">
                                 <div class="pub-title"> <h2> Publications </h2> </div>

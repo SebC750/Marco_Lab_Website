@@ -2,27 +2,27 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: black;
+    
 }
 .navbar-logo {
-    padding-left: 20px;
+    padding-left: 50px;
     font-size: 36px;
     transition: all 0.3s ease;
 }
 .navbar-logo:hover{
-    margin-left: 10px;
+    margin-left: 40px;
 }
 .navbar-body{
     display: flex;
     justify-content: space-evenly;
-    
+    margin-right: 50px;
 }
 .navbar-link{
     
     border: none;
     
     
-    margin-right: 10px;
+    margin-right: 20px;
     text-align: center;
     text-decoration: none;
     font-size: 24px;
@@ -30,18 +30,19 @@
 }
 .navbar-link button{
     display: block;
-    padding: 10px;
-    border-radius: 6px;
-    background-color: rgb(79, 187, 255);
-    color: white;
+    padding: 30px;
+    
+    background-color: white;
+    color: black;
     width: 100%;
     text-align: center;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 20px;
     
     transition: background-color 0.3s ease;
 }
 .navbar-link button:hover{
-    background-color: rgb(58, 139, 189);
+    color: white;
+    background-color: rgb(79, 187, 255);
     
 }
