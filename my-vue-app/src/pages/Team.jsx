@@ -7,7 +7,7 @@ function Team() {
             <div class="team-title"> <h1> Meet the Team </h1> </div>
             <div class="all-team-showcase">
                 <div class="row-container">
-                    <h2> Team Leaders </h2>
+                    <h2> Lideres del Equipo </h2>
                     <div class="divider"> </div>
                     <div class="row">
                         <div class="col-md-auto">
@@ -24,7 +24,36 @@ function Team() {
 
                 </div>
                 <div class="row-container">
-                    <h2> Undergraduate Students </h2>
+                    <h2> Doctorados </h2>
+                    <div class="divider"> </div>
+                    <div class="row">
+                        <div class="col-md-auto">
+                            <div class="member-picture"> <img src="../images/marco-lab-pictures/ana-valencia.png" height="500px" width="500px" />
+                                <h3> Ana Valencia </h3> </div>
+                        </div>
+                        <div class="col-md-auto">
+                            <div class="member-picture"> <img src="../images/marco-lab-pictures/JulianaSosa.png" height="500px" width="500px" />
+                                <h3> Juliana Sosa </h3> </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row-container">
+                    <h2> Estudiantes de Maestria </h2>
+                    <div class="divider"> </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <div class="member-picture" align="center"> <img src="../images/marco-lab-pictures/MarianaJaramillo.png" height="500px" width="500px" />
+                                <h3> Marianna Jaramillo </h3> </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="row-container">
+                    <h2> Pre-grados </h2>
                     <div class="divider"> </div>
 
                     <div class="row">
@@ -50,33 +79,14 @@ function Team() {
 
                 </div>
                 <div class="row-container">
-                    <h2> Masters Students </h2>
-                    <div class="divider"> </div>
-
-                    <div class="row">
-                        <div class="col">
-                            <div class="member-picture" align="center"> <img src="../images/marco-lab-pictures/MarianaJaramillo.png" height="500px" width="500px" />
-                                <h3> Marianna Jaramillo </h3> </div>
-
-                        </div>
-
-                    </div>
-                </div>
-                <div class="row-container">
-                    <h2> PhD Students </h2>
+                    <h2> Alumni</h2>
                     <div class="divider"> </div>
                     <div class="row">
-                        <div class="col-md-auto">
-                            <div class="member-picture"> <img src="../images/marco-lab-pictures/ana-valencia.png" height="500px" width="500px" />
-                                <h3> Ana Valencia </h3> </div>
-                        </div>
-                        <div class="col-md-auto">
-                            <div class="member-picture"> <img src="../images/marco-lab-pictures/JulianaSosa.png" height="500px" width="500px" />
-                                <h3> Juliana Sosa </h3> </div>
-                        </div>
                     </div>
+
                 </div>
-                
+
+
             </div>
         </div>
     )

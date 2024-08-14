@@ -1,0 +1,46 @@
+[{
+    "pregrados":[
+        {
+            "nombre": "Laura Moreno",
+            "posicion": "",
+            "descripcion": ""
+        },
+        {
+            "nombre": "Joshua Taborda",
+            "posicion": "",
+            "descripcion": ""
+        },
+        {
+            "nombre": "Paul Rubiano",
+            "posicion": "",
+            "descripcion": ""
+        },
+        {
+            "nombre": "Juan Pablo Sanchez",
+            "posicion": "",
+            "descripcion": ""
+        }
+    ],
+    "maestria":[
+        {
+            "nombre": "Marianna Jaramillo",
+            "posicion": "",
+            "descripcion": ""
+        }
+    ],
+    "doctorados": [
+        {
+            "nombre": "Ana Valencia",
+            "posicion": "",
+            "descripcion": ""
+        }, 
+        {
+            "nombre": "Juliana Sosa",
+            "posicion": "",
+            "descripcion": ""
+        }
+    ],
+    "alumni": [{
+        
+    }]
+}]
