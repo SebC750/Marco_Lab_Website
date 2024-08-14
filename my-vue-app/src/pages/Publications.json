@@ -1,7 +1,8 @@
 [{
     "publication_id": 1,
     "publication_title": "Electricidad: el lenguaje secreto de las plantas",
-    "publication_date": "July 2, 2024",
+    "publication_date": "July 2",
+    "publication_year": 2024,
     "authors": ["IEC Arzuza", "JMA Arbeláez", "JC Calderón", "MA Giraldo"],
     "abstract": "Como si se tratara del sistema nervioso de los humanos y otros animales, se ha descubierto que las plantas también tienen la capacidad de generar y transmitir señales eléctricas de una célula a otra. Estos mensajes eléctricos les ayudan a crecer, a responder al sol y al agua, oa protegerse de los insectos. El laboratorio de los grupos de Biofísica y PHYSIS ha medido propiedades eléctricas de células animales (corazón y neuronas), y ahora se ha enfocado en hacer estas mediciones en las plantas, siendo el primer laboratorio del país en este tipo de investigaciones. muscipula) para cerrar sus hojas y atrapar la presa: algún insecto, o, incluso, alguna pequeña rana desprevenida. A pesar de que en estas dos plantas la respuesta eléctrica está asociada a un movimiento rápido bastante notorio y llamativo, no son las únicas que presentan dinámicas eléctricas; de hecho, estos fenómenos hidro-electro-químicos están en todas las plantas cumpliendo diversos roles fisiológicos, desde regular el intercambio de gases y determinar la direccionalidad del crecimiento hasta desatar mecanismos de defensa, o incluso comunicarse con otros organismos. De esta manera, las plantas, a pesar de sus hábitos sésiles, son organismos activos que censan su medio y responden de acuerdo con las condiciones de este. Las plantas son consideradas por algunos investigadores como organismos inteligentes, con memoria y capaces de aprender, todo esto gracias a la señalización eléctrica.",
     "publication_url": "https://scholar.google.com/citations?view_op=view_citation&hl=es&user=SpLyrvoAAAAJ&sortby=pubdate&citation_for_view=SpLyrvoAAAAJ:ZeXyd9-uunAC"
@@ -9,7 +10,8 @@
 {
     "publication_id": 2,
     "publication_title": "Three new toxins from the south American spider Pamphobeteus verdolaga inhibit calcium and potassium channel currents of murine cardiomyocytes",
-    "publication_date": "February 8, 2024",
+    "publication_date": "February 8",
+    "publication_year": 2024,
     "authors": ["J Rojas-Palomino", "A Gómez-Restrepo", "MA Giraldo", "JC Calderón"],
     "abstract": "The spider species Pamphobeteus verdolaga was recently discovered in the Aburra’s Valley, Colombia. A bioinformatics analysis of the venom gland’s transcriptome identified numerous peptides with potential effects on ion channels. Of those, three were then synthetized through Fmoc solid-phase methods (referred to as vrdg peptides). Since vrdg172 and vrdg183 possess two disulfide bridges, we hypothesize that they block ion channels, compared with vrdg66, which is a linear peptide. In this study, we evaluated the effects of vrdg66, vrdg172 and vrdg183 on Ca2+ (ICaL) and K+ (IK) currents in mouse cardiomyocytes using the whole-cell configuration of the patch-clamp technique. When used at a concentration of 1 μM, vrdg66 showed a minor inhibitory effect on the peak amplitude of ICaL (−16.3±10.5%; n=6) and IK (−24.4±4.4%; n=5), compared with the control current. At the same concentration, vrdg172 similarly blocked ICaL (−38.8±15.6%; n=4) and IK (−43.9±5.8%; n=3). Interestingly, vrdg183 demonstrated a weak inhibitory effect on the peak IK (−6.2±24.6%; n=3) and a sizeable inhibitory effect on ICaL (−66.7±6.5%; n=4). In a further characterization of vrdg183, the blocking effect on ICaL was confirmed in isoproterenol-stimulated cardiomyocytes. Finally, a concentration-effect curve (10, 100, 300, 1000 and 10000 nM; n=4 for each experimental point) allowed us to calculate an IC50 for vrdg183 of 858.28 nM. The activation and inactivation kinetics were not affected by any of the concentrations tested. In summary, we report novel spider toxins that inhibit mammalian voltage-gated ion channels, likely acting as pore blockers. The vrdg183 toxin exhibits a selective inhibitory effect on ICaL over IK, with moderate affinity (Grant 111577757673, Minciencias, Colombia).",
     "publication_url": "https://www.cell.com/biophysj/abstract/S0006-3495(23)02355-X"
@@ -17,42 +19,318 @@
 {
 "publication_id": 3,
     "publication_title": "Sexual dichroism and pigment localization in the wing scales of Pieris rapae butterflies",
-    "publication_date": "February 8, 2024",
-    "authors": ["J Rojas-Palomino", "A Gómez-Restrepo", "MA Giraldo", "JC Calderón"],
-    "abstract": "The spider species Pamphobeteus verdolaga was recently discovered in the Aburra’s Valley, Colombia. A bioinformatics analysis of the venom gland’s transcriptome identified numerous peptides with potential effects on ion channels. Of those, three were then synthetized through Fmoc solid-phase methods (referred to as vrdg peptides). Since vrdg172 and vrdg183 possess two disulfide bridges, we hypothesize that they block ion channels, compared with vrdg66, which is a linear peptide. In this study, we evaluated the effects of vrdg66, vrdg172 and vrdg183 on Ca2+ (ICaL) and K+ (IK) currents in mouse cardiomyocytes using the whole-cell configuration of the patch-clamp technique. When used at a concentration of 1 μM, vrdg66 showed a minor inhibitory effect on the peak amplitude of ICaL (−16.3±10.5%; n=6) and IK (−24.4±4.4%; n=5), compared with the control current. At the same concentration, vrdg172 similarly blocked ICaL (−38.8±15.6%; n=4) and IK (−43.9±5.8%; n=3). Interestingly, vrdg183 demonstrated a weak inhibitory effect on the peak IK (−6.2±24.6%; n=3) and a sizeable inhibitory effect on ICaL (−66.7±6.5%; n=4). In a further characterization of vrdg183, the blocking effect on ICaL was confirmed in isoproterenol-stimulated cardiomyocytes. Finally, a concentration-effect curve (10, 100, 300, 1000 and 10000 nM; n=4 for each experimental point) allowed us to calculate an IC50 for vrdg183 of 858.28 nM. The activation and inactivation kinetics were not affected by any of the concentrations tested. In summary, we report novel spider toxins that inhibit mammalian voltage-gated ion channels, likely acting as pore blockers. The vrdg183 toxin exhibits a selective inhibitory effect on ICaL over IK, with moderate affinity (Grant 111577757673, Minciencias, Colombia).",
-    "publication_url": "https://www.cell.com/biophysj/abstract/S0006-3495(23)02355-X"
+    "publication_date": "October 3",
+    "publication_year": 2006,
+    "authors": ["MA Giraldo", "D.G Stavenga"],
+    "abstract": "The beads in the wing scales of pierid butterflies play a crucially important role in wing coloration as shown by spectrophotometry and scanning electron microscopy (SEM). The beads contain pterin pigments, which in Pieris rapae absorb predominantly in the ultraviolet (UV). SEM demonstrates that in the European subspecies Pieris rapae rapae, both males and females have dorsal wing scales with a high concentration of beads. In the Japanese subspecies Pieris rapae crucivora, however, only the males have dorsal wing scales studded with beads, and the dorsal scales of females lack beads. Microspectrophotometry of single scales without beads yields reflectance spectra that increase slightly and monotonically with wavelength. With beads, the reflectance is strongly reduced in the UV and enhanced at the longer wavelengths. By stacking several layers of beaded scales, pierid butterflies achieve strong colour contrasts, which are not realized in the dorsal wings of female P. r. crucivora. Consequently, P. r. crucivora exhibits a strong sexual dichroism that is absent in P. r. rapae.",
+    "publication_url": "https://royalsocietypublishing.org/doi/abs/10.1098/rspb.2006.3708"
 },
 {
    "publication_id": 4,
-    "publication_title": "Three new toxins from the south American spider Pamphobeteus verdolaga inhibit calcium and potassium channel currents of murine cardiomyocytes",
-    "publication_date": "February 8, 2024",
-    "authors": ["J Rojas-Palomino", "A Gómez-Restrepo", "MA Giraldo", "JC Calderón"],
+    "publication_title": "Brilliant iridescence of Morpho butterfly wing scales is due to both a thin film lower lamina and a multilayered upper lamina",
+    "publication_date": "April 12",
+    "publication_year": 2016,
+    "authors": ["MA Giraldo", "D. G. Stavenga"],
     "abstract": "The spider species Pamphobeteus verdolaga was recently discovered in the Aburra’s Valley, Colombia. A bioinformatics analysis of the venom gland’s transcriptome identified numerous peptides with potential effects on ion channels. Of those, three were then synthetized through Fmoc solid-phase methods (referred to as vrdg peptides). Since vrdg172 and vrdg183 possess two disulfide bridges, we hypothesize that they block ion channels, compared with vrdg66, which is a linear peptide. In this study, we evaluated the effects of vrdg66, vrdg172 and vrdg183 on Ca2+ (ICaL) and K+ (IK) currents in mouse cardiomyocytes using the whole-cell configuration of the patch-clamp technique. When used at a concentration of 1 μM, vrdg66 showed a minor inhibitory effect on the peak amplitude of ICaL (−16.3±10.5%; n=6) and IK (−24.4±4.4%; n=5), compared with the control current. At the same concentration, vrdg172 similarly blocked ICaL (−38.8±15.6%; n=4) and IK (−43.9±5.8%; n=3). Interestingly, vrdg183 demonstrated a weak inhibitory effect on the peak IK (−6.2±24.6%; n=3) and a sizeable inhibitory effect on ICaL (−66.7±6.5%; n=4). In a further characterization of vrdg183, the blocking effect on ICaL was confirmed in isoproterenol-stimulated cardiomyocytes. Finally, a concentration-effect curve (10, 100, 300, 1000 and 10000 nM; n=4 for each experimental point) allowed us to calculate an IC50 for vrdg183 of 858.28 nM. The activation and inactivation kinetics were not affected by any of the concentrations tested. In summary, we report novel spider toxins that inhibit mammalian voltage-gated ion channels, likely acting as pore blockers. The vrdg183 toxin exhibits a selective inhibitory effect on ICaL over IK, with moderate affinity (Grant 111577757673, Minciencias, Colombia).",
-    "publication_url": "https://www.cell.com/biophysj/abstract/S0006-3495(23)02355-X"
+    "publication_url": "https://link.springer.com/article/10.1007/s00359-016-1084-1"
 },
 {
     "publication_id": 5,
-    "publication_title": "Three new toxins from the south American spider Pamphobeteus verdolaga inhibit calcium and potassium channel currents of murine cardiomyocytes",
-    "publication_date": "February 8, 2024",
-    "authors": ["J Rojas-Palomino", "A Gómez-Restrepo", "MA Giraldo", "JC Calderón"],
-    "abstract": "The spider species Pamphobeteus verdolaga was recently discovered in the Aburra’s Valley, Colombia. A bioinformatics analysis of the venom gland’s transcriptome identified numerous peptides with potential effects on ion channels. Of those, three were then synthetized through Fmoc solid-phase methods (referred to as vrdg peptides). Since vrdg172 and vrdg183 possess two disulfide bridges, we hypothesize that they block ion channels, compared with vrdg66, which is a linear peptide. In this study, we evaluated the effects of vrdg66, vrdg172 and vrdg183 on Ca2+ (ICaL) and K+ (IK) currents in mouse cardiomyocytes using the whole-cell configuration of the patch-clamp technique. When used at a concentration of 1 μM, vrdg66 showed a minor inhibitory effect on the peak amplitude of ICaL (−16.3±10.5%; n=6) and IK (−24.4±4.4%; n=5), compared with the control current. At the same concentration, vrdg172 similarly blocked ICaL (−38.8±15.6%; n=4) and IK (−43.9±5.8%; n=3). Interestingly, vrdg183 demonstrated a weak inhibitory effect on the peak IK (−6.2±24.6%; n=3) and a sizeable inhibitory effect on ICaL (−66.7±6.5%; n=4). In a further characterization of vrdg183, the blocking effect on ICaL was confirmed in isoproterenol-stimulated cardiomyocytes. Finally, a concentration-effect curve (10, 100, 300, 1000 and 10000 nM; n=4 for each experimental point) allowed us to calculate an IC50 for vrdg183 of 858.28 nM. The activation and inactivation kinetics were not affected by any of the concentrations tested. In summary, we report novel spider toxins that inhibit mammalian voltage-gated ion channels, likely acting as pore blockers. The vrdg183 toxin exhibits a selective inhibitory effect on ICaL over IK, with moderate affinity (Grant 111577757673, Minciencias, Colombia).",
-    "publication_url": "https://www.cell.com/biophysj/abstract/S0006-3495(23)02355-X"
+    "publication_title": "Coloration mechanisms and phylogeny of Morpho butterflies",
+    "publication_date": "December 15",
+    "publication_year": 2016,
+    "authors": ["MA Giraldo", " S. Yoshioka", "C. Liu", "D. G. Stavenga"],
+    "abstract": "Morpho butterflies are universally admired for their iridescent blue coloration, which is due to nanostructured wing scales. We performed a comparative study on the coloration of 16 Morpho species, investigating the morphological, spectral and spatial scattering properties of the differently organized wing scales. In numerous previous studies, the bright blue Morpho coloration has been fully attributed to the multi-layered ridges of the cover scales' upper laminae, but we found that the lower laminae of the cover and ground scales play an important additional role, by acting as optical thin film reflectors. We conclude that Morpho coloration is a subtle combination of overlapping pigmented and/or unpigmented scales, multilayer systems, optical thin films and sometimes undulated scale surfaces. Based on the scales' architecture and their organization, five main groups can be distinguished within the genus Morpho, largely agreeing with the accepted phylogeny.",
+    "publication_url": "https://journals.biologists.com/jeb/article/219/24/3936/16551/Coloration-mechanisms-and-phylogeny-of-Morpho"
 },
 {
     "publication_id": 6,
-    "publication_title": "Three new toxins from the south American spider Pamphobeteus verdolaga inhibit calcium and potassium channel currents of murine cardiomyocytes",
-    "publication_date": "February 8, 2024",
-    "authors": ["J Rojas-Palomino", "A Gómez-Restrepo", "MA Giraldo", "JC Calderón"],
-    "abstract": "The spider species Pamphobeteus verdolaga was recently discovered in the Aburra’s Valley, Colombia. A bioinformatics analysis of the venom gland’s transcriptome identified numerous peptides with potential effects on ion channels. Of those, three were then synthetized through Fmoc solid-phase methods (referred to as vrdg peptides). Since vrdg172 and vrdg183 possess two disulfide bridges, we hypothesize that they block ion channels, compared with vrdg66, which is a linear peptide. In this study, we evaluated the effects of vrdg66, vrdg172 and vrdg183 on Ca2+ (ICaL) and K+ (IK) currents in mouse cardiomyocytes using the whole-cell configuration of the patch-clamp technique. When used at a concentration of 1 μM, vrdg66 showed a minor inhibitory effect on the peak amplitude of ICaL (−16.3±10.5%; n=6) and IK (−24.4±4.4%; n=5), compared with the control current. At the same concentration, vrdg172 similarly blocked ICaL (−38.8±15.6%; n=4) and IK (−43.9±5.8%; n=3). Interestingly, vrdg183 demonstrated a weak inhibitory effect on the peak IK (−6.2±24.6%; n=3) and a sizeable inhibitory effect on ICaL (−66.7±6.5%; n=4). In a further characterization of vrdg183, the blocking effect on ICaL was confirmed in isoproterenol-stimulated cardiomyocytes. Finally, a concentration-effect curve (10, 100, 300, 1000 and 10000 nM; n=4 for each experimental point) allowed us to calculate an IC50 for vrdg183 of 858.28 nM. The activation and inactivation kinetics were not affected by any of the concentrations tested. In summary, we report novel spider toxins that inhibit mammalian voltage-gated ion channels, likely acting as pore blockers. The vrdg183 toxin exhibits a selective inhibitory effect on ICaL over IK, with moderate affinity (Grant 111577757673, Minciencias, Colombia).",
-    "publication_url": "https://www.cell.com/biophysj/abstract/S0006-3495(23)02355-X"
+    "publication_title": "Far field scattering pattern of differently structured butterfly scales",
+    "publication_date": "December 20",
+    "publication_year": 2007,
+    "authors": ["MA Giraldo", "S Yoshioka", "D. G. Stavenga"],
+    "abstract": "The angular and spectral reflectance of single scales of five different butterfly species was measured and related to the scale anatomy. The scales of the pierids Pieris rapae and Delias nigrina scatter white light randomly, in close agreement with Lambert’s cosine law, which can be well understood from the randomly organized beads on the scale crossribs. The reflectance of the iridescent blue scales of Morpho aega is determined by multilayer structures in the scale ridges, causing diffraction in approximately a plane. The purple scales in the dorsal wing tips of the male Colotis regina act similarly as the Morpho scale in the blue, due to multilayers in the ridges, but the scattering in the red occurs as in the Pieris scale, because the scales contain beads with pigment that does not absorb in the red wavelength range. The green–yellow scales of Urania fulgens backscatter light in a narrow spatial angle, because of a multilayer structure in the scale body.",
+    "publication_url": "https://link.springer.com/article/10.1007/s00359-007-0297-8"
 },
 {
     "publication_id": 7,
-    "publication_title": "Three new toxins from the south American spider Pamphobeteus verdolaga inhibit calcium and potassium channel currents of murine cardiomyocytes",
-    "publication_date": "February 8, 2024",
-    "authors": ["J Rojas-Palomino", "A Gómez-Restrepo", "MA Giraldo", "JC Calderón"],
-    "abstract": "The spider species Pamphobeteus verdolaga was recently discovered in the Aburra’s Valley, Colombia. A bioinformatics analysis of the venom gland’s transcriptome identified numerous peptides with potential effects on ion channels. Of those, three were then synthetized through Fmoc solid-phase methods (referred to as vrdg peptides). Since vrdg172 and vrdg183 possess two disulfide bridges, we hypothesize that they block ion channels, compared with vrdg66, which is a linear peptide. In this study, we evaluated the effects of vrdg66, vrdg172 and vrdg183 on Ca2+ (ICaL) and K+ (IK) currents in mouse cardiomyocytes using the whole-cell configuration of the patch-clamp technique. When used at a concentration of 1 μM, vrdg66 showed a minor inhibitory effect on the peak amplitude of ICaL (−16.3±10.5%; n=6) and IK (−24.4±4.4%; n=5), compared with the control current. At the same concentration, vrdg172 similarly blocked ICaL (−38.8±15.6%; n=4) and IK (−43.9±5.8%; n=3). Interestingly, vrdg183 demonstrated a weak inhibitory effect on the peak IK (−6.2±24.6%; n=3) and a sizeable inhibitory effect on ICaL (−66.7±6.5%; n=4). In a further characterization of vrdg183, the blocking effect on ICaL was confirmed in isoproterenol-stimulated cardiomyocytes. Finally, a concentration-effect curve (10, 100, 300, 1000 and 10000 nM; n=4 for each experimental point) allowed us to calculate an IC50 for vrdg183 of 858.28 nM. The activation and inactivation kinetics were not affected by any of the concentrations tested. In summary, we report novel spider toxins that inhibit mammalian voltage-gated ion channels, likely acting as pore blockers. The vrdg183 toxin exhibits a selective inhibitory effect on ICaL over IK, with moderate affinity (Grant 111577757673, Minciencias, Colombia).",
-    "publication_url": "https://www.cell.com/biophysj/abstract/S0006-3495(23)02355-X"
+    "publication_title": "Butterfly wing scales: pigmentation and structural properties",
+    "publication_date": "",
+    "publication_year": 2008,
+    "authors": ["MA Giraldo"],
+    "abstract": "The beads in the wing scales of pierid butterflies play a crucially important role in wing colouration as shown by spectrophotometry and scanning electron microscopy (Stavenga et al. 2004). The beads contain pterin pigments (Rutowski et al. 2005), which in Pieris rapae absorb predominantly in the ultraviolet. Scanning electron microscopy demonstrates that in the European subspecies Pieris rapae rapae both males and females have dorsal wing scales with a high concentration of beads. In the Japanese subspecies Pieris rapae crucivora, however, only the males have dorsal wing scales studded with beads, and the dorsal scales of females lack beads. Microspectrophotometry of single scales without beads yield reflectance spectra that increase slightly and monotonically with wavelength. With beads the reflectance is strongly reduced in the ultraviolet and enhanced at the longer wavelengths. By stacking several layers of beaded scales pierid butterflies achieve strong colour contrasts, which is not realized in the dorsal wings of female P. r. crucivora. Consequently, P. r. crucivora exhibits a strong sexual dichromatism that is absent in P. r. rapae (Obara & Majerus 2000).",
+    "publication_url": "https://pure.rug.nl/ws/portalfiles/portal/14499056/c1.pdf"
+},
+{
+    "publication_id": 8,
+    "publication_title": "Iridescent colouration of male Anna’s hummingbird (Calypte anna) caused by multilayered barbules",
+    "publication_date": "October 8",
+    "publication_year": 2018,
+    "authors": ["MA Giraldo", "JL Parra", "D. G. Stavenga"],
+    "abstract": "The male Anna’s hummingbird features a brightly reddish-pink reflecting gorget, due to large stacks of melanosomes in the feather barbules, arranged in layers separated by keratin. Direct observations together with detailed scatterometry demonstrated that the barbules reflect incident light in an approximately specular manner. The structural colouration is iridescent, i.e. varies with a changing angle of light incidence. Spectrophotometrical measurements of the barbule reflectance and absorbance can be well interpreted with calculated spectra obtained with a transfer matrix method for optical multilayers, using anatomical data and measured refractive index spectra. The organization of the reflectors as a Venetian blind presumably functions to create a high spectral contrast of the male’s plumage during courtship.",
+    "publication_url": "https://link.springer.com/article/10.1007/s00359-018-1295-8"
+},
+{
+    "publication_id": 9,
+    "publication_title": "Unique wing scale photonics of male Rajah Brooke’s birdwing butterflies",
+    "publication_date": "August 12",
+    "publication_year": 2016,
+    "authors": ["Bodo D Wilts", "Marco A Giraldo", "D. G. Stavenga"],
+    "abstract": "Background Ultrastructures in butterfly wing scales can take many shapes, resulting in the often striking coloration of many butterflies due to interference of light. The plethora of coloration mechanisms is dazzling, but often only single mechanisms are described for specific animals. Results We have here investigated the male Rajah Brooke’s birdwing, Trogonoptera brookiana, a large butterfly from Malaysia, which is marked by striking, colorful wing patterns. The dorsal side is decorated with large, iridescent green patterning, while the ventral side of the wings is primarily brown-black with small white, blue and green patches on the hindwings. Dense arrays of red hairs, creating a distinct collar as well as contrasting areas ventrally around the thorax, enhance the butterfly’s beauty. The remarkable coloration is realized by a diverse number of intricate and complicated nanostructures in the hairs as well as the wing scales. The red collar hairs contain a broad-band absorbing pigment as well as UV-reflecting multilayers resembling the photonic structures of Morpho butterflies; the white wing patches consist of scales with prominent thin film reflectors; the blue patches have scales with ridge multilayers and these scales also have centrally concentrated melanin. The green wing areas consist of strongly curved scales, which possess a uniquely arranged photonic structure consisting of multilayers and melanin baffles that produces highly directional reflections.Conclusion Rajah Brooke’s birdwing employs a variety of structural and pigmentary coloration mechanisms to achieve its stunning optical appearance. The intriguing usage of order and disorder in related photonic structures in the butterfly wing scales may inspire novel optical materials as well as investigations into the development of these nanostructures in vivo.",
+    "publication_url": "https://link.springer.com/article/10.1186/s12983-016-0168-7"
+},
+{
+    "publication_id": 10,
+    "publication_title": "Wing coloration and pigment gradients in scales of pierid butterflies",
+    "publication_date": "March",
+    "publication_year": 2008,
+    "authors": ["MA Giraldo", "D. G. Stavenga"],
+    "abstract": "Depending on the species, the individual scales of butterfly wings have a longitudinal gradient in structure and reflectance properties, as shown by scanning electron microscopy and microspectrophotometry. White scales of the male Small White, Pieris rapae crucivora, show a strong gradient in both the density in pigment granules and the reflectance. After pigment extraction by aqueous ammonia, scales of male P. r. crucivora closely resemble the unpigmented scales of female P. r. crucivora. Only a minor gradient exists in the white and orange scales of the male Orange Tip, Anthocharis cardamines. Pigment extraction of orange scales of A. cardamines causes bleaching. Partial bleaching transforms the scales so that they resemble certain scales of Phoebis philea that have a natural extreme gradient. Reflectance measurements on an artificial stack of two overlapping scales as well as on the scale stacks existing on intact and partially denuded wings of the Large White, Pieris brassicae, quantitatively demonstrate the reflectance enhancement by scale stacking.",
+    "publication_url": "https://www.sciencedirect.com/science/article/abs/pii/S1467803907000588"
+},
+{
+    "publication_id": 11,
+    "publication_title": "Monosialoganglioside-GM1 triggers binding of the amyloid-protein salmon calcitonin to a Langmuir membrane model mimicking the occurrence of lipid-rafts",
+    "publication_date": "December",
+    "publication_year": 2016,
+    "authors": ["Marco Diociaiut", "Cristiano Giordani", "Gihan S Kamel", "Francesco Brasili", "Simona Sennato", "Cecilia Bombelli", "Karen Y Meneses", "Marco A Giraldo", "Federico Bordi"],
+    "abstract": "GM1 ganglioside is known to be involved in the amyloid-associated diseases and it is a crucial factor for the assembly of amyloid proteins on lipid-rafts, which are lipid structures located on the synaptic plasma membranes. Due to its slow aggregation rate, we employed salmon calcitonin (sCT) as a suitable probe representative of amyloid proteins, to study the interaction between this class of proteins and a membrane model. Here, we prepared a neuronal membrane model by depositing onto mica two Langmuir-Blodgett films in liquid-condensed phase: the outer monolayer was characterized by high content of GM1 (50%) and minority parts of cholesterol and POPC (25–25%), while the inner one by plain POPC. To deeply investigate the interaction of sCT with this model and the role-played by GM1, we prepared the outer leaflet adding sCT at a concentration such that the number of proteins equals that of GM1. Atomic Force Microscopy revealed the occurrence of two distinct kinds of flat surfaces, with globular aggregates localized exclusively on top of the highest one. To unravel the nature of the interaction, we studied by ζ-potential technique liposomes composed as the outer leaflet of the model. Results demonstrated that an electrostatic interaction sCT-GM1 occurred. Finally, to investigate the interaction thermodynamics between sCT and the outer leaflet, Langmuir films as the outer monolayer and containing increasing content of sCT were studied by compression isotherms and Brewster Angle Microscopy experiments. Based on the all body of results we propose an interaction model where GM1 plays a pivotal role.",
+    "publication_url": "https://www.sciencedirect.com/science/article/pii/S2405580816302199"
+},
+{
+    "publication_id": 12,
+    "publication_title": "Expression and function of the bHLH genes ALCATRAZ and SPATULA in selected Solanaceae species",
+    "publication_date": "April 22",
+    "publication_year": 2019,
+    "authors": ["CI Ortiz‐Ramírez", "MA Giraldo", "C Ferrándiz", "N Pabón‐Mora"],
+    "abstract": "The genetic mechanisms underlying fruit development have been identified in Arabidopsis and have been comparatively studied in tomato as a representative of fleshy fruits. However, comparative expression and functional analyses on the bHLH genes downstream the genetic network, ALCATRAZ (ALC) and SPATULA (SPT), which are involved in the formation of the dehiscence zone in Arabidopsis, have not been functionally studied in the Solanaceae. Here, we perform detailed expression and functional studies of ALC/SPT homologs in Nicotiana obtusifolia with capsules, and in Capsicum annuum and Solanum lycopersicum with berries. In Solanaceae, ALC and SPT genes are expressed in leaves, and all floral organs, especially in petal margins, stamens and carpels; however, their expression changes during fruit maturation according to the fruit type. Functional analyses show that downregulation of ALC/SPT genes does not have an effect on gynoecium patterning; however, they have acquired opposite roles in petal expansion and have been co-opted in leaf pigmentation in Solanaceae. In addition, ALC/SPT genes repress lignification in time and space during fruit development in Solanaceae. Altogether, some roles of ALC and SPT genes are different between Brassicaceae and Solanaceae; while the paralogs have undergone some subfunctionalization in the former they are mostly redundant in the latter.",
+    "publication_url": "https://onlinelibrary.wiley.com/doi/full/10.1111/tpj.14352"
+},
+{
+    "publication_id": 13,
+    "publication_title": "Calibration of mammalian skeletal muscle Ca2+ transients recorded with the fast Ca2+ dye Mag-Fluo-4",
+    "publication_date": "September",
+    "publication_year": 2021,
+    "authors": ["Andrés F Milán", "Oscar A Rincón", "Leidy B Arango", "Aliaksandra A Reutovich", "Gideon L Smith", "Marco A Giraldo", "Fadi Bou-Abdallah", "Juan C Calderón"],
+    "abstract": "Background Mag-Fluo-4 is increasingly employed for studying Ca2+ signaling in skeletal muscle; however, the lack of information on the Ca2+-Mag-Fluo-4 reaction limits its wider usage. Methods Fluorescence and isothermal titration calorimetry (ITC) experiments were performed to determine the binding stoichiometry (n) and thermodynamics (enthalpy (ΔH) and entropy (ΔS) changes), as well as the in vitro and in situ Kd of the Ca2+-Mag-Fluo-4 reaction. Rate constants (kon, koff), fluorescence maximum (Fmax), minimum (Fmin), and the dye compartmentalization were also estimated. Experiments in cells used enzymatically dissociated flexor digitorum brevis fibres of C57BL6, adult mice, loaded at room temperature for 8 min, with 6 μM Mag-Fluo-4, AM, and permeabilized with saponin or ionomycin. All measurements were done at 20 °C. Results The in vitro fluorescence assays showed a binding stoichiometry of 0.5 for the Ca2+/Mag-Fluo-4 (n = 5) reaction. ITC results (n = 3) provided ΔH and ΔS values of 2.3 (0.7) kJ/mol and 97.8 (5.9) J/mol.K, respectively. The in situ Kd was 1.652 × 105μM2(n = 58 fibres, R2 = 0.99). With an Fmax of 150.9 (8.8) A.U. (n = 8), Fmin of 0.14 (0.1) A.U. (n = 10), and ΔF of Ca2+ transients of 8.4 (2.5) A.U. (n = 10), the sarcoplasmic [Ca2+]peak reached 22.5 (7.8) μM. Compartmentalized dye amounted to only 1.1 (0.7)% (n = 10). CONCLUSIONS: Two Mag-Fluo-4 molecules coalesce around one Ca2+ ion, in an entropy-driven, very low in situ affinity reaction, making it suitable to reliably track the kinetics of rapid muscle Ca2+ transients. General significance Our results may be relevant to the quantitative study of Ca2+ kinetics in many other cell types.",
+    "publication_url": "https://www.sciencedirect.com/science/article/abs/pii/S0304416521000970"
+},
+{
+    "publication_id": 14,
+    "publication_title": "Physical behavior of KR-12 peptide on solid surfaces and Langmuir-Blodgett lipid films: Complementary approaches to its antimicrobial mode against S. aureus",
+    "publication_date": "February",
+    "publication_year": 2022,
+    "authors": ["K Chanci", "J Diosa", "MA Giraldo", "M Mesa"],
+    "abstract": "Biophysical characterization of antimicrobial peptides helps to understand the mechanistic aspects of their action. The physical behavior of the KR-12 antimicrobial peptide (e.g. orientation and changes in secondary structure), was analyzed after interactions with a Staphylococcus aureus membrane model and solid surfaces. We performed antimicrobial tests using Gram-positive S. aureus (ATCC 25923) bacteria. Moreover, Langmuir-Blodgett experiments showed that the synthetic peptide can disturb the lipidic membrane at a concentration lower than the Minimum Inhibitory Concentration, thus confirming that KR-12/lipid interactions are involved. Partially- and fully-deactivated KR-12 hybrid samples were obtained by physisorption and covalent immobilization in chitosan/silica and glyoxal-rich solid supports. The correlation of Langmuir-Blodgett data with the α-helix formation, followed by FTIR-ATR in a frozen-like state, and the antimicrobial activity showed the importance of these interactions and conformation changes on the first step action mode of this peptide. This is the first time that material science (immobilization in solid surfaces assisted by FTIR-ATR analysis in frozen-like state) and physical (Langmuir-Blodgett/Schaefer) approaches are combined for exploring mechanistic aspects of the primary action mode of the KR-12 antimicrobial peptide against S. aureus.",
+    "publication_url": "https://www.sciencedirect.com/science/article/pii/S0005273621002273"
+},
+{
+    "publication_id": 15,
+    "publication_title": "Sexual dichromatism of the Blue-throated Starfrontlet, Coeligena helianthea, hummingbird plumage",
+    "publication_date": "September",
+    "publication_year": 2019,
+    "authors": ["J Sosa", "JL Parra", "DG Stavenga", "MA Giraldo"],
+    "abstract": "Among the many richly coloured birds, hummingbirds with their brilliant colouration are outstanding. We studied the plumage of male and female Blue-throated Starfrontlet, Coeligena helianthea, which exhibits a marked sexual dichromatism. The wide diversity of coloured feathers (blue, purple, golden, green, red) makes it an attractive species to investigate the structural basis of the colouration and to study the connection between the displayed colours and the perception by conspecifics. We analysed the optical properties of the feather barbules, applying spectrophotometry, scatterometry, and electron microscopy. Using the anatomical results, the spectral data can be interpreted by optical modelling. The reflectance spectra of the feathers of male C. helianthea strikingly overlap with the spectral sensitivities of bird photoreceptors, which suggests that the feather and photoreceptor spectra are tuned.",
+    "publication_url": "https://link.springer.com/article/10.1007/s10336-019-01709-z"
+},
+{
+    "publication_id": 16,
+    "publication_title": "Comprehensive Simulation of Ca2+ Transients in the Continuum of Mouse Skeletal Muscle Fiber Types",
+    "publication_date": "November 17",
+    "publication_year": 2021,
+    "authors": ["Oscar A Rincón", "Andrés F Milán", "Juan C Calderón", "Marco A Giraldo"],
+    "abstract": "Mag-Fluo-4 has revealed differences in the kinetics of the Ca2+ transients of mammalian fiber types (I, IIA, IIX, and IIB). We simulated the changes in [Ca2+] through the sarcomere of these four fiber types, considering classical (troponin –Tn–, parvalbumin –Pv–, adenosine triphosphate –ATP–, sarcoplasmic reticulum Ca2+ pump –SERCA–, and dye) and new (mitochondria –MITO–, Na+/Ca2+ exchanger –NCX–, and store-operated calcium entry –SOCE–) Ca2+ binding sites, during single and tetanic stimulation. We found that during a single twitch, the sarcoplasmic peak [Ca2+] for fibers type IIB and IIX was around 16 µM, and for fibers type I and IIA reached 10–13 µM. The release rate in fibers type I, IIA, IIX, and IIB was 64.8, 153.6, 238.8, and 244.5 µM ms−1, respectively. Both the pattern of change and the peak concentrations of the Ca2+-bound species in the sarcoplasm (Tn, PV, ATP, and dye), the sarcolemma (NCX, SOCE), and the SR (SERCA) showed the order IIB ≥ IIX > IIA > I. The capacity of the NCX was 2.5, 1.3, 0.9, and 0.8% of the capacity of SERCA, for fibers type I, IIA, IIX, and IIB, respectively. MITO peak [Ca2+] ranged from 0.93 to 0.23 µM, in fibers type I and IIB, respectively, while intermediate values were obtained in fibers IIA and IIX. The latter numbers doubled during tetanic stimulation. In conclusion, we presented a comprehensive mathematical model of the excitation–contraction coupling that integrated most classical and novel Ca2+ handling mechanisms, overcoming the limitations of the fast- vs. slow-fibers dichotomy and the use of slow dyes.",
+    "publication_url": "https://www.mdpi.com/1422-0067/22/22/12378"
+},
+{
+    "publication_id": 17,
+    "publication_title": "Investigación bio-ecológica de la Dorada (Brycon moorei sinuensis Dahl, 1955) su comportamiento y desarrollo en confinamiento",
+    "publication_date": "",
+    "publication_year": 1978,
+    "authors": ["JM Solano", "M Giraldo", "E Negret", "H Quirós", "A González"],
+    "abstract": "Abstract not available.",
+    "publication_url": "https://scholar.google.com/citations?view_op=view_citation&hl=es&user=SpLyrvoAAAAJ&citation_for_view=SpLyrvoAAAAJ:7PzlFSSx8tAC"
+},
+{
+    "publication_id": 18,
+    "publication_title": "Specific de-SUMOylation triggered by acquisition of spatial learning is related to epigenetic changes in the rat hippocampus",
+    "publication_date": "December 4",
+    "publication_year": 2013,
+    "authors": ["Sergio Castro-Gomez", "Alvaro Barrera-Ocampo", "Gloria Machado-Rodriguez", "John F Castro-Alvarez", "Markus Glatzel", "Marco Giraldo", "Diego Sepulveda-Falla"],
+    "abstract": "Histone acetyltransferase activity by transcriptional cofactors such as CREB-binding protein (CBP) and post-translational modifications by small ubiquitin-like modifier-1 (SUMO-1) have shown to be relevant for synaptic and neuronal activity. Here, we investigate whether SUMOylation of CBP plays a role in spatial learning. We assessed protein levels of CBP/p300, SUMO-1, and CBP SUMOylation in the hippocampi of rats trained on the Morris water maze task. Furthermore, we evaluated the post-translational modifications at Zif268, BDNF, and Arc/Arg3.1 promoters using chromatin immunoprecipitation with anti-Acetyl-Histone H3-Lys14 (H3K14Ac) and SUMO-1. We found that CBP/p300 protein expression is unchanged in animals trained for 7 days. However, H3K14Ac-specific histone acetyltransferase activity showed specific hyperacetylation at promoters of Zif268 and BDNF-pI but not of Arc/Arg3.1 and BDNF-pIV. In naive animals, CBP is selectively SUMOylated and the Arc/Arg3.1 promoter is differentially occupied by SUMO-1, although SUMO-1 levels are unchanged. These results suggest a specific negative regulation by SUMO-1 on CBP function and its effect on epigenetic changes triggered by spatial learning and memory processes.",
+    "publication_url": "https://journals.lww.com/neuroreport/abstract/2013/12040/specific_de_sumoylation_triggered_by_acquisition.9.aspx"
+},
+{
+    "publication_id": 19,
+    "publication_title": "Feather iridescence of Coeligena hummingbird species varies due to differently organized barbs and barbules",
+    "publication_date": "August 25",
+    "publication_year": 2021,
+    "authors": ["M Giraldo", "J Sosa", "D Stavenga"],
+    "abstract": "Hummingbirds are perhaps the most exquisite bird species because of their prominent iridescence, created by stacks of melanosomes in the feather barbules. The feather colours crucially depend on the nanoscopic dimensions of the melanosome, and the displayed iridescence can distinctly vary, dependent on the spatial organization of the barbs and barbules. We have taken the genus Coeligena as a model group, with species having feathers that strongly vary in their spatial reflection properties. We studied the feather morphology and the optical characteristics. We found that the coloration of Coeligena hummingbirds depends on both the Venetian-blind-like arrangement of the barbules and the V-shaped, angular arrangement of the barbules at opposite sides of the barbs. Both the nanoscopic and microscopic organization of the hummingbird feather components determine the bird's macroscopic appearance.",
+    "publication_url": "https://royalsocietypublishing.org/doi/full/10.1098/rsbl.2021.0190"
+},
+{
+    "publication_id": 20,
+    "publication_title": "Finding optimal assortativity configurations in directed networks",
+    "publication_date": "December 1",
+    "publication_year": 2020,
+    "authors": ["C Uribe-Leon", "JC Vasquez", "MA Giraldo", "G Ricaurte"],
+    "abstract": "The modelling of many complex systems is usually approached by directed networks where nodes and connections represent the elements of the system and their interactions respectively. The degree-assortativity, which is the tendency of nodes to link to nodes of similar degree, has four components in the digraphs case. In comparison with the undirected graph case, the degree-assortativity of digraphs has not been well studied despite the potential effects that it has to constraint or influence the structural and dynamical properties of a network. Thus, we have considered a random directed network and numerically trained the assortativity profiles of the four components (in–out; out–in; in–in; out–out) by applying degree-preserving rewiring, but we interestingly found that the widely used two-swap method is severely limited. In consequence, we used a much powerful and rather forgotten three-swap method capable to achieve all different assortativities configurations of the given initial random graphs. Secondly, we characterized the obtained networks in relation to other common structural properties such as path length and algebraic connectivity. Finally, by simulating and analysing a dynamical process on the network, we have found that certain profiles cause the network to exhibit enhanced sensitivity to small perturbations without losing their stability.",
+    "publication_url": "https://academic.oup.com/comnet/article-abstract/8/6/cnab004/6179194"
+},
+{
+    "publication_id": 21,
+    "publication_title": "Calibration of Ca2+ transients obtained with the fast Ca2+ and Mg2+ dye Magfluo-4",
+    "publication_date": "January 29",
+    "publication_year": 2013,
+    "authors": ["JC Calderon", "D Raigosa", "M Giraldo", "P Bolaños", "C Caputo"],
+    "abstract": "Since there are uncertainties about the concentration of free cytosolic Ca2+ reached in a muscle fiber during a transient elicited by electric stimulation, and about the KdCa2+ of the fast dye Magfluo-4, we performed two groups of experiments aimed at calibrating the Ca2+ transients obtained with this dye. For the fiber experiments, we used murine single skeletal muscle fibers obtained from enzymatically dissociated flexor digitorum brevis, loaded with 8-10 μM of the dye in its acetoxymethyl ester form, during 40 min at 21-22°C, to determine Fmax, Fmin and dye compartmentalization. The cells were permeabilized with saponine and exposed to 50 mM of free calcium to intracellularly saturate the dye. Compartmentalization was assessed using digitonin and triton-X100. For our conditions, Fmax and Fmin were 160±14 (n=9, mean±SEM) and 3.4±0.7 (n=6). Dye compartmentalization was found to be less than 10% (n=1). For the in vitro experiments, KdCa2+ (20°C) values of 21.6 μM, 27.8 μM and 29.1 μM were obtained in presence of 0, 1 and 2 mM free Mg2+, respectively. To calculate Ca2+ concentration from the fluorescence signals, we used the methodologies proposed by Grynkiewicz et al. (1985) and by Caputo et al. (1994). Preliminary results, taking into account our data or some values from the literature (Baylor et al. 2009), show single Ca2+ transient's peak between 2 and 7 μM (n=4). We are now calculating the kinetics of Ca2+ transients and the quantitative changes induced by modulating Ca2+ release and sequestration mechanisms in different fiber types. In conclusion, we have calculated the peak Ca2+ concentration after single stimulation in fibers loaded with Magfluo-4. Our preliminary results are comparable to those obtained with other fast Ca2+ dyes, such as Magfura-5, but lower than those reported with Magfura-2.",
+    "publication_url": "https://www.cell.com/biophysj/fulltext/S0006-3495(12)02881-0"
+},
+{
+    "publication_id": 22,
+    "publication_title": "Effects of a disulfide bridge prior to amyloid formation of the ABRI peptide",
+    "publication_date": "August 1",
+    "publication_year": 2014,
+    "authors": ["JA Ceballos", "MA Giraldo", "P Cossio"],
+    "abstract": "The ABRI peptide is involved in the neurodegenerative disease Familial British Dementia, which has its origin in the misfolding of the peptide. Characterizing the most probable conformations of the monomer in solution can provide insights into how misfolding could occur in the steps prior to aggregation. Specifically, we analyzed the structural effects caused by the formation of a single disulfide bond, which has been reported to be important in amyloid assembly. We used all-atom molecular dynamics simulations with an enhanced sampling technique to obtain the lowest free energy conformations for two cases: the peptide with and without the disulfide bond between residues 5Cys and 22Cys. Bulk measurements on the conformations agree with experiments by elucidating ABRI as a disordered peptide. We find remarkable differences at the microscopic level between the most probable structures; with the disulfide bond the peptide is compact and α-helical, without the bond it is partially extended with slight β-bridges.",
+    "publication_url": "https://pubs.rsc.org/en/content/articlehtml/2014/ra/c4ra06034b"
+},
+{
+    "publication_id": 23,
+    "publication_title": "Improving the Annotation of the Venom Gland Transcriptome of Pamphobeteus verdolaga, Prospecting Novel Bioactive Peptides",
+    "publication_date": "June 15",
+    "publication_year": 2022,
+    "authors": ["Cristian Salinas-Restrepo", "Elizabeth Misas", "Sebastian Estrada-Gómez", "Juan Carlos Quintana-Castillo", "Fanny Guzman", "Juan C Calderón", "Marco A Giraldo", "Cesar Segura"],
+    "abstract": "Spider venoms constitute a trove of novel peptides with biotechnological interest. Paucity of next-generation-sequencing (NGS) data generation has led to a description of less than 1% of these peptides. Increasing evidence supports the underestimation of the assembled genes a single transcriptome assembler can predict. Here, the transcriptome of the venom gland of the spider Pamphobeteus verdolaga was re-assembled, using three free access algorithms, Trinity, SOAPdenovo-Trans, and SPAdes, to obtain a more complete annotation. Assembler’s performance was evaluated by contig number, N50, read representation on the assembly, and BUSCO’s terms retrieval against the arthropod dataset. Out of all the assembled sequences with all software, 39.26% were common between the three assemblers, and 27.88% were uniquely assembled by Trinity, while 27.65% were uniquely assembled by SPAdes. The non-redundant merging of all three assemblies’ output permitted the annotation of 9232 sequences, which was 23% more when compared to each software and 28% more when compared to the previous P. verdolaga annotation; moreover, the description of 65 novel theraphotoxins was possible. In the generation of data for non-model organisms, as well as in the search for novel peptides with biotechnological interest, it is highly recommended to employ at least two different transcriptome assemblers.",
+    "publication_url": "https://www.mdpi.com/2072-6651/14/6/408"
+},
+{
+    "publication_id": 24,
+    "publication_title": "A new set of equations for the simplified calibration of fluorescence Ca2+ transients in skeletal muscle fibers",
+    "publication_date": "February 17",
+    "publication_year": 2021,
+    "authors": ["D Mejía-Raigosa", "AF Milán", "MA Giraldo", "JC Calderón"],
+    "abstract": "The classical approach for calibrating non-ratiometric fluorescent Ca2+ dyes entails the measurement of the fluorescence maximum (Fmax) and minimum (Fmin), as well as the dissociation constant (Kd) of the Ca2+—Dye reaction (model 1). An alternative equation does not need the Fmin but requires the rate constants kon and koff (model 2). However, both approaches are experimentally time consuming and the rate constants for several dyes are unknown. Here, we propose a set of equations (model 3) that simplify the calibration of fluorescent Ca2+ transients obtained with non-ratiometric dyes. This equation allows the calibration of signals without using the Fmin: [Ca2+] = Kd(F − Frest/Fmax − F) + [Ca2+]IR(Fmax − Frest/Fmax − F), where [Ca2+]IR is the resting [Ca2+]. If the classical calibration approach is followed, the Fmin can be estimated from: Fmin = Frest − ([Ca2+]IR(Fmax − Frest)/Kd). We tested the models’ performance using signals obtained from enzymatically dissociated flexor digitorum brevis fibers of C57BL/6 mice loaded with Fluo-4, AM. Model 3 performed the same as model 2, and both gave peak [Ca2+] values 15 ± 0.3% (n = 3) lower than model 1, when we used our experimental Fmin (1.24 ± 0.11 A.U., n = 4). However, when we used the mathematically estimated Fmin (6.78 ± 0.2 A.U) for model 1, the peak [Ca2+] were similar for all three models. This suggests that the dye leakage makes a correct determination of the Fmin unlikely and induces errors in the estimation of [Ca2+]. In conclusion, we propose simpler and time-saving equations that help to reliably calibrate cytosolic Ca2+ transients obtained with non-ratiometric fluorescent dyes. The use of the estimated Fmin avoids the uncertainties associated with its experimental measurement.",
+    "publication_url": "https://link.springer.com/article/10.1007/s10974-021-09597-8"
+},
+{
+    "publication_id": 25,
+    "publication_title": "Doxorubicin Interaction with Lipid Monolayers Leads to Decreased Membrane Stiffness when Experiencing Compression–Expansion Dynamics",
+    "publication_date": "June 15",
+    "publication_year": 2023,
+    "authors": ["JA Ceballos", "S Jaramillo-Isaza", "JC Calderón", "PB Miranda", "MA Giraldo"],
+    "abstract": "Physical membrane models permit to study and quantify the interactions of many external molecules with monitored and simplified systems. In this work, we have constructed artificial Langmuir single-lipid monolayers with dipalmitoylphosphatidylcholine (DPPC), dipalmitoylphosphatidylethanolamine (DPPE), dipalmitoylphosphatidylserine (DPPS), or sphingomyelin to resemble the main lipid components of the mammalian cell membranes. We determined the collapse pressure, minimum area per molecule, and maximum compression modulus (Cs–1) from surface pressure measurements in a Langmuir trough. Also, from compression/expansion isotherms, we estimated the viscoelastic properties of the monolayers. With this model, we explored the membrane molecular mechanism of toxicity of the well-known anticancer drug doxorubicin, with particular emphasis in cardiotoxicity. The results showed that doxorubicin intercalates mainly between DPPS and sphingomyelin, and less between DPPE, inducing a change in the Cs–1 of up to 34% for DPPS. The isotherm experiments suggested that doxorubicin had little effect on DPPC, partially solubilized DPPS lipids toward the bulk of the subphase, and caused a slight or large expansion in the DPPE and sphingomyelin monolayers, respectively. Furthermore, the dynamic viscoelasticity of the DPPE and DPPS membranes was greatly reduced (by 43 and 23%, respectively), while the reduction amounted only to 12% for sphingomyelin and DPPC models. In conclusion, doxorubicin intercalates into the DPPS, DPPE, and sphingomyelin, but not into the DPPC, membrane lipids, inducing a structural distortion that leads to decreased membrane stiffness and reduced compressibility modulus. These alterations may constitute a novel, early step in explaining the doxorubicin mechanism of action in mammalian cancer cells or its toxicity in non-cancer cells, with relevance to explain its cardiotoxicity.",
+    "publication_url": "https://pubs.acs.org/doi/abs/10.1021/acs.langmuir.3c00250"
+},
+{
+    "publication_id": 26,
+    "publication_title": "Optimization of the de novo assembly of the transcriptome of the venom gland of Pamphobeteus verdolaga, prospecting novel bioactive peptides",
+    "publication_date": "November 9",
+    "publication_year": 2020,
+    "authors": ["Cristian Salinas-Restrepo", "Elizabeth Misas", "Sebastian Estrada-Gomez", "Juan Quintana", "Fanny Guzman", "Juan Camilo Calderon", "Marco Antonio Giraldo", "Cesar Hernando Segura"],
+    "abstract": "Background: Spiders are among the most venomous animals in nature. Their venom constitutes a source of novel and innovative peptides and proteins with medicinal and biotechnological interest. However, their potential as antimicrobial, anti-cancerous, anti-hypertensive and even in the modulation of nociception is under-studied, mainly because handling the venom is technically challenging and there is paucity of next generation-sequencing (NGS) data. Due to the increasing evidence of underestimation of the number of genes by the use of a single transcriptome assembler, we re-assembled and optimized the de novo transcriptome of the venom gland of the recently described Colombian spider P. verdolaga, by using three free access algorithms: Trinity, Soapdenovo and SPAdes. All the assemblies were evaluated by statistical parameters (e.g. contigs, GC%, max and min length and N50), by applying BUSCO´s terms retrieval against the arthropod data set to determine the best assembly for each software. Results: Our analyses show that while approximately 54% of all the assembled and structurally annotated sequences could be found in all three algorithms, around 23% of these were unique for Trinity and 21% were unique for SPAdes. The non-redundant merge of all three assemblies’ output permitted the annotation of 8640 sequences; at least 15% more when compared to each software separately, and an increase of 20% when compared to a previous P. verdolaga assembly. Analysis of the annotated genes allowed the identification of 135 novel theraphotoxins of biotechnological interest. Conclusion: Transcriptomic data is of utmost importance for spiders, as it is one of the more feasible and scalable ways to characterize these organisms. However, the use of a single de novo assembler implies an under representation of the expressed sequences, as it has been shown here. In the generation of data for non-model organisms as well as in the search for novel peptides and proteins with biotechnological interest, it is highly recommended that at least two different assemblers are employed.",
+    "publication_url": "https://web.archive.org/web/20201110105949id_/https://assets.researchsquare.com/files/rs-99776/v1/db5a12c5-b6a1-4e11-8538-a28a67ab656c.pdf"
+},
+{
+    "publication_id": 27,
+    "publication_title": "Alas iridiscentes: ingeniería fotónica natural",
+    "publication_date": "October 6",
+    "publication_year": 2015,
+    "authors": ["MA Giraldo"],
+    "abstract": "Una de las áreas de trabajo del Grupo de Biofísica, del Instituto de Física de la Universidad de Antioquia, es la biofotónica, consistente en el estudio de la interacción de la luz con los sistemas biológicos. Ha dedicado sus investigaciones, en particular, a los colores de las alas de las mariposas.",
+    "publication_url": "https://bibliotecadigital.udea.edu.co/handle/10495/22216"
+},
+
+{
+    "publication_id": 28,
+    "publication_title": "Retrieving the Refractive Index of a Biological Material via Symbolic Regression",
+    "publication_date": "July 16",
+    "publication_year": 2023,
+    "authors": ["J Sierra-Vélez", "D Macias, A Vial", "MA Giraldo"],
+    "abstract": "Modeling the optical properties of biological structures allows the development of novel biocompatible materials. Using two different approaches, we were able to extract a closed-form mathematical expression that accurately models the refractive index of two distinct biological materials. Our approaches rely on Symbolic Regression (SR), a generic numerical implementation based on Genetic Programming (GP) that does not require any initial assumptions about the algebraic form of the model under search. We explore the possibilities and limitations of our SR approach, and the possible extension to solve more complex configurations.",
+    "publication_url": "https://link.springer.com/chapter/10.1007/978-3-031-37132-5_48"
+},
+{
+    "publication_id": 29,
+    "publication_title": "Estandarización de la técnica de Patch-clamp para el estudio de canales iónicos en un modelo de cardiomiocitos murinos",
+    "publication_date": "April 29",
+    "publication_year": 2021,
+    "authors": ["Alejandro Gómez-Restrepo", "Marco A Giraldo", "Juan C Calderón"],
+    "abstract": "La técnica de patch-clamp, en su configuración whole cell, permite registrar con gran resolución temporal las corrientes iónicas que pasan a través de todos los canales del mismo tipo que estén presentes en una membrana celular (corrientes macroscópicas). Esto la convierte en la técnica estándar para evaluar el potencial efecto modulador sobre canales iónicos de moléculas sintéticas o naturales, tales como péptidos, toxinas, compuestos inorgánicos, entre otros. Nuestro grupo cuenta con un nuevo laboratorio de electrofisiología celular con alto potencial para estudios de patch-clamp, pero se requiere estandarizar el modelo de estudio y los protocolos experimentales.",
+    "publication_url": "https://revistas.udea.edu.co/index.php/iatreia/article/view/345508"
+},
+{
+    "publication_id": 30,
+    "publication_title": "Calibración in situ del indicador fluorescente Mag-Fluo-4 en células musculares de ratón",
+    "publication_date": "",
+    "publication_year": 0,
+    "authors": ["AF Milán", "MA Giraldo", "JC Calderón"],
+    "abstract": "Introducción el Ca 2+ es un elemento clave en el mecanismo de acoplamiento excitación contracción de las células musculares; su aparición y desaparición en el citoplasma se puede registrar utilizando indicadores fluorescentes como el Mag-Fluo-4. Para el reporte de valores de Ca 2+ citoplasmático es necesario llevar a cabo la calibración de las señales obtenidas con este colorante. Objetivo determinar in situ los parámetros que permitan calibrar las señales de fluorescencia obtenidas con Mag-Fluo-4 a valores de Ca 2+ en células musculares. Métodos se obtuvieron células del músculo flexor digitorum brevis (FDB) por disociación enzimática de ratones C57BL/6J, que se montaron en una cámara experimental con electrodos, sobre la platina de un microscopio invertido acoplado a una lámpara LED para la iluminación ya un juego de filtros, un fotomultiplicador y un digitalizador para registrar las señales",
+    "publication_url": "https://www.proquest.com/openview/34785f8ed2a3b35127cc9a41a3b8d5f9/1?pq-origsite=gscholar&cbl=756330"
+},
+{
+    "publication_id": 31,
+    "publication_title": "¿ Se puede medir la electricidad en una célula?",
+    "publication_date": "October 6",
+    "publication_year": 2016,
+    "authors": ["JC Calderón", "MA Giraldo"],
+    "abstract": "Luigi Galvani, un profesor de Anatomía en la Universidad de Bologna, detectó hacia 1780 el efecto de la electricidad sobre el movimiento de las patas de las ranas. Este es un notable ejemplo de interacción entre la física y la vida que marca el comienzo de la biofísica y la electrofisiología. La biofísica es a una rama de las ciencias naturales que estudia fenómenos y sistemas biológicos con los conceptos y las herramientas de la física, las matemáticas y la computación. Con herramientas de la biofísica podemos estudiar, por ejemplo, las manifestaciones eléctricas de las células. Este es el terreno específico de la electrofisiología.",
+    "publication_url": "https://revistas.udea.edu.co/index.php/experimenta/article/view/325493"
+},
+{
+    "publication_id": 32,
+    "publication_title": "Evolución del color de la capa de óxido formada en las aleaciones Au-25Fe y Au-24.5Fe-0.5Co",
+    "publication_date": "March 18",
+    "publication_year": 2016,
+    "authors": ["Sandra Milena Restrepo-Arcila","Alejandro Iván Echavarría-Velásquez","Marco Antonio Giraldo Cadavid","Jorge Andrés Calderón-Gutierrez","Héctor Darío Sánchez-Londoño"],
+    "abstract": "Se aplica la teoría del color propuesta por Heavens (1991) para el cálculo de los espesores de las películas delgadas de magnetita, Fe3 O4 , los cuales fueron obtenidos por tratamiento térmico a 250°C de una aleación de oro (Au-24.5Fe-0.5Co). Los espectros de reflectancia obtenidos de las muestras pulidas con diferentes grados de oxidación (y de color) fueron usados para calcular los índices de refracción (real) y de extinción (imaginario) del sustrato metálico (n2 , k2 ) y de la capa de magnetita (n1 =2,42, k1 ). La forma a+bλ+cλ2 se tomó del ajuste de parámetros entre las curvas experimentales y teóricas. El ajuste de los datos resultan en desviaciones entre 2 y 10%, para los espesores en el rango de 0 nm (solo metal original) y 65 nm (color azul oscuro). Por medio de un modelo matemático siguiendo la teoría de Heavens, el espesor de cada capa ha sido predicho con alta precisión, utilizando las mediciones de reflectancia espectral. En consecuencia, proponemos que mediante el uso de esta metodología se pueden obtener fácilmente los valores de los coeficientes de extinción de las especies de óxido y, además, se pueden predecir los espesores de la capa de óxido. Los valores de espesores de la magnetita encontrados en la presente investigación están dentro del intervalo reportado en la literatura para la interferencia de primer orden en los aceros, desde el amarillo claro (~46 nm) hasta el azul (~72 nm).",
+    "publication_url": "https://revistas.udea.edu.co/index.php/ingenieria/article/view/23364"
+},
+{
+    "publication_id": 33,
+    "publication_title": "Study of the influence of cobalt in the high formability of the Au-Fe system",
+    "publication_date": "December",
+    "publication_year": 2018,
+    "authors": ["Sandra Milena Restrepo-Arcila", "Alejandro Iván Echavarría-Velásquez", "Héctor Darío Sánchez-Londoño", "Marco A Giraldo"],
+    "abstract": "Since ancient times, gold has been used due to its especial properties. Among those properties are the resistance to corrosion (for being noble), its high electrical and thermal conductivity, and also its conspicuous coloration. Gold has been applied in a diversity of subjects such as economy, jewelry, electronic circuits and odontology. The fascinating properties of gold are likely to improve with the preparation of alloys; among those, the Au-Fe alloys constitute some of the most studied nowadays. In this research, we present our results concerning the microstructure of the Au-Fe and Au-Fe-Co alloys. We fabricated gold based alloys with 25% (weight) Fe and then compared their structure and formability to Au-24.5Fe-0.5Co (% weight) to determine the role of cobalt in the alloy. An induction furnace with controlled atmosphere (argon) and conductor crucibles coated with zirconium silicate was used. The samples were characterized by three processes: as-cast, with heat treatment (HT) at T=900°C (1h and 3h) and as-cast centrifuged. The formability results for the as-cast samples revealed a 23% deformation (rolling mill) for the Au-25Fe versus a 62% for the Au-24.5Fe-0.5Co alloy (HT-1h; T=900°C), whilst for the as-cast centrifuged sample revealed a 75% deformation with ductile fracture for the Au-25Fe versus an 82% without fracture for the Au-24.5Fe-0.5Co alloy. This result is particularly promissory for the applications in jewelry, showing that the addition of cobalt increases the formability of Au-Fe alloys.",
+    "publication_url": "https://www.researchgate.net/publication/329544920_Study_of_the_influence_of_cobalt_in_the_high_formability_of_the_Au-Fe_system"
+},
+{
+    "publication_id": 34,
+    "publication_title": "Calibration of Ca2D Transients Obtained with the Fast Ca2D and Mg2D Dye Magfluo-4",
+    "publication_date": "February 4",
+    "publication_year": 2013,
+    "authors": ["Dye Magfluo", "Juan C Calderon", "Daniel Raigosa", "Marco Giraldo", "Pura Bolanos", "Carlo Caputo"],
+    "abstract": "Background: Mag-Fluo-4 is increasingly employed for studying Ca2+ signaling in skeletal muscle; however, the lack of information on the Ca2+-Mag-Fluo-4 reaction limits its wider usage. Methods: Fluorescence and isothermal titration calorimetry (ITC) experiments were performed to determine the binding stoichiometry (n) and thermodynamics (enthalpy (ΔH) and entropy (ΔS) changes), as well as the in vitro and in situ Kd of the Ca2+-Mag-Fluo-4 reaction. Rate constants (kon, koff), fluorescence maximum (Fmax), minimum (Fmin), and the dye compartmentalization were also estimated. Experiments in cells used enzymatically dissociated flexor digitorum brevis fibres of C57BL6, adult mice, loaded at room temperature for 8 min, with 6 μM Mag-Fluo-4, AM, and permeabilized with saponin or ionomycin. All measurements were done at 20 °C. Results: The in vitro fluorescence assays showed a binding stoichiometry of 0.5 for the Ca2+/Mag-Fluo-4 (n = 5) reaction. ITC results (n = 3) provided ΔH and ΔS values of 2.3 (0.7) kJ/mol and 97.8 (5.9) J/mol.K, respectively. The in situ Kd was 1.652 × 105μM2(n = 58 fibres, R2 = 0.99). With an Fmax of 150.9 (8.8) A.U. (n = 8), Fmin of 0.14 (0.1) A.U. (n = 10), and ΔF of Ca2+ transients of 8.4 (2.5) A.U. (n = 10), the sarcoplasmic [Ca2+]peak reached 22.5 (7.8) μM. Compartmentalized dye amounted to only 1.1 (0.7)% (n = 10). Conclusions: Two Mag-Fluo-4 molecules coalesce around one Ca2+ ion, in an entropy-driven, very low in situ affinity reaction, making it suitable to reliably track the kinetics of rapid muscle Ca2+ transients. General significance: Our results may be relevant to the quantitative study of Ca2+ kinetics in many other cell types.",
+    "publication_url": "https://core.ac.uk/download/pdf/81121088.pdf"
+},
+{
+    "publication_id": 35,
+    "publication_title": "Study of Body Postures Adopted in Public Spaces to Define Furniture Design Principles",
+    "publication_date": "July",
+    "publication_year": 2014,
+    "authors": ["J Waldrona", "LE Olaya", "A Muñoza", "MA Giraldo"],
+    "abstract": "In this study, Intermediate Body Positions refers to a group of spontaneous gestures assumed by people interacting with surrounding objects, which are in between biped-erect and sitting-standard. Furniture that motivates the sittingstandard posture is usually found in outdoors as the only option to rest; therefore users adopt different objects to rest their body. In this study, we observed the common postures adopted in public spaces while spontaneously using objects which were not designed to rest the body. The study conducted the evaluation of three Intermediate Body Positions and two control postures (sitting and standing) with two different finishing surfaces (rough and smooth), and the registration of the angles and forces in the points of support with a Dinagoniometer. The posture’s performance was evaluated in terms of time of permanence, energy expenditure and subjective perceived exertion measured in five male models in laboratory conditions. These results were compared with the angles and forces measured at each point of support. We have found that the interaction of the body with different types of materials and at different positions is crucial, since they specify not only the biophysical reaction of the body, but the individual perception. These results permitted to establish a number of design principles for furniture and public spaces.",
+    "publication_url": "https://www.researchgate.net/profile/Julie-Waldron/publication/266102592_Study_of_Body_Postures_Adopted_in_Public_Spaces_to_Define_Furniture_Design_Principles/links/5425583c0cf238c6ea740238/Study-of-Body-Postures-Adopted-in-Public-Spaces-to-Define-Furniture-Design-Principles.pdf"
+},
+{
+    "publication_id": 36,
+    "publication_title": "Reflectance and transmittance of light scattering scales stacked on the wings of pierid butterflies",
+    "publication_date": "May 29",
+    "publication_year": 2006,
+    "authors": ["DG Stavenga", "MA Giraldo", "BJ Hoenders"],
+    "abstract": "The colors of butterfly wings are determined by the structural as well as pigmentary properties of the wing scales. Reflectance spectra of the wings of a number of pierid butterfly species, specifically the small white, Pieris rapae, show that the long-wavelength reflectance of the scales in situ, on the wing, is distinctly higher than that of single, isolated scales. An optical model explains that this is due to multiple scattering on overlapping scales by treating the layers of scales on both sides of the wing as a stack of incoherently scattering plates. The model sheds new light on the adaptive significance and evolution of butterfly wing patterns.",
+    "publication_url": "https://opg.optica.org/oe/abstract.cfm?uri=OE-14-11-4880"
+},
+{
+    "publication_id": 37,
+    "publication_title": "Butterfly wing colors: glass scales of Graphium sarpedon cause polarized iridescence and enhance blue/green pigment coloration of the wing membrane",
+    "publication_date": "May 15",
+    "publication_year": 2010,
+    "authors": ["D. G. Stavenga", "MA Giraldo","Hein L Leetouwer"],
+    "abstract": "The wings of the swordtail butterfly Graphium sarpedon nipponum contain the bile pigment sarpedobilin, which causes blue/green colored wing patches. Locally the bile pigment is combined with the strongly blue-absorbing carotenoid lutein, resulting in green wing patches and thus improving camouflage. In the dorsal forewings, the colored patches lack the usual wing scales, but instead have bristles. We have found that on the ventral side most of these patches have very transparent scales that enhance, by reflection, the wing coloration when illuminated from the dorsal side. These glass scales furthermore create a strongly polarized iridescence when illuminated by obliquely incident light from the ventral side, presumably for intraspecific signaling. A few ventral forewing patches have diffusely scattering, white scales that also enhance the blue/green wing coloration when observed from the dorsal side.",
+    "publication_url": "https://journals.biologists.com/jeb/article/213/10/1731/9690/Butterfly-wing-colors-glass-scales-of-Graphium"
 }
 ]
 

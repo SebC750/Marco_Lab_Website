@@ -2,7 +2,10 @@
     width: 100%;
 }
 #home-slideshow {
+    margin-left: 2.5%;
+    width: 95%;
     position: relative;
+    
 }
 .description-container {
     position: absolute;
@@ -13,6 +16,10 @@
     text-align: center;
     color: white;
     
+}
+.welcome-text{
+    text-align: center;
+    margin-bottom: 20px;
 }
 .description-content{
     
@@ -80,6 +87,7 @@
     display: flex;
     justify-content: center;
     gap: 20px;
+    margin-bottom: 20px;
 }
 .leader-section{
     display: flex;
@@ -94,14 +102,12 @@
     border-width: 3px;
     border-color: white;
     
-    height: 70%;
+  
 }
-.researcher-image img{
-    height: 100%;
-}
+
 .container-border-desc{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
     background-color: rgb(66, 159, 217);
     width: 100%;
@@ -110,7 +116,7 @@
     border-radius: 6px;
 }
 .leader-description{
-    width: 50%;
+    width: 100%;
     margin-right: 10px;
     height: 100%;
     
@@ -137,6 +143,9 @@
     background-color: rgb(58, 139, 189);
 }
 .personal-webpages{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     padding: 20px;
     background-color: blueviolet;
     margin-top: 10px;
@@ -149,9 +158,10 @@
     width: 100%;
 }
 .webpage-link button{
+   
     background-color: rgb(79, 187, 255);
     color: white;
-    font-size: 16px;
+    
     border-style: solid;
     border-width: 3px;
     border-color: white;
@@ -198,6 +208,9 @@
     font-size: 36px;
     
 }
+.uoa-logo{
+    width: 50%;
+}
 .leader-name{
     transition: width 2s;
     font-size: 24px;
@@ -230,40 +243,21 @@ button{
     .research-description{
         margin-top: 10px;
         width: 100%;
+    
+    
+} 
 
-    }
-    .container-image{
-        width: 100%;
-    }
-    .researcher-image{
-        width: 100%;
-        
-    }
 }
-@media (max-width: 900px){
-    .researcher-image{
-        width: 100%;
-        height: 30%;
-    }
-    .personal-webpages{
-        height: 10%;
 
-    }
-    .carousel-inner img{
-        height: auto;
-    }
-}
-@media (max-width: 720px){
-    .leader-section{
+@media(max-width: 720px){
+    .container-border-desc{
         flex-direction: column;
     }
-    .leader-description{
+    .researcher-image img{
         width: 100%;
     }
-    .researcher-image{
-        width: 100%;
+    .personal-webpages{
+        flex-direction: column;
     }
-    .container-border-desc{
-        height: 30%;
-    }
+    
 }

@@ -1,82 +1,112 @@
-import Navbar from "./Navbar.jsx"
 import React, { useState, useEffect } from 'react';
-import "./stylesheets/Research.css"
-import "./stylesheets/Home.css"
+import Navbar from "./Navbar.jsx";
+import "./stylesheets/Research.css";
+import "./stylesheets/Home.css";
+import publications from "./Publications.json";
+import {Link} from 'react-router-dom'
 function Research() {
-    const [researchPapers, updateResearchPapers] = useState([])
-    
+    const [researchPapers, updateResearchPapers] = useState([]);
+    const [pageNumber, setPageNumber] = useState(1);
+
     useEffect(() => {
-        fetch('http://localhost:9000/add_research_paper').then(response => response.json()).then(allPapers => updateResearchPapers(allPapers))
-    },[])
-    
-    
-    
+        updateResearchPapers(publications);
+        console.log(publications);
+    }, []);
+    const sortByYear = () =>{
+        const sortedResearchPapersYear = [...publications].sort((a, b) => {
+            
+            return b.publication_year - a.publication_year; 
+        });
+        console.log(sortedResearchPapersYear)
+        updateResearchPapers(sortedResearchPapersYear);
+    }
+    const renderPapers = () => {
+        const startIndex = (pageNumber - 1) * 9;
+        const endIndex = startIndex + 9;
+        return researchPapers.slice(startIndex, endIndex).map((paper, index) => (
+            <div key={index} className="research-container">
+                <div className="publication-date">
+                    <h5>{paper.publication_date} {paper.publication_year}</h5>
+                </div>
+                <h4>{paper.publication_title}</h4>
+                <div className="divider"></div>
+                <h5>Abstract</h5>
+                <p>{paper.abstract}</p>
+                <div className="research-redirect-buttons">
+                    <div className="research-redirect-button">
+                        <button> <Link to={paper.publication_url} style={{textDecoration: "none", color: "white"}}> View full article</Link></button>
+                    </div>
+                    
+                </div>
+            </div>
+        ));
+    };
+
     return (
         <div>
-            <Navbar></Navbar>
-            <div class="research-title">
-                <h1> Research </h1>
-                <p> Here is a collection of all research conducted by the team. </p>
-
+            <Navbar />
+            <div className="research-title">
+                <h1>Research</h1>
+                <p>Here is a collection of all research conducted by the team.</p>
             </div>
-            <div class="research-body">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-3">
-                            <div class="research-list">
-                                <div class="pub-title">
-                                    <h3> Sort By</h3>
+            <div className="research-body">
+                <div className="container">
+                    <div className="row" id="research-row">
+                        <div className="col-sm-3" id="sort-column">
+                            <div className="research-list">
+                                <div className="pub-title">
+                                    <h3>Sort By</h3>
                                 </div>
-                                
-                                <div class="filter-container">
-                                  <div class="research-redirect-button"> <button class="button-items"> <img src="../images/marco-lab-pictures/Calendar.svg" width="50px" height="50px"/> Date </button> </div>
-                                  <div class="research-redirect-button"> <button class="button-items"> <img src="../images/marco-lab-pictures/Microscope.svg" width="50px" height="50px"/> Subject </button> </div>
+                                <div className="filter-container">
+                                    <div className="research-redirect-button">
+                                        <button className="button-items">
+                                            <img src="../images/marco-lab-pictures/Calendar.svg" width="50px" height="50px" alt="calendar" onClick={() => sortByYear()}/> Date
+                                        </button>
+                                    </div>
+                                    <div className="research-redirect-button">
+                                        <button className="button-items">
+                                            <img src="../images/marco-lab-pictures/Microscope.svg" width="50px" height="50px" alt="microscope" /> Subject
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="research-links">
-                                <h3> More research available at: </h3>
-                                <div class="research-link">
-                                    Google Scholar
-                                </div>
-                                <div class="research-link">
-                                    ResearchGate
-                                </div>
-                                <div class="research-link">
-                                    
-                                </div>
+                            <div className="research-links">
+                                <h3>More research available at:</h3>
+                                <div className="research-link"> <button> <Link to="https://scholar.google.com/citations?user=SpLyrvoAAAAJ&hl=es" style={{ textDecoration: "none", color: "white" }}> <img src="../images/marco-lab-pictures/Google_Scholar_logo.svg" alt="RG logo" width="30%" height="30%" />Google Scholar </Link> </button> </div>
+                                <div className="research-link"><button> <Link to="https://www.researchgate.net/profile/Marco-Giraldo" style={{ textDecoration: "none", color: "white" }}><img src="../images/marco-lab-pictures/ResearchGate_icon_SVG.svg" alt="RG logo" width="30%" height="30%"/> ResearchGate </Link></button></div>
                             </div>
                         </div>
-
-                        <div class="col">
-                            <div class="research-list">
-                                <div class="pub-title"> <h2> Publications </h2> </div>
-                                <div class="research-container">
-                                    <div class="publication-date"> <h5> FEBRUARY 08, 2024 </h5> </div>
-                                    <h4> Three new toxins from the south American spider Pamphobeteus verdolaga inhibit calcium and potassium channel currents of murine cardiomyocytes</h4>
-                                    <div class="divider"></div>
-                                    <h5> Abstract </h5>
-                                    <p>
-
-                                        The spider species Pamphobeteus verdolaga was recently discovered in the Aburra’s Valley, Colombia. A bioinformatics analysis of the venom gland’s transcriptome identified numerous peptides with potential effects on ion channels. Of those, three were then synthetized through Fmoc solid-phase methods (referred to as vrdg peptides). Since vrdg172 and vrdg183 possess two disulfide bridges, we hypothesize that they block ion channels, compared with vrdg66, which is a linear peptide. In this study, we evaluated the effects of vrdg66, vrdg172 and vrdg183 on Ca2+ (ICaL) and K+ (IK) currents in mouse cardiomyocytes using the whole-cell configuration of the patch-clamp technique. When used at a concentration of 1 μM, vrdg66 showed a minor inhibitory effect on the peak amplitude of ICaL (−16.3±10.5%; n=6) and IK (−24.4±4.4%; n=5), compared with the control current. At the same concentration, vrdg172 similarly blocked ICaL (−38.8±15.6%; n=4) and IK (−43.9±5.8%; n=3). Interestingly, vrdg183 demonstrated a weak inhibitory effect on the peak IK (−6.2±24.6%; n=3) and a sizeable inhibitory effect on ICaL (−66.7±6.5%; n=4). In a further characterization of vrdg183, the blocking effect on ICaL was confirmed in isoproterenol-stimulated cardiomyocytes. Finally, a concentration-effect curve (10, 100, 300, 1000 and 10000 nM; n=4 for each experimental point) allowed us to calculate an IC50 for vrdg183 of 858.28 nM. The activation and inactivation kinetics were not affected by any of the concentrations tested. In summary, we report novel spider toxins that inhibit mammalian voltage-gated ion channels, likely acting as pore blockers. The vrdg183 toxin exhibits a selective inhibitory effect on ICaL over IK, with moderate affinity (Grant 111577757673, Minciencias, Colombia).
-                                    </p>
-                                    <div class="research-redirect-buttons">
-                                        <div class="research-redirect-button" >
-                                            <button> View full article </button>
-                                        </div>
-                                        <div class="research-redirect-button">
-                                            <button> Download PDF </button>
-                                        </div>
-                                    </div>
-
+                        <div className="col">
+                            <div className="research-list">
+                                <div className="pub-title">
+                                    <h2>Publications</h2>
                                 </div>
-
+                                {renderPapers()}
+                            </div>
+                            <div className="page-numbers">
+                                {pageNumber == 1 ? (
+                                       <div className="page-number" style={{opacity: "50%"}}>
+                                        Prev
+                                        </div>
+                                ):<div className="page-number" onClick={() => setPageNumber(pageNumber-1)}> Prev </div>}
+                                
+                                <div className="page-number" onClick={() => setPageNumber(1)}>1</div>
+                                <div className="page-number" onClick={() => setPageNumber(2)}>2</div>
+                                <div className="page-number" onClick={() => setPageNumber(3)}>3</div>
+                                <div className="page-number" onClick={() => setPageNumber(4)}>4</div>
+                                {pageNumber == 4 ? (
+                                        <div className="page-number" style={{opacity: "50%"}}>
+                                            Next
+                                        </div>
+                                ): <div className="page-number" onClick={() => setPageNumber(pageNumber+1)}> Next </div>}
+                                
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
         </div>
-    )
+    );
 }
-export default Research
+
+export default Research;
