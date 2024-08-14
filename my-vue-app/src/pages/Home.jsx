@@ -38,6 +38,9 @@ function Home() {
                 <img src="../images/marco-lab-pictures/butterfly-pic.png" className="d-block w-100" height="800px" alt="butterfly" />
               </div>
               <div className="carousel-item" data-bs-interval="5000">
+                <img src="../images/marco-lab-pictures/uoa-greenhouse.svg" className="d-block w-100" height="800px" alt="butterfly" />
+              </div>
+              <div className="carousel-item" data-bs-interval="5000">
                 <img src="../images/marco-lab-pictures/lab-office.png" className="d-block w-100 " height="800px" alt="research office" />
               </div>
               <button className="carousel-control-prev" type="button" data-bs-target="#home-slideshow" data-bs-slide="prev">
@@ -130,13 +133,13 @@ function Home() {
                     <div class="container-border-desc" >
                       <p> insert description </p>
                       <div class="researcher-image">
-                        <img src="../images/marco-lab-pictures/GermanRicaurte.jpg" alt="picture of German Ricaurte" class="d-block w-300 h-500"/>
+                        <img src="../images/marco-lab-pictures/GermanRicaurte.jpg" alt="picture of German Ricaurte" class="d-block w-300 h-500" />
 
                       </div>
                     </div>
                     <div class="personal-webpages">
-                      <div class="webpage-link" style={{width: "100%"}}>
-                        <Link to="https://www.researchgate.net/profile/German-Ricaurte" style={{ textDecoration: "none", color: "white"}}>  <button> <img src="../images/marco-lab-pictures/ResearchGate_icon_SVG.svg" alt="RG logo" width="10%" height="10%"/> ResearchGate </button> </Link>
+                      <div class="webpage-link" style={{ width: "100%" }}>
+                        <Link to="https://www.researchgate.net/profile/German-Ricaurte" style={{ textDecoration: "none", color: "white" }}>  <button> <img src="../images/marco-lab-pictures/ResearchGate_icon_SVG.svg" alt="RG logo" width="10%" height="10%" /> ResearchGate </button> </Link>
                       </div>
                       <img src="../images/marco-lab-pictures/logo-uofantioquia-png.png" alt="picture of university of antioquia" style={{ marginLeft: 30 }} width="50%" />
                     </div>
@@ -147,7 +150,7 @@ function Home() {
 
 
                 </div>
-                
+
 
               </div>
               <div class="redirect-button">

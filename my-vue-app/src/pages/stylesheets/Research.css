@@ -82,6 +82,14 @@
     color: white;
 
 }
+.search-bar{
+    color: white;
+    
+}
+.search-bar input{
+    margin-bottom: 20px;
+    width: 100%;
+}
 .button-items{
     display: flex;
     justify-content: space-between;

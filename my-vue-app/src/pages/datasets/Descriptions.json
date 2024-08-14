@@ -1,0 +1,67 @@
+[{
+    "pregrados":[
+        {
+            "nombre": "Laura Moreno",
+            "foto_perfil": "../images/marco-lab-pictures/LauraMoreno.png",
+            "posicion": "",
+            "descripcion": ""
+        },
+        {
+            "nombre": "Joshua Taborda",
+            "foto_perfil": "../images/marco-lab-pictures/JoshuaTaborda.png",
+            "posicion": "",
+            "descripcion": ""
+        },
+        {
+            "nombre": "Paula Rubiano",
+            "foto_perfil": "../images/marco-lab-pictures/PaulaRubiano.png",
+            "posicion": "",
+            "descripcion": ""
+        },
+        {
+            "nombre": "Juan Pablo Sanchez",
+            "foto_perfil": "../images/marco-lab-pictures/JPSanchez.png",
+            "posicion": "",
+            "descripcion": ""
+        }
+    ],
+    "maestria":[
+        {
+            "nombre": "Marianna Jaramillo",
+            "foto_perfil": "../images/marco-lab-pictures/MarianaJaramillo.png",
+            "posicion": "",
+            "descripcion": ""
+        }
+    ],
+    "doctorados": [
+        {
+            "nombre": "Ana Valencia",
+            "foto_perfil": "../images/marco-lab-pictures/ana-valencia.png",
+            "posicion": "",
+            "descripcion": ""
+        }, 
+        {
+            "nombre": "Juliana Sosa",
+            "foto_perfil": "../images/marco-lab-pictures/JulianaSosa.png",
+            "posicion": "",
+            "descripcion": ""
+        }
+    ],
+    "lideres": [
+        {
+            "nombre": "Marco Antonio Giraldo Cadavid",
+            "foto_perfil": "../images/marco-lab-pictures/MarcoGiraldo.png",
+            "posicion": "",
+            "descripcion": ""
+        },
+        {
+            "nombre": "German Ricaurte",
+            "foto_perfil": "../images/marco-lab-pictures/GermanRicaurte.jpg",
+            "posicion": "",
+            "descripcion": ""
+        }
+    ],
+    "alumni": [{
+        
+    }]
+}]
