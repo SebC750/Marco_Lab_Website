@@ -32,16 +32,16 @@ function Home() {
           <div id="home-slideshow" className="carousel slide" data-bs-ride="carousel">
             <div className="carousel-inner">
               <div className="carousel-item active" data-bs-interval="5000">
-                <img src="../images/marco-lab-pictures/butterfly-bg.png" className="d-block w-100" height="800px" alt="butterfly" />
+                <img src="/marco-lab-pictures/butterfly-bg.png" className="d-block w-100" height="800px" alt="butterfly" />
               </div>
               <div className="carousel-item" data-bs-interval="5000">
-                <img src="../images/marco-lab-pictures/butterfly-pic.png" className="d-block w-100" height="800px" alt="butterfly" />
+                <img src="/marco-lab-pictures/butterfly-pic.png" className="d-block w-100" height="800px" alt="butterfly" />
               </div>
               <div className="carousel-item" data-bs-interval="5000">
-                <img src="../images/marco-lab-pictures/uoa-greenhouse.svg" className="d-block w-100" height="800px" alt="butterfly" />
+                <img src="/marco-lab-pictures/uoa-greenhouse.svg" className="d-block w-100" height="800px" alt="butterfly" />
               </div>
               <div className="carousel-item" data-bs-interval="5000">
-                <img src="../images/marco-lab-pictures/lab-office.png" className="d-block w-100 " height="800px" alt="research office" />
+                <img src="/marco-lab-pictures/lab-office.png" className="d-block w-100 " height="800px" alt="research office" />
               </div>
               <button className="carousel-control-prev" type="button" data-bs-target="#home-slideshow" data-bs-slide="prev">
                 <span className="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -60,7 +60,7 @@ function Home() {
 
           <div class="research-container">
             <div class="container-image">
-              <img src="../images/marco-lab-pictures/research-pic1.png" class="d-block w-100" alt="research pic 1" />
+              <img src="/marco-lab-pictures/research-pic1.png" class="d-block w-100" alt="research pic 1" />
 
             </div>
 
@@ -99,17 +99,17 @@ function Home() {
 
                       <p> Professor Marco Antonio Giraldo is a PhD at the University of Antioquia. As the leading researcher in this division, he works tirelessly to investigate the effects of optics on Butterflies and instruct his students with his findings.  </p>
                       <div className="researcher-image">
-                        <img src="../images/marco-lab-pictures/marcojpg.jpg" alt="picture of Marco Giraldo" class="d-block w-300 h-500" />
+                        <img src="/marco-lab-pictures/marcojpg.jpg" alt="picture of Marco Giraldo" class="d-block w-300 h-500" />
                       </div>
 
                     </div>
                     <div class="personal-webpages">
                       <div class="webpage-link">
 
-                        <Link to="https://scholar.google.com/citations?user=SpLyrvoAAAAJ&hl=es" style={{ textDecoration: "none", color: "white" }}>  <button> <img src="../images/marco-lab-pictures/Google_Scholar_logo.svg" alt="RG logo" width="10%" height="10%" /> Google Scholar </button> </Link>
+                        <Link to="https://scholar.google.com/citations?user=SpLyrvoAAAAJ&hl=es" style={{ textDecoration: "none", color: "white" }}>  <button> <img src="/marco-lab-pictures/Google_Scholar_logo.svg" alt="RG logo" width="10%" height="10%" /> Google Scholar </button> </Link>
 
                       </div>
-                      <img src="../images/marco-lab-pictures/logo-uofantioquia-png.png" alt="picture of university of antioquia" class="uoa-logo" style={{ marginLeft: 30 }} width="30%" />
+                      <img src="/marco-lab-pictures/logo-uofantioquia-png.png" alt="picture of university of antioquia" class="uoa-logo" style={{ marginLeft: 30 }} width="30%" />
                     </div>
                   </div>
 
@@ -133,15 +133,15 @@ function Home() {
                     <div class="container-border-desc" >
                       <p> insert description </p>
                       <div class="researcher-image">
-                        <img src="../images/marco-lab-pictures/GermanRicaurte.jpg" alt="picture of German Ricaurte" class="d-block w-300 h-500" />
+                        <img src="/marco-lab-pictures/GermanRicaurte.jpg" alt="picture of German Ricaurte" class="d-block w-300 h-500" />
 
                       </div>
                     </div>
                     <div class="personal-webpages">
                       <div class="webpage-link" style={{ width: "100%" }}>
-                        <Link to="https://www.researchgate.net/profile/German-Ricaurte" style={{ textDecoration: "none", color: "white" }}>  <button> <img src="../images/marco-lab-pictures/ResearchGate_icon_SVG.svg" alt="RG logo" width="10%" height="10%" /> ResearchGate </button> </Link>
+                        <Link to="https://www.researchgate.net/profile/German-Ricaurte" style={{ textDecoration: "none", color: "white" }}>  <button> <img src="/marco-lab-pictures/ResearchGate_icon_SVG.svg" alt="RG logo" width="10%" height="10%" /> ResearchGate </button> </Link>
                       </div>
-                      <img src="../images/marco-lab-pictures/logo-uofantioquia-png.png" alt="picture of university of antioquia" style={{ marginLeft: 30 }} width="50%" />
+                      <img src="/marco-lab-pictures/logo-uofantioquia-png.png" alt="picture of university of antioquia" style={{ marginLeft: 30 }} width="50%" />
                     </div>
 
                   </div>
@@ -179,7 +179,7 @@ function Home() {
           <div class="address-description">
 
             <p > Cl. Barranquilla #53188 #53- a, Aranjuez, Medellín, Aranjuez, Medellín, Antioquia, Colombia </p>
-            <img src="../images/marco-lab-pictures/uoa-address.png" class="d-block w-50" height="100%" alt="university natural sciences building address" />
+            <img src="/marco-lab-pictures/uoa-address.png" class="d-block w-50" height="100%" alt="university natural sciences building address" />
           </div>
         </div>
       </div>
