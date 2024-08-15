@@ -109,7 +109,7 @@ function Research() {
                                 <div className="filter-container">
                                     <div className="research-redirect-button">
                                         <button className="button-items" onClick={() => sortByYear()}>
-                                            <img src="../images/marco-lab-pictures/Calendar.svg" width="50px" height="50px" alt="calendar" /> Date
+                                            <img src="/marco-lab-pictures/Calendar.svg" width="50px" height="50px" alt="calendar" /> Date
                                         </button>
                                     </div>
 
@@ -131,15 +131,15 @@ function Research() {
                                     ) : <div className="research-redirect-button">
                                         <button className="button-items" onClick={() => setIsSearchBarOpen(true)}>
 
-                                            <img src="../images/marco-lab-pictures/Microscope.svg" width="50px" height="50px" alt="microscope" /> Subject <span>&#9660;</span>
+                                            <img src="/marco-lab-pictures/Microscope.svg" width="50px" height="50px" alt="microscope" /> Subject <span>&#9660;</span>
                                         </button>
                                     </div>}
                                 </div>
                             </div>
                             <div className="research-links">
                                 <h3>More research available at:</h3>
-                                <div className="research-link"> <button> <Link to="https://scholar.google.com/citations?user=SpLyrvoAAAAJ&hl=es" style={{ textDecoration: "none", color: "white" }}> <img src="../images/marco-lab-pictures/Google_Scholar_logo.svg" alt="RG logo" width="30%" height="30%" />Google Scholar </Link> </button> </div>
-                                <div className="research-link"><button> <Link to="https://www.researchgate.net/profile/Marco-Giraldo" style={{ textDecoration: "none", color: "white" }}><img src="../images/marco-lab-pictures/ResearchGate_icon_SVG.svg" alt="RG logo" width="30%" height="30%" /> ResearchGate </Link></button></div>
+                                <div className="research-link"> <button> <Link to="https://scholar.google.com/citations?user=SpLyrvoAAAAJ&hl=es" style={{ textDecoration: "none", color: "white" }}> <img src="/marco-lab-pictures/Google_Scholar_logo.svg" alt="RG logo" width="30%" height="30%" />Google Scholar </Link> </button> </div>
+                                <div className="research-link"><button> <Link to="https://www.researchgate.net/profile/Marco-Giraldo" style={{ textDecoration: "none", color: "white" }}><img src="/marco-lab-pictures/ResearchGate_icon_SVG.svg" alt="RG logo" width="30%" height="30%" /> ResearchGate </Link></button></div>
                             </div>
                         </div>
                         <div className="col">
