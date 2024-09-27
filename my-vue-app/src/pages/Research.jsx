@@ -94,6 +94,7 @@ function Research() {
     return (
         <div>
             <Navbar />
+            <div className="container">
             <div className="research-title">
                 <h1>Research</h1>
                 <p>Here is a collection of all research conducted by the team.</p>
@@ -171,6 +172,8 @@ function Research() {
                     </div>
                 </div>
             </div>
+            </div>
+            
         </div>
     );
 }

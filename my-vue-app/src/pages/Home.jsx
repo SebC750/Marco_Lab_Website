@@ -13,7 +13,7 @@ function Home() {
       <div>
 
         <Navbar></Navbar>
-        <div>
+        <div className="container">
           <div className="welcome-text">
             <h1> Welcome to Marco's Lab! </h1>
             <p> This is the official homepage for Marco's laboratory. You will see here all the research done in Biophysics </p>

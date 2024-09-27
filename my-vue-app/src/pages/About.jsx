@@ -20,6 +20,8 @@ function About() {
     return (
         <div>
             <Navbar />
+            <div className="container">
+            
             <div className="about-title">
                 <h1> About Us! </h1>
             </div>
@@ -74,6 +76,8 @@ function About() {
                     </div>
                 )}
             </div>
+            </div>
+            
         </div>
     );
 }
