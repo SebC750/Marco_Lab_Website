@@ -25,7 +25,7 @@ function Team() {
                         {descriptions ? (
                             <div className="row">
                                 <div className="row">
-                                    
+                                <Dropdown memberList={descriptions[0].doctorados} grade={"doctorados"}/>
                                 </div>
                             </div>
                         ) : null}
@@ -36,7 +36,7 @@ function Team() {
                         <div class="divider"> </div>
                         {descriptions ? (
                             <div className="row">
-                                
+                                <Dropdown memberList={descriptions[0].maestria} grade={"maestria"}/>
                             </div>
                         ) : null}
 
@@ -47,7 +47,7 @@ function Team() {
                         <div class="divider"> </div>
                         {descriptions ? (
                             <div className="row">
-                                
+                                <Dropdown memberList={descriptions[0].pregrados} grade={"pregrados"}/>
                             </div>
                         ) : null}
                     </div>

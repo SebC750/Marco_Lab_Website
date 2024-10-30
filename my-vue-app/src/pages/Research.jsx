@@ -138,7 +138,7 @@ function Research() {
                                 </div>
                             </div>
                             <div className="research-links">
-                                <h3>More research available at:</h3>
+                                <h5>More research available at:</h5>
                                 <div className="research-link"> <button> <Link to="https://scholar.google.com/citations?user=SpLyrvoAAAAJ&hl=es" style={{ textDecoration: "none", color: "white" }}> <img src="/marco-lab-pictures/Google_Scholar_logo.svg" alt="RG logo" width="30%" height="30%" />Google Scholar </Link> </button> </div>
                                 <div className="research-link"><button> <Link to="https://www.researchgate.net/profile/Marco-Giraldo" style={{ textDecoration: "none", color: "white" }}><img src="/marco-lab-pictures/ResearchGate_icon_SVG.svg" alt="RG logo" width="30%" height="30%" /> ResearchGate </Link></button></div>
                             </div>
