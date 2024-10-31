@@ -10,9 +10,9 @@ const Dropdown = ({ memberList, grade }) => {
                 </div>
                 <div className="accordion" id={`description-accordion-${uniqueId}`}>
                     <div className="accordion-item">
-                        <h2 className="accordion-header">
+                        <h2 className="accordion-header" id={`accordion-label-${uniqueId}`}>
                             <button
-                                className="accordion-button"
+                                className="accordion-button collapsed"
                                 type="button"
                                 data-bs-toggle="collapse"
                                 data-bs-target={`#desc-section-${uniqueId}`}
@@ -26,6 +26,7 @@ const Dropdown = ({ memberList, grade }) => {
                             id={`desc-section-${uniqueId}`}
                             className="accordion-collapse collapse"
                             data-bs-parent={`#description-accordion-${uniqueId}`}
+                            aria-labelledby={`accordion-label-${uniqueId}`}
                         >
                             <div className="accordion-body">
                                 <p>{val.posicion || 'Posición no especificada'}</p>

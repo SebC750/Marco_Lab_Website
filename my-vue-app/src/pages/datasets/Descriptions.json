@@ -1,67 +1,76 @@
-[{
-    "pregrados":[
-        {
-            "nombre": "Laura Moreno",
-            "foto_perfil": "/marco-lab-pictures/LauraMoreno.png",
-            "posicion": "Biologia",
-            "descripcion": "Esto es una descripcion"
-        },
-        {
-            "nombre": "Joshua Taborda",
-            "foto_perfil": "/marco-lab-pictures/JoshuaTaborda.png",
-            "posicion": "",
-            "descripcion": ""
-        },
-        {
-            "nombre": "Paula Rubiano",
-            "foto_perfil": "/marco-lab-pictures/PaulaRubiano.png",
-            "posicion": "",
-            "descripcion": ""
-        },
-        {
-            "nombre": "Juan Pablo Sanchez",
-            "foto_perfil": "/marco-lab-pictures/JPSanchez.png",
-            "posicion": "",
-            "descripcion": ""
-        }
-    ],
-    "maestria":[
-        {
-            "nombre": "Marianna Jaramillo",
-            "foto_perfil": "/marco-lab-pictures/MarianaJaramillo.png",
-            "posicion": "",
-            "descripcion": ""
-        }
-    ],
-    "doctorados": [
-        {
-            "nombre": "Ana Valencia",
-            "foto_perfil": "/marco-lab-pictures/ana-valencia.png",
-            "posicion": "",
-            "descripcion": ""
-        }, 
-        {
-            "nombre": "Juliana Sosa",
-            "foto_perfil": "/marco-lab-pictures/JulianaSosa.png",
-            "posicion": "",
-            "descripcion": ""
-        }
-    ],
-    "lideres": [
-        {
-            "nombre": "Marco Antonio Giraldo Cadavid",
-            "foto_perfil": "/marco-lab-pictures/MarcoGiraldo.png",
-            "posicion": "",
-            "descripcion": ""
-        },
-        {
-            "nombre": "German Ricaurte",
-            "foto_perfil": "/marco-lab-pictures/GermanRicaurte.jpg",
-            "posicion": "",
-            "descripcion": ""
-        }
-    ],
-    "alumni": [{
-        
-    }]
-}]
+[
+    {
+        "pregrados": [
+            {
+                "nombre": "Laura Moreno",
+                "foto_perfil": "/marco-lab-pictures/LauraMoreno.png",
+                "posicion": "Biologia",
+                "descripcion": "Esto es una descripcion",
+                "grado": "Pregrado"
+            },
+            {
+                "nombre": "Joshua Taborda",
+                "foto_perfil": "/marco-lab-pictures/JoshuaTaborda.png",
+                "posicion": "",
+                "descripcion": "",
+                "grado": "Pregrado"
+            },
+            {
+                "nombre": "Paula Rubiano",
+                "foto_perfil": "/marco-lab-pictures/PaulaRubiano.png",
+                "posicion": "",
+                "descripcion": "",
+                "grado": "Pregrado"
+            },
+            {
+                "nombre": "Juan Pablo Sanchez",
+                "foto_perfil": "/marco-lab-pictures/JPSanchez.png",
+                "posicion": "",
+                "descripcion": "",
+                "grado": "Pregrado"
+            }
+        ],
+        "maestria": [
+            {
+                "nombre": "Marianna Jaramillo",
+                "foto_perfil": "/marco-lab-pictures/MarianaJaramillo.png",
+                "posicion": "",
+                "descripcion": "",
+                "grado": "Maestría"
+            }
+        ],
+        "doctorados": [
+            {
+                "nombre": "Ana Valencia",
+                "foto_perfil": "/marco-lab-pictures/ana-valencia.png",
+                "posicion": "",
+                "descripcion": "",
+                "grado": "Doctorado"
+            },
+            {
+                "nombre": "Juliana Sosa",
+                "foto_perfil": "/marco-lab-pictures/julianna_sosa.png",
+                "posicion": "",
+                "descripcion": "The optical mechanisms underlying structural coloration displays in animals, especially in hummingbirds and butterflies, with a focus on visual communication and signaling geometries.",
+                "grado": "Doctorado"
+            }
+        ],
+        "lideres": [
+            {
+                "nombre": "Marco Antonio Giraldo Cadavid",
+                "foto_perfil": "/marco-lab-pictures/MarcoGiraldo.png",
+                "posicion": "",
+                "descripcion": "",
+                "grado": "Líder"
+            },
+            {
+                "nombre": "German Ricaurte",
+                "foto_perfil": "/marco-lab-pictures/GermanRicaurte.jpg",
+                "posicion": "",
+                "descripcion": "",
+                "grado": "Líder"
+            }
+        ],
+        "alumni": []
+    }
+]

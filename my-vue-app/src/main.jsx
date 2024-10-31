@@ -6,8 +6,6 @@ import Team from "./pages/Team.jsx"
 import About from "./pages/About.jsx"
 import './index.css'
 import './pages/styles/styles.scss'
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import {RouterProvider, createBrowserRouter} from "react-router-dom"
 
 const router = createBrowserRouter([
