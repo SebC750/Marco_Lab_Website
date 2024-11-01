@@ -1,12 +1,12 @@
 import "../stylesheets/Home.css"
 const HeroSection = () => {
     return (
-        <div style={{ backgroundColor: "#0dcaf0" }}>
+        <div className="bg-info">
             <div className="container">
                 <div className="row" id="home-container">
                     <div className="col-sm-4">
                         <div className="welcome-text">
-                            <h1> Welcome to Marco's Lab! </h1>
+                            <h1 className="fw-semibold"> Welcome to Marco's Lab! </h1>
                             <p> This is the official homepage for Marco's laboratory. You will see here all the research done in Biophysics </p>
                             <div className="hero-anchor-buttons">
                                 <a href="#research-section"> <button className="btn btn-light"> Learn more! </button></a>

@@ -22,6 +22,9 @@ html, body{
   width: 100%;
   
 }
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Poppins', sans-serif;
+}
 body{
   background: rgb(2,0,36);
   background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(1,11,147,1) 51%, rgba(1,12,154,1) 54%, rgba(0,22,255,1) 100%);

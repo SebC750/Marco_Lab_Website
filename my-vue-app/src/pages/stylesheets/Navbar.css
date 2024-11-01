@@ -2,11 +2,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: 'Poppins', sans-serif;
 }
 
 .navbar-logo {
     padding-left: 50px;
     transition: all 0.3s ease;
+    
 }
 
 .navbar-logo:hover {
@@ -25,10 +27,4 @@
     text-align: center;
     text-decoration: none;
     font-size: 24px;
-}
-
-@media (max-width: 720px) {
-    .navbar-link button {
-        font-size: 16px;
-    }
 }
