@@ -1,6 +1,9 @@
 .team-title{
     margin-top: 20px;
     text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
 #profile-picture{
     object-fit: cover;
@@ -17,4 +20,12 @@
 .team-card:hover{
     transform: scale(1.05);
     transition: transform 0.3s ease;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.card-img-top{
+    border-radius: 0px;
 }
