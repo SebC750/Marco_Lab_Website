@@ -1,9 +1,18 @@
 
 const Footer = () => {
     return (
-        <footer>
-
-        
+        <footer className="bg-info text-white">
+              <div className="container">
+                <div className="row p-4">
+                    <div className="col">
+                          <h2> Marco's lab </h2>
+                    </div>
+                    <div className="col">
+                        
+                    </div>
+                </div>
+              </div>
+        {/* 
         <div class="contact-section" id="contact-us">
             <div class="contact-title">
                 <h2> Contact Us! </h2>
@@ -22,10 +31,11 @@ const Footer = () => {
                 <div class="address-description">
 
                     <p > Cl. Barranquilla #53188 #53- a, Aranjuez, Medellín, Aranjuez, Medellín, Antioquia, Colombia </p>
-                    <img src="/marco-lab-pictures/uoa-address.png" class="d-block w-50" height="100%" alt="university natural sciences building address" />
+                   <img src="/marco-lab-pictures/uoa-address.png" class="d-block w-50" height="100%" alt="university natural sciences building address" />
                 </div>
             </div>
         </div>
+        */} 
         </footer>
     )
 }
