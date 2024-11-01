@@ -8,10 +8,6 @@
 #profile-picture{
     object-fit: cover;
 }
-#team-card-rows{
-    align-items: stretch;
-    
-}
 .grade-title{
     padding: 20px;
     background-color: #0892ad;
