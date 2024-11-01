@@ -1,6 +1,6 @@
 [
     {
-        "pregrados": [
+        "Pregrados": [
             {
                 "nombre": "Laura Moreno",
                 "foto_perfil": "/marco-lab-pictures/LauraMoreno.png",
@@ -30,7 +30,7 @@
                 "grado": "Pregrado"
             }
         ],
-        "maestria": [
+        "Maestria": [
             {
                 "nombre": "Marianna Jaramillo",
                 "foto_perfil": "/marco-lab-pictures/MarianaJaramillo.png",
@@ -39,7 +39,7 @@
                 "grado": "Maestría"
             }
         ],
-        "doctorados": [
+        "Doctorados": [
             {
                 "nombre": "Ana Valencia",
                 "foto_perfil": "/marco-lab-pictures/ana-valencia.png",
@@ -55,7 +55,7 @@
                 "grado": "Doctorado"
             }
         ],
-        "lideres": [
+        "Lideres": [
             {
                 "nombre": "Marco Antonio Giraldo Cadavid",
                 "foto_perfil": "/marco-lab-pictures/MarcoGiraldo.png",
@@ -71,6 +71,6 @@
                 "grado": "Líder"
             }
         ],
-        "alumni": []
+        "Alumni": []
     }
 ]

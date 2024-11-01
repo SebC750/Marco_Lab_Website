@@ -5,6 +5,16 @@
 #profile-picture{
     object-fit: cover;
 }
-#team-cards{
-    box-shadow: 2px 2px 20px;
+#team-card-rows{
+    align-items: stretch;
+    
+}
+.grade-title{
+    padding: 20px;
+    background-color: #0892ad;
+    margin-bottom: 10px;
+}
+.team-card:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
 }
