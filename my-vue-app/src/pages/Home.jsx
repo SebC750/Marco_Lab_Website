@@ -19,7 +19,7 @@ function Home() {
       <section>
         <OurTeamSection />
       </section>
-      
+      <Footer/>
         
       
 

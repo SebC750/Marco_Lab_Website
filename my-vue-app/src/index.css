@@ -29,3 +29,7 @@ body{
 button{
   cursor: pointer;
 }
+.card{
+  border-width: 0px;
+  border-radius: 0px;
+}

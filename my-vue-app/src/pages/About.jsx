@@ -1,7 +1,5 @@
 import Navbar from "./Navbar.jsx";
 import "./stylesheets/About.css";
-import { useState } from 'react';
-
 function About() {
 
 
@@ -13,6 +11,7 @@ function About() {
                 <div className="about-title">
                     <h1> About Us! </h1>
                 </div>
+                <hr/>
                 <h1> FAQ </h1>
                 <div className="accordion accordion-flush" id="faq">
                     <div className="accordion-item">
