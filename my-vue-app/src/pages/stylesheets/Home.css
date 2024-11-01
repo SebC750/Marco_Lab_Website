@@ -1,261 +1,36 @@
-.container{
+#home-container{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-top: 0;
+    height: 100%;
+}
+#home-container .carousel-inner, 
+#home-slideshow .carousel-item {
+    height: 500px;
     width: 100%;
 }
-#home-slideshow {
-    margin-left: 2.5%;
-    width: 95%;
-    position: relative;
-    
-}
-.description-container {
-    position: absolute;
-    bottom: 50%;
-    left: 50%;
-    transform: translate(-50%, 50%);
+.thumbnail{
+    height: 100%;
     width: 100%;
-    text-align: center;
+    border-style: solid; 
+    border-color: white;
+    border-width: 3px;
+    object-fit: cover;
+}
+
+.welcome-text {
+    margin-bottom: 20px;
     color: white;
     
 }
-.welcome-text{
-    text-align: center;
-    margin-bottom: 20px;
+.welcome-text h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
 }
-.description-content{
-    
-    
+.description-content {
     text-align: center;
     color: white;
     text-shadow: 1px 1px 2px black;
-    
-
-}
-.team-container{
-    background-color: #005073;
-    padding: 20px;
-    width: 95%; 
-    
-    margin-top: 50px;
-    margin-left: 2.5%;
-    border-radius: 6px;
-}
-.research-container{
-    margin-top: 20px;
-    background-color: #005073;
-    padding: 20px;
-    width: 95%; 
-    margin-left: 2.5%;
-    border-radius: 6px;
-}
-.container-border{
-    background-color: rgb(66, 159, 217);
-    width: 100%;
-    padding: 20px;
-    border-radius: 6px;
 }
 
-
-.container-image{
-    
-    border-style: solid;
-    border-width: 3px;
-    border-color: white;
-    border-radius: 6px;
-}
-.carousel-inner img {
-    width: 100%;
-    height: 92vh; 
-  }
-.container-border h2{
-    color: white;
-}
-.container-border h3{ 
-    color: white;
-}
-.container-border p{
-    color: white;
-}
-.container-border h1{ 
-    color: white;
-}
-.container-border-desc{
-    color: white;
-}
-.home-anchors{
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin-bottom: 20px;
-}
-.leader-section{
-    display: flex;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    
-    
-}
-.researcher-image{
-    border-radius: 6px;
-    border-style: solid;
-    border-width: 3px;
-    border-color: white;
-    
-  
-}
-
-.container-border-desc{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: rgb(66, 159, 217);
-    width: 100%;
-    height: auto;
-    padding: 20px;
-    border-radius: 6px;
-}
-.leader-description{
-    width: 100%;
-    margin-right: 10px;
-    height: 100%;
-    
-}
-.divider{
-     border-style: solid ;
-     border-width: 3; 
-     border-color: white;
-     
-}
-.anchor-buttons button{
-    padding:  10px 20px 10px 20px;
-    background-color: rgb(79, 187, 255);
-    border-radius: 6px;
-    transition: all 0.3s ease;
-    border: none;
-    text-decoration: none;
-    
-}
-.contact-list-item{
-    text-decoration: none;
-}
-.anchor-buttons button:hover{
-    background-color: rgb(58, 139, 189);
-}
-.personal-webpages{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-    background-color: blueviolet;
-    margin-top: 10px;
-    height: 29.4%;
-    width: 100%;
-    border-radius: 6px;
-    background-color: rgb(58, 139, 189)
-}
-.profile-info{
-    width: 100%;
-}
-.webpage-link button{
-   
-    background-color: rgb(79, 187, 255);
-    color: white;
-    
-    border-style: solid;
-    border-width: 3px;
-    border-color: white;
-    border-radius: 6px;
-    text-decoration: none;
-    
-    width: 100%;
-    padding: 20px;
-    font-size: 36px;
-    transition: all 0.3s ease;
-    
-}
-.webpage-link button:hover{
-    background-color: rgb(58, 139, 189);
-}
-.contact-numbers h3{
-    padding-left: 20px;
-}
- 
-.redirect-button button{
-    
-    background-color: rgb(79, 187, 255);
-    color: white;
-    font-size: 16px;
-    border-style: solid;
-    border-width: 3px;
-    border-color: white;
-    border-radius: 6px;
-    text-decoration: none;
-    margin-right: 20px;
-    width: 100%;
-    padding: 20px;
-    font-size: 36px;
-    transition: all 0.3s ease;
-}
-.redirect-button button:hover{
-    background-color: rgb(58, 139, 189);
-    border-color: rgb(58, 139, 189);
-}
-.news-panel h2{
-    text-align: center;
-    
-    width: 100%;
-    font-size: 36px;
-    
-}
-.uoa-logo{
-    width: 50%;
-}
-.leader-name{
-    transition: width 2s;
-    font-size: 24px;
-
-}
-.contact-section{
-    background-color: #005073;
-    color:white;
-    width: 100%;
-    height: 100%;
-    margin-top: 20px;
-}
-.address-description{
-    display: flex;
-    margin-top: 20px;
-    gap: 20px;
-}
-.contact-title{
-    padding: 20px;
-    color: white;
-}
-button{
-    border: none;
-}
-
-@media (max-width: 1080px){
-    .research-container{
-        flex-direction: column;
-    }
-    .research-description{
-        margin-top: 10px;
-        width: 100%;
-    
-    
-} 
-
-}
-
-@media(max-width: 720px){
-    .container-border-desc{
-        flex-direction: column;
-    }
-    .researcher-image img{
-        width: 100%;
-    }
-    .personal-webpages{
-        flex-direction: column;
-    }
-    
-}

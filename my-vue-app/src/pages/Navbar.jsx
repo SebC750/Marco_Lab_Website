@@ -11,11 +11,10 @@ function Navbar(){
             <Link to="/" style={{textDecoration: "none", color: "black"}}> <h1> Marco's Lab </h1> </Link>
             </div>
             <div class="navbar-body">
-                <div class="navbar-link">  <Link to="/" style={{textDecoration: "none", color: "white"}}> <button> Home </button></Link>  </div>
-                <div class="navbar-link">  <Link to="/research" style={{textDecoration: "none", color: "white"}}> <button> Research </button></Link>  </div>
-                <div class="navbar-link"> <Link to="/team" style={{textDecoration: "none", color: "white"}}> <button> Team </button></Link> </div>
-                <div class="navbar-link">  <Link to="/about" style={{textDecoration: "none", color: "white"}}> <button> About </button> </Link> </div>
-                
+                <a className="btn btn-info btn-lg text-white" href="/"> Home </a>
+                <a className="btn btn-info btn-lg text-white" href="/Research"> Research </a>
+                <a className="btn btn-info btn-lg text-white" href="/Team"> Team </a>
+                <a className="btn btn-info btn-lg text-white" href="/About"> About </a>
             
             </div>
             

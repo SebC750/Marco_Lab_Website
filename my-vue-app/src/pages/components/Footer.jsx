@@ -1,6 +1,9 @@
 
 const Footer = () => {
     return (
+        <footer>
+
+        
         <div class="contact-section" id="contact-us">
             <div class="contact-title">
                 <h2> Contact Us! </h2>
@@ -23,6 +26,7 @@ const Footer = () => {
                 </div>
             </div>
         </div>
+        </footer>
     )
 }
 

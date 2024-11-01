@@ -1,62 +1,10 @@
 .team-title{
-    padding: 20px;
-    color: black;
-    text-align: center;
-    
-    width: 95%;
-    margin-left: 2.5%;
-    padding: 20px;
-    margin-bottom: 20px;
-}
-.row-container{
-    padding: 50px;
-    
-    width: 95%;
-    margin-left: 2.5%;
-    border-radius: 6px;
-    background-color: rgb(63, 148, 201);
-    margin-bottom: 20px;
-    
-}
-.row-container h2{
-    text-align: center;
-    color: white;
-    margin-bottom: 20px;
-}
-.divider{
-    border-style: solid ;
-    border-width: 3; 
-    border-color: white;
-    margin-bottom: 20px;
-}
-.member-pictures{
     margin-top: 20px;
-    display:flex;
-    justify-content: space-between;
+    text-align: left;
 }
-.member-picture img{
-    border-radius: 6px;
-    border-style: solid;
-    border-width: 5px;
-    border-color: white;
+#profile-picture{
+    object-fit: cover;
 }
-.member-picture h3{
-    margin-top: 10px;
-    text-align:center;
-    color: white;
-}
-.row{
-    margin-top: 20px;
-    justify-content: center;
-}
-@media (max-width: 720px){
-    .member-picture img{
-        width: 250px;
-        height: 250px;
-    }
-    .member-picture h3{
-        
-        text-align:left;
-        
-    }
+#team-cards{
+    box-shadow: 2px 2px 20px;
 }
