@@ -22,5 +22,17 @@
             "src": "/marco-lab-pictures/lab-office.png",
             "alt": "research office",
             "active": false
+        },
+        {
+            "id": 5,
+            "src": "/marco-lab-pictures/butterfly-1.jpg",
+            "alt": "butterfly picture 3",
+            "active": false
+        },
+        {
+            "id": 6,
+            "src": "/marco-lab-pictures/butterfly-2.jpg",
+            "alt": "butterfly picture outside",
+            "active": false
         }
     ]

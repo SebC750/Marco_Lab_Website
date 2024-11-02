@@ -1,4 +1,5 @@
 import "../stylesheets/Home.css"
+import carouselImages from "../datasets/CarouselImages.json"
 const HeroSection = () => {
     return (
         <div className="bg-info">
@@ -6,8 +7,8 @@ const HeroSection = () => {
                 <div className="row" id="home-container">
                     <div className="col-sm-4">
                         <div className="welcome-text">
-                            <h1 className="fw-semibold"> Welcome to Marco's Lab! </h1>
-                            <p> This is the official homepage for Marco's laboratory. You will see here all the research done in Biophysics </p>
+                            <h1 className="fw-semibold"> Bringing new ideas to light. </h1>
+                            <p> This is the official homepage for the optics research team at the University of Antioquia.</p>
                             <div className="d-flex gap-4 align-items-center">
                                 <a href="#research-section"> <button className="btn btn-light rounded-0"> Learn more! </button></a>
                                 <a href="#contact-us"> <button className="btn btn-light rounded-0"> Contact Us! </button></a>
@@ -17,24 +18,22 @@ const HeroSection = () => {
                     <div className="col-sm-8">
                         <div id="home-slideshow" className="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-indicators">
-                                <button type="button" data-bs-target="#home-slideshow" data-bs-slide-to="0" class="active" aria-current="true" aria-label="slide1"></button>
-                                <button type="button" data-bs-target="#home-slideshow" data-bs-slide-to="1" aria-label="slide2"></button>
-                                <button type="button" data-bs-target="#home-slideshow" data-bs-slide-to="2" aria-label="slide3"></button>
-                                <button type="button" data-bs-target="#home-slideshow" data-bs-slide-to="3" aria-label="slide4"></button>
+                                {carouselImages.map((val,index) => (
+                                    <>
+                                    <button type="button" data-bs-target="#home-slideshow" data-bs-slide-to={index} className={`${val.active === true ? "active" : ""}`} aria-current={`${val.active === true ? "true" : "false"}`} aria-label={`slide${index}`}></button>
+                                    </>
+                                ))}
+                                
                             </div>
                             <div className="carousel-inner">
-                                <div className="carousel-item active">
-                                    <img src="/marco-lab-pictures/butterfly-bg.png" className="thumbnail" alt="butterfly" />
-                                </div>
-                                <div className="carousel-item">
-                                    <img src="/marco-lab-pictures/butterfly-pic.png" className="thumbnail" alt="butterfly" />
-                                </div>
-                                <div className="carousel-item">
-                                    <img src="/marco-lab-pictures/uoa-greenhouse.svg" className="thumbnail" alt="butterfly" />
-                                </div>
-                                <div className="carousel-item">
-                                    <img src="/marco-lab-pictures/lab-office.png" className="thumbnail" alt="research office" />
-                                </div>
+                                {carouselImages.map((val, index) => (
+                                    <>
+                                    <div key={index} className={`carousel-item ${val.active === true ? "active" : ""}`}>
+                                        <img src={val.src} alt={val.alt} className="thumbnail"/>
+                                    </div>
+                                    </>
+                                ))}
+                                
                                 <button className="carousel-control-prev" type="button" data-bs-target="#home-slideshow" data-bs-slide="prev">
                                     <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                                     <span className="visually-hidden">Previous</span>

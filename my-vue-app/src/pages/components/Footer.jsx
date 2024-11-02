@@ -7,7 +7,7 @@ const Footer = () => {
         setCurrentYear(newDate)
     },[])
     return (
-        <footer className="bg-info text-white">
+        <footer className="bg-info text-white" id="contact-us">
             <div className="container">
                 <div className="row p-5">
                     <div className="col">

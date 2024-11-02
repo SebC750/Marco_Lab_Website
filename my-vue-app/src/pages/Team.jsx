@@ -8,9 +8,9 @@ function Team() {
             <Navbar />
             <div className="container-fluid">
                 <div className="team-title">
-                    <h1> Meet the Team </h1>
+                    <h1 className="text-center"> Meet the Team </h1>        
                     <div className="dropdown">
-                        <button className="btn btn-info dropdown-toggle btn-lg rounded-0" aria-expanded="false" data-bs-toggle="collapse" data-bs-target="#grade-selection">
+                        <button className="btn btn-info dropdown-toggle btn-lg rounded-0 text-white" aria-expanded="false" data-bs-toggle="collapse" data-bs-target="#grade-selection">
                             Nivel de educacion
                         </button>
                         <ul className="dropdown-menu rounded-0" id="grade-selection">
@@ -22,15 +22,17 @@ function Team() {
                         </ul>
                     </div>
                 </div>
+                <hr/>
             </div>
             {descriptions ? (
                 <>
+                
                     {Object.keys(descriptions[0]).map(group => (
                         <div key={group} className="bg-info p-4 w-100 mb-3">
                             <div className="grade-title text-white" id={`${group}`}> <h3> {group} </h3> </div>
                             <div className="row row-cols-1 row-cols-xl-4 row-cols-lg-3 row-cols-md-2 row-cols-sm-1 d-flex align-items-stretch">
-                                {descriptions[0][group].map((val, index) => (
-                                    <div key={index} className="col-12 col-sm-6 col-md-4 col-lg-3 mb-4 d-flex">
+                                {descriptions[0][group].map((val) => (
+                                    <div key={val.id} className="col-12 col-sm-6 col-md-4 col-lg-3 mb-4 d-flex">
                                         <div className="card w-100 h-100 team-card mb-3">
                                             <img
                                                 src={val.foto_perfil}
@@ -40,9 +42,12 @@ function Team() {
                                             />
                                             <div className="card-body h-auto">
                                                 <h3 className="card-title"> {val.nombre} </h3>
-                                                <hr/>
+                                                <hr />
                                                 {val.posicion ? (<h4 className="card-title"> {val.posicion} </h4>) : <h4 className="card-title"> No disponible</h4>}
-                                                {val.descripcion ? (<p className="card-text">{val.descripcion}</p>) : <p className="card-text"> No disponible</p>}
+                                                <button type="button" className="btn btn-info btn-lg d-block w-100 rounded-0 text-white" data-bs-toggle="collapse" data-bs-target={`#profile-desc-${val.id}`} aria-expanded="false" aria-controls={`profile-desc-${val.id}`}>
+                                                    Ver mas
+                                                </button>
+                                                {val.descripcion ? (<p className="card-text collapse" id={`profile-desc-${val.id}`}>{val.descripcion}</p>) : <p className="card-text collapse" id={`profile-desc-${val.id}`}> No disponible</p>}
                                             </div>
                                         </div>
                                     </div>

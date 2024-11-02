@@ -2,69 +2,69 @@
     {
         "Pregrados": [
             {
+                "id": 1,
                 "nombre": "Laura Moreno",
                 "foto_perfil": "/marco-lab-pictures/LauraMoreno.png",
                 "posicion": "Biologia",
-                "descripcion": "Esto es una descripcion",
-                "grado": "Pregrado"
+                "descripcion": "Esto es una descripcion"
             },
             {
+                "id": 2,
                 "nombre": "Joshua Taborda",
                 "foto_perfil": "/marco-lab-pictures/JoshuaTaborda.png",
                 "posicion": "",
-                "descripcion": "",
-                "grado": "Pregrado"
+                "descripcion": ""
             },
             {
+                "id": 3,
                 "nombre": "Paula Rubiano",
                 "foto_perfil": "/marco-lab-pictures/PaulaRubiano.png",
                 "posicion": "",
-                "descripcion": "",
-                "grado": "Pregrado"
+                "descripcion": ""
             },
             {
+                "id": 4,
                 "nombre": "Juan Pablo Sanchez",
                 "foto_perfil": "/marco-lab-pictures/JPSanchez.png",
                 "posicion": "",
-                "descripcion": "",
-                "grado": "Pregrado"
+                "descripcion": ""
             },
             {
-                
+                "id": 5,
                 "nombre": "Thomas Marino Rodriguez Garcia",
                 "foto_perfil": "/marco-lab-pictures/thomas.jpeg",
                 "posicion": "",
-                "descripcion": "I am interested in understanding ion transport across biological membranes. My research explores the biophysical mechanisms of ion transport, particularly how peptides influence some ion channels critical for heart and brain function. Using patch-clamp electrophysiology, I aim to uncover molecular insights that could lead to new pharmacological treatments for cardiovascular and neurological diseases.",
-                "grado": "Pregrado"
+                "descripcion": "I am interested in understanding ion transport across biological membranes. My research explores the biophysical mechanisms of ion transport, particularly how peptides influence some ion channels critical for heart and brain function. Using patch-clamp electrophysiology, I aim to uncover molecular insights that could lead to new pharmacological treatments for cardiovascular and neurological diseases."
             }
         ],
         "Maestria": [
             {
+                "id": 6,
                 "nombre": "Marianna Jaramillo",
                 "foto_perfil": "/marco-lab-pictures/MarianaJaramillo.png",
                 "posicion": "",
-                "descripcion": "",
-                "grado": "Maestría"
+                "descripcion": ""
             }
         ],
         "Doctorados": [
             {
+                "id": 7,
                 "nombre": "Ana Valencia",
                 "foto_perfil": "/marco-lab-pictures/ana-valencia.png",
                 "posicion": "",
-                "descripcion": "",
-                "grado": "Doctorado"
+                "descripcion": ""
             },
             {
+                "id": 8,
                 "nombre": "Juliana Sosa",
                 "foto_perfil": "/marco-lab-pictures/julianna_sosa.png",
                 "posicion": "",
-                "descripcion": "The optical mechanisms underlying structural coloration displays in animals, especially in hummingbirds and butterflies, with a focus on visual communication and signaling geometries.",
-                "grado": "Doctorado"
+                "descripcion": "The optical mechanisms underlying structural coloration displays in animals, especially in hummingbirds and butterflies, with a focus on visual communication and signaling geometries."
             }
         ],
         "Lideres": [
             {
+                "id": 9,
                 "nombre": "Marco Antonio Giraldo Cadavid",
                 "foto_perfil": "/marco-lab-pictures/MarcoGiraldo.png",
                 "posicion": "",
@@ -72,11 +72,24 @@
                 "grado": "Líder"
             },
             {
+                "id": 10,
                 "nombre": "German Ricaurte",
                 "foto_perfil": "/marco-lab-pictures/GermanRicaurte.jpg",
                 "posicion": "",
-                "descripcion": "",
-                "grado": "Líder"
+                "descripcion": ""
+            },
+            {
+                "id": 11,
+                "nombre": "German Ricaurte",
+                "foto_perfil": "/marco-lab-pictures/GermanRicaurte.jpg",
+                "posicion": "",
+                "descripcion": ""
+            },{
+                "id": 12,
+                "nombre": "German Ricaurte",
+                "foto_perfil": "/marco-lab-pictures/GermanRicaurte.jpg",
+                "posicion": "",
+                "descripcion": ""
             }
         ],
         "Alumni": []

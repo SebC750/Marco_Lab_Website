@@ -9,8 +9,8 @@ function About() {
         <div>
             <Navbar />
             <div className="container">
-                <div className="about-title">
-                    <h1> About Us! </h1>
+                <div className="p-2 text-center">
+                    <h1> About Us </h1>
                 </div>
                 <hr />
                 <h1> FAQ </h1>
