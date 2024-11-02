@@ -5,6 +5,7 @@ import "./stylesheets/Home.css";
 import publications from "./datasets/Publications.json";
 import { Link } from 'react-router-dom'
 import ResearchSortCol from "./components/ResearchSortCol.jsx"
+import Footer from "./components/Footer.jsx"
 function Research() {
     const [researchPapers, updateResearchPapers] = useState([]);
     const [pageNumber, setPageNumber] = useState(1);
@@ -56,7 +57,7 @@ function Research() {
         const startIndex = (pageNumber - 1) * 9;
         const endIndex = startIndex + 9;
         return researchPapers.slice(startIndex, endIndex).map((paper, index) => (
-            <div key={index} className="container text-white bg-info mt-3 p-4" id="paper-container">
+            <div key={index} className="container text-white bg-info mt-3 p-4 rounded-0" id="paper-container">
                 <div className="publication-date">
                     <h5>{paper.publication_date} {paper.publication_year}</h5>
                 </div>
@@ -66,7 +67,7 @@ function Research() {
                 <p>{paper.abstract}</p>
                 <div className="link-to-research">
                     
-                <Link to={paper.publication_url}> <button className="btn btn-light btn-lg"> View full article</button> </Link>
+                <Link to={paper.publication_url}> <button className="btn btn-light btn-lg rounded-0"> View full article</button> </Link>
                     
                 </div>
             </div>
@@ -82,45 +83,40 @@ function Research() {
                 </div>
                 <div className="research-body">
                     <div className="container">
-                        <div className="row" id="research-row">
-                            <div className="col-sm-3" id="sort-column">
-                               <ResearchSortCol 
+                            <div className="col">
+                            <ResearchSortCol 
                                filterBySubject={filterBySubject}
                                sortByYear={sortByYear}
                                />
-                            </div>
-                            <div className="col">
                                 <div className="research-list">
                                     <div className="pub-title">
                                         <h2>Publications</h2>
                                     </div>
                                     {renderPapers()}
                                 </div>
-                                <div className="page-numbers">
+                                <div className="bg-dark p-3 d-flex align-items-center justify-content-evenly mb-5">
                                     {pageNumber == 1 ? (
-                                        <div className="page-number" style={{ opacity: "50%" }}>
+                                        <div className="btn btn-info btn-lg disabled">
                                             Prev
                                         </div>
-                                    ) : <div className="page-number" onClick={() => setPageNumber(pageNumber - 1)}> Prev </div>}
-
-                                    <div className="page-number" onClick={() => setPageNumber(1)}>1</div>
-                                    <div className="page-number" onClick={() => setPageNumber(2)}>2</div>
-                                    <div className="page-number" onClick={() => setPageNumber(3)}>3</div>
-                                    <div className="page-number" onClick={() => setPageNumber(4)}>4</div>
+                                    ) : <div className="btn btn-info btn-lg" onClick={() => setPageNumber(pageNumber - 1)}> Prev </div>}
+                                    <div className="btn btn-info btn-lg" onClick={() => setPageNumber(1)}>1</div>
+                                    <div className="btn btn-info btn-lg" onClick={() => setPageNumber(2)}>2</div>
+                                    <div className="btn btn-info btn-lg" onClick={() => setPageNumber(3)}>3</div>
+                                    <div className="btn btn-info btn-lg" onClick={() => setPageNumber(4)}>4</div>
                                     {pageNumber == 4 ? (
-                                        <div className="page-number" style={{ opacity: "50%" }}>
+                                        <div className="btn btn-info btn-lg disabled">
                                             Next
                                         </div>
-                                    ) : <div className="page-number" onClick={() => setPageNumber(pageNumber + 1)}> Next </div>}
-
+                                    ) : <div className="btn btn-info btn-lg" onClick={() => setPageNumber(pageNumber + 1)}> Next </div>}
                                 </div>
-                            </div>
-                        </div>
+                            </div>        
                     </div>
                 </div>
             </div>
-
+            <Footer/>
         </div>
+        
     );
 }
 

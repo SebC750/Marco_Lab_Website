@@ -1,26 +1,35 @@
 import "./stylesheets/Navbar.css"
-import { Link } from "react-router-dom"
 function Navbar() {
 
     return (
-        <div>
+        <>
             <header>
-                <div className="navbar">
-
-                    <div className="navbar-logo">
-                        <Link to="/" style={{ textDecoration: "none", color: "black" }}> <h1> Marco's Lab </h1> </Link>
+                <nav className="navbar navbar-expand-md">
+                    <div className="container-fluid">
+                        <a className="navbar-brand fs-1" href="#">Marco's Lab</a>
+                        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-mobile-menu" aria-controls="navbar-mobile-menu" aria-expanded="false">
+                            <span className="navbar-toggler-icon"></span>
+                        </button>
+                        <div className="collapse navbar-collapse" id="navbar-mobile-menu">
+                            <ul className="navbar-nav m-0 gap-md-3">
+                                <li className="nav-item bg-info">
+                                    <a className="btn btn-info btn-lg text-white w-100 rounded-0" aria-current="page" href="/">Home</a>
+                                </li>
+                                <li className="nav-item bg-info">
+                                    <a className="btn btn-info btn-lg text-white w-100 rounded-0" href="/Research">Research</a>
+                                </li>
+                                <li className="nav-item bg-info">
+                                    <a className="btn btn-info btn-lg text-white w-100 rounded-0" href="/Team">Team</a>
+                                </li>
+                                <li className="nav-item bg-info">
+                                    <a className="btn btn-info btn-lg text-white w-100 rounded-0" href="/About">About</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                    <div className="navbar-body">
-                        <a className="btn btn-info btn-lg text-white" href="/"> <h5> Home </h5> </a>
-                        <a className="btn btn-info btn-lg text-white" href="/Research"> <h5> Research </h5> </a>
-                        <a className="btn btn-info btn-lg text-white" href="/Team"> <h5> Team </h5> </a>
-                        <a className="btn btn-info btn-lg text-white" href="/About"> <h5> About </h5> </a>
-
-                    </div>
-
-                </div>
+                </nav>
             </header>
-        </div>
+        </>
     )
 }
 export default Navbar

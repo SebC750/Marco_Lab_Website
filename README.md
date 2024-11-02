@@ -1,4 +1,4 @@
-[uoaLogo]("my-vue-app\public\marco-lab-pictures\UofAntioquia.png")
+!["This is a title image for the art gallery"](https://github.com/SebC750/Marco_Lab_Website/blob/main/my-vue-app/public/marco-lab-pictures/logo-uofantioquia-png.png)
 
 # Optics Laboratory Website
 

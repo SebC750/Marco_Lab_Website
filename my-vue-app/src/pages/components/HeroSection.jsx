@@ -8,9 +8,9 @@ const HeroSection = () => {
                         <div className="welcome-text">
                             <h1 className="fw-semibold"> Welcome to Marco's Lab! </h1>
                             <p> This is the official homepage for Marco's laboratory. You will see here all the research done in Biophysics </p>
-                            <div className="hero-anchor-buttons">
-                                <a href="#research-section"> <button className="btn btn-light"> Learn more! </button></a>
-                                <a href="#contact-us"> <button className="btn btn-light"> Contact Us! </button></a>
+                            <div className="d-flex gap-4 align-items-center">
+                                <a href="#research-section"> <button className="btn btn-light rounded-0"> Learn more! </button></a>
+                                <a href="#contact-us"> <button className="btn btn-light rounded-0"> Contact Us! </button></a>
                             </div>
                         </div>
                     </div>
