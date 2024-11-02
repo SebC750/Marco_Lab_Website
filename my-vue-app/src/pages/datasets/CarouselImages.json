@@ -1,0 +1,26 @@
+    [
+        {
+            "id": 1,
+            "src": "/marco-lab-pictures/butterfly-bg.png",
+            "alt": "butterfly image 1",
+            "active": true
+        },
+        {
+            "id": 2,
+            "src": "/marco-lab-pictures/butterfly-pic.png",
+            "alt": "butterfly image 2",
+            "active": false
+        },
+        {
+            "id": 3,
+            "src": "/marco-lab-pictures/uoa-greenhouse.svg",
+            "alt": "greenhouse",
+            "active": false
+        },
+        {
+            "id": 4,
+            "src": "/marco-lab-pictures/lab-office.png",
+            "alt": "research office",
+            "active": false
+        }
+    ]

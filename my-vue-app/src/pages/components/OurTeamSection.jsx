@@ -15,7 +15,7 @@ const OurTeamSection = () => {
               <div className="card-text">
                 Our research  
               </div>
-              <button className="btn btn-light rounded-0 btn-lg"> Meet the rest of the team!</button>
+              <a role="button" href="/Team" className="btn btn-light rounded-0 btn-lg"> Meet the rest of the team!</a>
             </div>
           </div>
         </div>
