@@ -7,11 +7,11 @@ const OurResearchSection = () => {
           <div className="col-12 col-md-6 order-last order-md-first">
             <div className="card-body p-5">
               <h1 className="card-title" id="title-border">
-                     Our research
+                     Our Research
               </h1>
               <div className="card-text">
               </div>
-              <button className="btn btn-info text-white rounded-0 btn-lg"> Learn more </button>
+              <a role="button" href="/Research" className="btn btn-info text-white rounded-0 btn-lg"> Learn more </a>
             </div>
           </div>
           <div className="col-12 col-md-6">
