@@ -1,10 +1,9 @@
 import "../stylesheets/Home.css"
-import { Link } from "react-router-dom"
 const OurResearchSection = () => {
   return (
     <>
-      <div className="card" id="research-section">
-        <div className="row">
+      <div className="card">
+        <div className="row g-0 ">
           <div className="col-12 col-md-6 order-last order-md-first">
             <div className="card-body p-5">
               <h1 className="card-title" id="title-border">

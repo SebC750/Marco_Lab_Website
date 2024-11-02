@@ -17,15 +17,17 @@ function Home() {
       <section>
         <OurResearchSection />
       </section>
+
       <section>
         <OurTeamSection />
       </section>
+
       <section>
-         <FieldOfStudySection/>
+        <FieldOfStudySection />
       </section>
-      <Footer/>
-        
-      
+      <Footer />
+
+
 
     </>
   )

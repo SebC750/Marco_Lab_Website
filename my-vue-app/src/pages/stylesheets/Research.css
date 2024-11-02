@@ -7,13 +7,11 @@
     margin-top: 20px;
     padding: 20px;
     background-color: #066275;
-    border-radius: 6px;
     height: auto;
 }
 
 .pub-title{
     background-color: #0892ad;
-    border-radius: 6px;
     padding: 20px;
     color: white;
 }
@@ -29,7 +27,6 @@
     background-color: #0892ad;
     height: auto;
     margin-top: 20px;
-    border-radius: 6px;
 }
 #search-bar{
     color: white;
@@ -38,14 +35,8 @@
     margin-bottom: 20px;
     width: 100%;
 }
-#search-bar-toggle{
-    display: flex;
-    align-items: center;
-}
-#buttons{  
-    align-items: center;
-    gap: 10px;
-}
+
+
 #paper-container{
     border-radius: 6px;
 }

@@ -4,27 +4,18 @@
     align-items: center;
     font-family: 'Poppins', sans-serif;
 }
-
-.navbar-logo {
-    padding-left: 50px;
+.nav-item{
+    border-style: solid;
+    border-color: #066275;
+    border-width: 0;
     transition: all 0.3s ease;
-    
 }
-
+.nav-item:hover{
+    border-width: 0 0 3px 0;
+}
+.navbar-logo {
+    transition: all 0.3s ease;
+}
 .navbar-logo:hover {
     margin-left: 10px;
-}
-
-.navbar-body {
-    display: flex;
-    gap: 1rem;
-    margin-right: 50px;
-}
-
-.navbar-link {
-    border: none;
-    margin-right: 20px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 24px;
 }
