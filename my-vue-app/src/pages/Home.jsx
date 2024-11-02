@@ -7,7 +7,7 @@ import OurTeamSection from "./components/OurTeamSection.jsx"
 import FieldOfStudySection from "./components/FieldOfStudySection.jsx"
 import Footer from "./components/Footer.jsx"
 function Home() {
-
+  
   return (
     <>
       <Navbar></Navbar>
@@ -17,18 +17,13 @@ function Home() {
       <section>
         <OurResearchSection />
       </section>
-
       <section>
         <OurTeamSection />
       </section>
-
       <section>
         <FieldOfStudySection />
       </section>
       <Footer />
-
-
-
     </>
   )
 }

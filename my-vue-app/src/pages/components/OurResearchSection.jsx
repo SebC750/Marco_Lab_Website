@@ -1,11 +1,12 @@
 import "../stylesheets/Home.css"
+import {Link} from "react-router-dom"
 const OurResearchSection = () => {
   return (
     <>
       <div className="card" id="research-section">
         <div className="row g-0 ">
-          <div className="col-12 col-md-6 order-last order-md-first">
-            <div className="card-body p-5">
+          <div className="col-12 col-xl-6 order-first order-xl-last">
+            <div className="card-body d-flex flex-column justify-content-between p-3 p-sm-5">
               <h1 className="card-title" id="title-border">
                      Our Research
               </h1>
@@ -17,11 +18,11 @@ const OurResearchSection = () => {
                   Through an integrated approach of computational modeling and experimental methodologies, we translate these optical and biophysical principles into real-world applications. 
                   Our team is committed to pushing the boundaries of optical science and contributing valuable insights to both biological and materials science.
               </div>
-              <a role="button" href="/Research" className="btn btn-info text-white rounded-0 btn-lg"> Learn more </a>
+              <Link to="/research" className="btn btn-info text-white rounded-0 btn-lg"> Learn more about our studies in Optics! </Link>
             </div>
           </div>
-          <div className="col-12 col-md-6">
-            <img src="marco-lab-pictures/research_section_Fig1_HTML.webp" className="img-fluid w-100 h-100" alt="optics picture" />
+          <div className="col-12 col-xl-6">
+            <img src="marco-lab-pictures/research_section_Fig1_HTML.webp" loading="lazy" className="img-fluid w-100 h-100" alt="optics picture" />
           </div>
         </div>
       </div>

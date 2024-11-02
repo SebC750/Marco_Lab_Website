@@ -1,33 +1,39 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import Home from "./pages/Home.jsx"
-import Research from "./pages/Research.jsx"
-import Team from "./pages/Team.jsx"
-import About from "./pages/About.jsx"
+import React, { Suspense, lazy } from 'react'
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
 import './index.css'
 import './pages/styles/styles.scss'
-import {RouterProvider, createBrowserRouter} from "react-router-dom"
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import LoadingScreen from './pages/components/LoadingScreen.jsx'
+const Home = lazy(() => import("./pages/Home.jsx"));
+const Research = lazy(() => import("./pages/Research.jsx"));
+const Team = lazy(() => import("./pages/Team.jsx"));
+const About = lazy(() => import("./pages/About.jsx"));
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home />,
+    element: <Home />
   },
   {
-    path: "/Research",
-    element: <Research/>
+    path: "/research",
+    element: <Research />
   },
   {
-    path: "/Team",
-    element: <Team/>
+    path: "/team",
+    element: <Team />
   },
   {
-    path: "/About",
-    element: <About/>
+    path: "/about",
+    element: <About />
   },
-])
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <RouterProvider router={router}/>
-  </React.StrictMode>,
+]);
+
+
+createRoot(document.getElementById('root')).render(
+  <StrictMode>
+    <Suspense fallback={<LoadingScreen/>}>
+      <RouterProvider router={router} />
+    </Suspense>
+  </StrictMode>
 )

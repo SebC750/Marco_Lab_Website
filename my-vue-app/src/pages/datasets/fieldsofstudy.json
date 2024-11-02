@@ -3,19 +3,19 @@
         "field": "Spectrophotometry",
         "brief_description": "This is a technique that uses bifurcated optical fibers to simultaneously illuminate and collect light from a sample. It’s commonly used for analyzing solutions or surfaces by measuring light absorption or reflection, making it useful in fields like chemistry and biology.",
         "article_link": "https://www.azom.com/article.aspx?ArticleID=13370",
-        "card_picture": "marco-lab-pictures/spectrophotometry_pic.png"
+        "card_picture": "marco-lab-pictures/spectrophotometry_pic.webp"
     },
     {
         "field": "Integrating sphere",
         "brief_description": "An integrating sphere is a hollow, spherical device with a reflective inner surface used to measure light diffusion. It captures scattered light, providing a uniform illumination or collection of light, which is ideal for optical measurements in applications such as colorimetry and radiometry.",
         "article_link": "https://en.wikipedia.org/wiki/Integrating_sphere",
-        "card_picture": "marco-lab-pictures/integrating_sphere_pic.jpg"
+        "card_picture": "marco-lab-pictures/integrating_sphere_pic.webp"
     },
     {
         "field": "Model lipid bilayer",
         "brief_description": "A model lipid bilayer is a synthetic representation of cell membranes, often used in laboratory settings to study membrane dynamics, permeability, and interactions with various substances. This model helps researchers understand biological processes at the cellular level.",
         "article_link": "https://en.wikipedia.org/wiki/Model_lipid_bilayer",
-        "card_picture": "marco-lab-pictures/lipid_bilayer_pic.jpg"
+        "card_picture": "marco-lab-pictures/lipid_bilayer_pic.webp"
         
     }
 ]

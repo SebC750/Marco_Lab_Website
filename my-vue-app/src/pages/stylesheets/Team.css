@@ -8,14 +8,32 @@
 #profile-picture{
     object-fit: cover;
 }
+#team-card-rows{
+    align-items: stretch;  
+}
+.profile-desc{
+    max-height: 500px;
+    position: absolute;
+    top: 97%;
+    width: 89.6%;
+}
+.grade-list-item{
+    background-color: transparent;
+}
+.grade-list-item:hover{
+    transition: all 0.3s ease;
+    background-color: rgb(45, 155, 185)
+}
+.grade-list-item a:hover{
+    color: white;
+}
 .grade-title{
     padding: 20px;
-    background-color: #0892ad;
+    background-color: rgb(30, 100, 120);
     margin-bottom: 10px;
 }
 .team-card:hover{
     transition: transform 0.3s ease;
-    cursor: pointer;
 }
 a{
     text-decoration: none;

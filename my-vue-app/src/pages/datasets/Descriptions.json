@@ -3,95 +3,164 @@
         "Pregrados": [
             {
                 "id": 1,
-                "nombre": "Laura Moreno",
-                "foto_perfil": "/marco-lab-pictures/LauraMoreno.png",
-                "posicion": "Biologia",
-                "descripcion": "Esto es una descripcion"
+                "nombre": "Laura C. Moreno",
+                "foto_perfil": "/marco-lab-pictures/laura_moreno_profile_picture.jpg",
+                "enlace_sitio_web": "",
+                "affiliation_organization_logo": "marco-lab-pictures/logo-uofantioquia-png.png",
+                "descripcion": "My work is focused on standardizing zoo-breeding protocols to enable behavioral analyses in butterfly species, mainly of the genus Morpho. Through observations and video analysis, I seek to identify behavioral patterns and contribute to the exploration of possible correlations between their optical properties and behaviors."
             },
             {
                 "id": 2,
                 "nombre": "Joshua Taborda",
-                "foto_perfil": "/marco-lab-pictures/JoshuaTaborda.png",
-                "posicion": "",
-                "descripcion": ""
+                "foto_perfil": "/marco-lab-pictures/joshua_taborda_profile_picture.jpg",
+                "enlace_sitio_web": "",
+                "affiliation_organization_logo": "marco-lab-pictures/logo-uofantioquia-png.png",
+                "descripcion": "My work is focused on establishing new methodologies that allow behavioral studies in animals in conditions close to natural ones, mainly butterflies, taking into account the availability of new tools such as artificial intelligence, making use of these new techniques together with approaches such as biomechanics and morphometry and facilitating the formation of a link between physics and biology, which allows us to understand a little more what we see in nature."
             },
             {
                 "id": 3,
                 "nombre": "Paula Rubiano",
                 "foto_perfil": "/marco-lab-pictures/PaulaRubiano.png",
-                "posicion": "",
+                "enlace_sitio_web": "",
+                "affiliation_organization_logo": "marco-lab-pictures/logo-uofantioquia-png.png",
                 "descripcion": ""
             },
             {
                 "id": 4,
                 "nombre": "Juan Pablo Sanchez",
-                "foto_perfil": "/marco-lab-pictures/JPSanchez.png",
-                "posicion": "",
+                "foto_perfil": "/marco-lab-pictures/juan_pablo_sanchez_profile_picture.png",
+                "enlace_sitio_web": "",
+                "affiliation_organization_logo": "marco-lab-pictures/logo-uofantioquia-png.png",
                 "descripcion": ""
             },
             {
                 "id": 5,
                 "nombre": "Thomas Marino Rodriguez Garcia",
                 "foto_perfil": "/marco-lab-pictures/thomas.jpeg",
-                "posicion": "",
+                "enlace_sitio_web": "",
+                "affiliation_organization_logo": "marco-lab-pictures/logo-uofantioquia-png.png",
                 "descripcion": "I am interested in understanding ion transport across biological membranes. My research explores the biophysical mechanisms of ion transport, particularly how peptides influence some ion channels critical for heart and brain function. Using patch-clamp electrophysiology, I aim to uncover molecular insights that could lead to new pharmacological treatments for cardiovascular and neurological diseases."
-            }
-        ],
-        "Maestria": [
+            },
             {
                 "id": 6,
-                "nombre": "Marianna Jaramillo",
-                "foto_perfil": "/marco-lab-pictures/MarianaJaramillo.png",
-                "posicion": "",
-                "descripcion": ""
-            }
-        ],
-        "Doctorados": [
+                "nombre": "Joseph N. Ruiz",
+                "foto_perfil": "/marco-lab-pictures/joseph_r_ruiz_profile_picture.png",
+                "enlace_sitio_web": "",
+                "affiliation_organization_logo": "marco-lab-pictures/logo-uofantioquia-png.png",
+                "descripcion": "https://orcid.org/0009-0007-9700-6503 Biophysics Group, Institute of Physics University of Antioquia. Calle 70 #52-21 A.A. 1226. Medellin-Colombia. He is a BSc Physics student with research interests in nuclear models, radiation-matter interaction, Monte Carlo simulation, Machine Learning, and oncology treatment planning automation. He has published on hybrid clustering for fiber lasers and is currently working on automated VMAT planning for cancer therapies using Eclipse Scripting API. He has experience in financial risk data science and has collaborated with the GITA, Nuclear physics, and Biophysics groups."
+            },
             {
                 "id": 7,
-                "nombre": "Ana Valencia",
-                "foto_perfil": "/marco-lab-pictures/ana-valencia.png",
-                "posicion": "",
+                "nombre": "Juan Pablo Ortiz",
+                "foto_perfil": "/marco-lab-pictures/juan_pablo_ortiz_profile_picture.png",
+                "enlace_sitio_web": "",
+                "affiliation_organization_logo": "marco-lab-pictures/logo-uofantioquia-png.png",
                 "descripcion": ""
             },
             {
                 "id": 8,
-                "nombre": "Juliana Sosa",
-                "foto_perfil": "/marco-lab-pictures/julianna_sosa.png",
-                "posicion": "",
-                "descripcion": "The optical mechanisms underlying structural coloration displays in animals, especially in hummingbirds and butterflies, with a focus on visual communication and signaling geometries."
+                "nombre": "Manuela Giraldo Giraldo",
+                "foto_perfil": "/marco-lab-pictures/manuela_giraldo_profile_picture.jpg",
+                "enlace_sitio_web": "",
+                "affiliation_organization_logo": "marco-lab-pictures/logo-uofantioquia-png.png",
+                "descripcion": "My research is dedicated to understanding the relation between butterflies' wings chemistry and their fluorescence and iridescence. To make biomaterials similar to them. Not only because I like chemistry but also because I like biology. And it makes me a chemistry student with interdisciplinary knowledge and skills. I also do breeding with monarch butterflies in my backyard and take care of them in my functional garden."
             }
         ],
-        "Lideres": [
+        "Maestria": [
             {
                 "id": 9,
-                "nombre": "Marco Antonio Giraldo Cadavid",
-                "foto_perfil": "/marco-lab-pictures/MarcoGiraldo.png",
-                "posicion": "",
-                "descripcion": "",
-                "grado": "Líder"
+                "nombre": "Marianna Jaramillo",
+                "foto_perfil": "/marco-lab-pictures/mariana_jaramillo_profile_picture.png",
+                "enlace_sitio_web": "",
+                "affiliation_organization_logo": "marco-lab-pictures/logo-uofantioquia-png.png",
+                "descripcion": ""
             },
             {
                 "id": 10,
-                "nombre": "German Ricaurte",
-                "foto_perfil": "/marco-lab-pictures/GermanRicaurte.jpg",
-                "posicion": "",
-                "descripcion": ""
-            },
+                "nombre": "Ian Elias Cuartas Arzuza",
+                "foto_perfil": "/marco-lab-pictures/ian_arzuza_profile_picture.png",
+                "enlace_sitio_web": "",
+                "affiliation_organization_logo": "marco-lab-pictures/logo-uofantioquia-png.png",
+                "descripcion": "My fascination with the plant world has led me to study the electrophysiology of plant cells, focusing on measuring electrical currents in protoplasts using the patch-clamp technique. My research aims to correlate these electrical profiles with membrane proteins reported in model plants and to apply these studies to non-model plants of economic interest in the Neotropics. I aspire to generate basic knowledge that will expand our understanding of plant biology in these species."
+            }
+        ],
+        "Doctorados": [
             {
                 "id": 11,
-                "nombre": "German Ricaurte",
-                "foto_perfil": "/marco-lab-pictures/GermanRicaurte.jpg",
-                "posicion": "",
-                "descripcion": ""
-            },{
+                "nombre": "Ana Maria Valencia Palacios",
+                "foto_perfil": "/marco-lab-pictures/ana_maria_valencia_palacios_profile_picture.png",
+                "enlace_sitio_web": "",
+                "affiliation_organization_logo": "marco-lab-pictures/logo-uofantioquia-png.png",
+                "descripcion": "I am interested in the study of coloration and iridescence in Morpho butterflies, focusing on how their nanostructures influence visual perception and behavior. I use computational programming and simulations to model these structures and explore their ecological and evolutionary roles. My goal is to integrate experimental data with computational methods to understand these visual phenomena better."
+            },
+            {
                 "id": 12,
-                "nombre": "German Ricaurte",
-                "foto_perfil": "/marco-lab-pictures/GermanRicaurte.jpg",
-                "posicion": "",
+                "nombre": "Juliana Sosa",
+                "foto_perfil": "/marco-lab-pictures/julianna_sosa.png",
+                "enlace_sitio_web": "",
+                "affiliation_organization_logo": "marco-lab-pictures/logo-uofantioquia-png.png",
+                "descripcion": "The optical mechanisms underlying structural coloration displays in animals, especially in hummingbirds and butterflies, with a focus on visual communication and signaling geometries."
+            },
+            {
+                "id": 13,
+                "nombre": "Sofia Sanchez",
+                "foto_perfil": "/marco-lab-pictures/sofia_sanchez_profile_picture.png",
+                "enlace_sitio_web": "",
+                "affiliation_organization_logo": "marco-lab-pictures/logo-uofantioquia-png.png",
                 "descripcion": ""
             }
         ],
-        "Alumni": []
+        "Profesores": [
+            {
+                "id": 14,
+                "nombre": "Marco Antonio Giraldo Cadavid",
+                "foto_perfil": "/marco-lab-pictures/marco_giraldo_profile_picture.png",
+                "enlace_sitio_web": "https://www.researchgate.net/profile/Marco-Giraldo",
+                "affiliation_organization_logo": "marco-lab-pictures/logo-uofantioquia-png.png",
+                "descripcion": "Marco A. Giraldo, Ph.D. is the leader of the Biophysics Group and Professor at the Institute of Physics of the University of Antioquia (Medellin, Colombia). His experience in the area of biophysics ranges from the structural coloration in Nature to cell physiology. His most important contributions in the area of biophotonics lay in the understanding of the relationship between the nanostructures present in butterfly wings and bird feathers, and their optical properties. He has used both experimental and computational approaches in his scientific work, developing new sophisticated tools to that aim. His professional career has been developed at the University of Antioquia, where he received his bachelor degree as Physicist in 2003. After receiving his Ph.D. at the University of Groningen (the Netherlands), supervised by Prof. Doekele Stavenga, he returned to Medellín in 2008 where he was oﬀered a position as Assistant Professor. Since then he has been the leader and creator of the Biophysics Group. Since November of 2021 he became full professor at the Institute of Physics in the same university. His grants have been mostly funded by the Colombian Ministry of Science, the University of Antioquia’s Science Committee and cofunded by the AFRL of the United States in association with the University of Groningen. His main international research partners and co-authors are in The Netherlands, Japan, USA, France, Brasil and Germany. Dr. Giraldo has also been active in the dissemination of science to a wider audience. He has been invited to share his work in EXPLORA, Medellin’s science park, and other spaces like high and primary schools. He has also written science related articles in universities’ magazines. His interest for foreign languages and cultures has permitted that he is fluent in Spanish and English, and proficient in Dutch."
+            },
+            {
+                "id": 15,
+                "nombre": "German Ricaurte",
+                "foto_perfil": "/marco-lab-pictures/german_ricaurte_profile_picture.png",
+                "enlace_sitio_web": "https://www.researchgate.net/profile/German-Ricaurte",
+                "affiliation_organization_logo": "marco-lab-pictures/logo-uofantioquia-png.png",
+                "descripcion": ""
+            },
+            {
+                "id": 16,
+                "nombre": "Oscar Restrepo",
+                "foto_perfil": "/marco-lab-pictures/oscar_restrepo_profile_picture.jpg",
+                "enlace_sitio_web": "",
+                "affiliation_organization_logo": "marco-lab-pictures/logo-uofantioquia-png.png",
+                "descripcion": ""
+            },
+            {
+                "id": 17,
+                "nombre": "Jorge Ceballos",
+                "foto_perfil": "",
+                "enlace_sitio_web": "https://orcid.org/0000-0003-2407-7849",
+                "affiliation_organization_logo": "marco-lab-pictures/logo-uofantioquia-png.png",
+                "descripcion": ""
+            }
+        ],
+        "International supporters": [
+            {
+                "id": 17,
+                "nombre": "Doekele Stavenga",
+                "foto_perfil": "/marco-lab-pictures/Doekele.png",
+                "enlace_sitio_web": "https://www.researchgate.net/profile/Doekele-Stavenga",
+                "affiliation_organization_logo": "/marco-lab-pictures/rugr_logonl_rood_rgb.png",
+                "descripcion": ""
+            },
+            {
+                "id": 18,
+                "nombre": "Hein Leertouwer",
+                "foto_perfil": "/marco-lab-pictures/Hein.png",
+                "enlace_sitio_web": "https://www.researchgate.net/scientific-contributions/Hein-L-Leertouwer-29950696",
+                "affiliation_organization_logo": "/marco-lab-pictures/rugr_logonl_rood_rgb.png",
+                "descripcion": ""
+            }
+        ]
     }
 ]

@@ -1,37 +1,37 @@
     [
         {
             "id": 1,
-            "src": "/marco-lab-pictures/butterfly-bg.png",
+            "src": "/marco-lab-pictures/butterfly-bg.webp",
             "alt": "butterfly image 1",
             "active": true
         },
         {
             "id": 2,
-            "src": "/marco-lab-pictures/butterfly-pic.png",
+            "src": "/marco-lab-pictures/butterfly-pic.webp",
             "alt": "butterfly image 2",
             "active": false
         },
         {
             "id": 3,
-            "src": "/marco-lab-pictures/uoa-greenhouse.svg",
+            "src": "/marco-lab-pictures/uoa-greenhouse.webp",
             "alt": "greenhouse",
             "active": false
         },
         {
             "id": 4,
-            "src": "/marco-lab-pictures/lab-office.png",
+            "src": "/marco-lab-pictures/lab-office.webp",
             "alt": "research office",
             "active": false
         },
         {
             "id": 5,
-            "src": "/marco-lab-pictures/butterfly-1.jpg",
+            "src": "/marco-lab-pictures/butterfly-1.webp",
             "alt": "butterfly picture 3",
             "active": false
         },
         {
             "id": 6,
-            "src": "/marco-lab-pictures/butterfly-2.jpg",
+            "src": "/marco-lab-pictures/butterfly-2.webp",
             "alt": "butterfly picture outside",
             "active": false
         }

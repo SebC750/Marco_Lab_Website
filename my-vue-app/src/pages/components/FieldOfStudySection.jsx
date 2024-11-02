@@ -1,6 +1,6 @@
 import fieldsOfStudy from "../datasets/fieldsofstudy.json"
 import "../stylesheets/Home.css"
-
+import { Link } from "react-router-dom"
 const FieldOfStudySection = () => {
     return (
         <div className="card p-0 p-md-5">
@@ -15,7 +15,7 @@ const FieldOfStudySection = () => {
                                 {fieldsOfStudy.map((val, index) => (
                                     <div className="col" key={index}>
                                         <div className="card h-100 text-white bg-info d-flex flex-column" id="card-container">
-                                            <img src={val.card_picture} className="card-img-top" id="field-cards" alt="Field of Study"/>
+                                            <img src={val.card_picture} loading="lazy" className="card-img-top" id="field-cards" alt="Field of Study" />
                                             <div className="card-body d-flex flex-column p-5">
                                                 <div className="card-title">
                                                     <h2> {val.field} </h2>
@@ -24,10 +24,12 @@ const FieldOfStudySection = () => {
                                                     {val.brief_description}
                                                 </div>
                                                 <div className="mt-auto">
-                                                    <button className="btn btn-light d-block w-100 btn-lg rounded-0">
-                                                        <i className="bi bi-file-earmark-text"></i>
-                                                        <a href={val.article_link} className="text-dark"> Read more</a>
-                                                    </button>
+
+
+                                                    <a href={val.article_link} role="button" className="btn btn-light d-flex justify-content-center align-items-center d-block w-100 btn-lg rounded-0 fs-4 gap-4">
+                                                        <i className="bi bi-file-earmark-text fs-1"></i>
+                                                        Click to read more</a>
+
                                                 </div>
                                             </div>
                                         </div>
@@ -36,7 +38,7 @@ const FieldOfStudySection = () => {
                             </>
                         )}
                     </div>
-                    <h3 className="p-4 d-flex justify-content-center" id="explore-more-anchor"> <a href="/Research"> Explore more research </a> <i class="bi bi-arrow-right"></i> </h3>
+                    <h3 className="p-4 d-flex justify-content-center" id="explore-more-anchor"> <Link to="/research"> Explore more research </Link> <i class="bi bi-arrow-right"></i> </h3>
                 </div>
             </div>
         </div>

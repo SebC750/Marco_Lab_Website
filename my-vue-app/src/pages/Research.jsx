@@ -14,9 +14,10 @@ function Research() {
     const [pageNumber, setPageNumber] = useState(1);
 
     useEffect(() => {
+        window.scrollTo(0, 0);
         updateResearchPapers(publications);
     }, []);
-
+    
     const filterBySubject = (subject) => {
         const filteredResearchPapers = publications.filter((val) =>
             val.abstract.includes(subject) || val.publication_title.includes(subject)

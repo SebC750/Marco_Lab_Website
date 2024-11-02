@@ -6,7 +6,7 @@
 }
 .nav-item{
     border-style: solid;
-    border-color: #066275;
+    border-color: rgb(30, 67, 123);
     border-width: 0;
     transition: all 0.3s ease;
 }

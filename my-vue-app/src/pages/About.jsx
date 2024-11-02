@@ -2,9 +2,11 @@ import Navbar from "./Navbar.jsx";
 import "./stylesheets/About.css";
 import Footer from "./components/Footer.jsx"
 import faqAnswers from "./datasets/FAQAnswers.json"
+import {useEffect} from "react"
 function About() {
-
-
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    },[])
     return (
         <div>
             <Navbar />
