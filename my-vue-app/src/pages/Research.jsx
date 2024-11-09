@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 import ResearchSortCol from "./components/ResearchSortCol.jsx";
 import Footer from "./components/Footer.jsx";
 
-const ITEMS_PER_PAGE = 5;
+const ITEMS_PER_PAGE = 10;
 
 function Research() {
     const [researchPapers, updateResearchPapers] = useState([]);
@@ -17,7 +17,7 @@ function Research() {
         window.scrollTo(0, 0);
         updateResearchPapers(publications);
     }, []);
-    
+
     const filterBySubject = (subject) => {
         const filteredResearchPapers = publications.filter((val) =>
             val.abstract.includes(subject) || val.publication_title.includes(subject)
@@ -53,7 +53,7 @@ function Research() {
                 <p>{paper.abstract}</p>
                 <div className="link-to-research">
                     <Link to={paper.publication_url}>
-                        <button className="btn btn-light btn-lg rounded-0">View full article</button>
+                        <button className="btn btn-light btn-lg rounded-0 d-md-block w-md-50 w-100">View full article</button>
                     </Link>
                 </div>
             </div>
@@ -65,9 +65,11 @@ function Research() {
     return (
         <div>
             <Navbar />
-            <div className="container">
-                <h1 className="text-center pt-2">Research</h1>
-                <hr />
+            <div className="">
+                <div className="container">
+                    <h1 className="text-center pt-2">Research</h1>
+                    <hr />
+                </div>           
                 <div className="research-body">
                     <div className="container">
                         <div className="col">
@@ -86,15 +88,18 @@ function Research() {
                                 >
                                     Prev
                                 </button>
-                                {[...Array(totalPages)].map((_, index) => (
-                                    <button
-                                        key={index}
-                                        className={`btn btn-info btn-lg ${pageNumber === index + 1 ? 'active' : ''}`}
-                                        onClick={() => setPageNumber(index + 1)}
-                                    >
-                                        {index + 1}
-                                    </button>
-                                ))}
+                                <div className="d-md-flex d-none gap-2">
+                                    {[...Array(totalPages)].map((_, index) => (
+                                        <button
+                                            key={index}
+                                            className={`btn btn-info btn-lg ${pageNumber === index + 1 ? 'active' : ''}`}
+                                            onClick={() => setPageNumber(index + 1)}
+                                        >
+                                            {index + 1}
+                                        </button>
+                                    ))}
+                                </div>
+
                                 <button
                                     className={`btn btn-info btn-lg ${pageNumber === totalPages ? 'disabled' : ''}`}
                                     onClick={() => setPageNumber(pageNumber + 1)}

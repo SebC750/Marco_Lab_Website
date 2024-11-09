@@ -18,16 +18,15 @@ const FieldOfStudySection = () => {
                                             <img src={val.card_picture} loading="lazy" className="card-img-top" id="field-cards" alt="Field of Study" />
                                             <div className="card-body d-flex flex-column p-5">
                                                 <div className="card-title">
-                                                    <h2> {val.field} </h2>
+                                                    <h3> {val.field} </h3>
                                                 </div>
                                                 <div className="card-text mb-3">
                                                     {val.brief_description}
                                                 </div>
                                                 <div className="mt-auto">
-                                                    <a href={val.article_link} role="button" className="btn btn-light d-flex justify-content-center align-items-center d-block w-100 btn-lg rounded-0 fs-4 gap-4">
-                                                        <i className="bi bi-file-earmark-text fs-1"></i>
-                                                        Click to read more</a>
-
+                                                    <a href={val.article_link} role="button" className="btn btn-light d-flex justify-content-center align-items-center d-block w-100 btn-lg rounded-0 fs-6 gap-4">
+                                                        <i className="bi bi-file-earmark-text fs-3"></i>
+                                                        Click to read a sample article</a>
                                                 </div>
                                             </div>
                                         </div>

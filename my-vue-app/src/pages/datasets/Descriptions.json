@@ -47,7 +47,7 @@
                 "id": 12,
                 "nombre": "Juliana Sosa",
                 "foto_perfil": "/marco-lab-pictures/julianna_sosa.png",
-                "enlace_sitio_web": "",
+                "enlace_sitio_web": "https://www.researchgate.net/profile/Juliana-Sosa",
                 "affiliation_organization_logo": "marco-lab-pictures/logo-uofantioquia-png.png",
                 "descripcion": "The optical mechanisms underlying structural coloration displays in animals, especially in hummingbirds and butterflies, with a focus on visual communication and signaling geometries."
             },
@@ -123,9 +123,9 @@
                 "id": 6,
                 "nombre": "Joseph N. Ruiz",
                 "foto_perfil": "/marco-lab-pictures/joseph_r_ruiz_profile_picture.png",
-                "enlace_sitio_web": "",
+                "enlace_sitio_web": "https://orcid.org/0009-0007-9700-6503",
                 "affiliation_organization_logo": "marco-lab-pictures/logo-uofantioquia-png.png",
-                "descripcion": "https://orcid.org/0009-0007-9700-6503 Biophysics Group, Institute of Physics University of Antioquia. Calle 70 #52-21 A.A. 1226. Medellin-Colombia. He is a BSc Physics student with research interests in nuclear models, radiation-matter interaction, Monte Carlo simulation, Machine Learning, and oncology treatment planning automation. He has published on hybrid clustering for fiber lasers and is currently working on automated VMAT planning for cancer therapies using Eclipse Scripting API. He has experience in financial risk data science and has collaborated with the GITA, Nuclear physics, and Biophysics groups."
+                "descripcion": "Biophysics Group, Institute of Physics University of Antioquia. Calle 70 #52-21 A.A. 1226. Medellin-Colombia. He is a BSc Physics student with research interests in nuclear models, radiation-matter interaction, Monte Carlo simulation, Machine Learning, and oncology treatment planning automation. He has published on hybrid clustering for fiber lasers and is currently working on automated VMAT planning for cancer therapies using Eclipse Scripting API. He has experience in financial risk data science and has collaborated with the GITA, Nuclear physics, and Biophysics groups."
             },
             {
                 "id": 7,

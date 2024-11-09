@@ -15,7 +15,7 @@ const Footer = () => {
                         <h2 className="fw-semibold"> Marco's lab </h2>
                         <p> <i className="bi bi-envelope-fill"></i> mantonio.giraldo@udea.edu.co </p>
                         <p> Cl. Barranquilla #53188 #53- a, Aranjuez, Medellín, Aranjuez, Medellín, Antioquia, Colombia</p>
-                        <img src="/marco-lab-pictures/uoa-address.png" loading="lazy" className="img-fluid img-thumbnail rounded-0 d-block w-auto h-auto" alt="university natural sciences building address" />
+                        <img src="/marco-lab-pictures/uoa-address.webp" loading="lazy" className="img-fluid img-thumbnail rounded-0 d-block w-auto h-auto" alt="university natural sciences building address" />
                     </div>
                     <div className="col d-none d-md-block">
                          <h2 className="fw-semibold"> Quick links</h2>
