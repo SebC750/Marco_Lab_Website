@@ -18,7 +18,7 @@ const OurResearchSection = () => {
                   Through an integrated approach of computational modeling and experimental methodologies, we translate these optical and biophysical principles into real-world applications. 
                   Our team is committed to pushing the boundaries of optical science and contributing valuable insights to both biological and materials science.
               </div>
-              <Link to="/research" className="btn btn-info text-white rounded-0 btn-lg"> Learn more about our studies in Optics! </Link>
+              <Link to="/research" className="btn btn-info text-white rounded-0 btn-lg"> Learn more about our studies! </Link>
             </div>
           </div>
           <div className="col-12 col-xl-6">

@@ -19,20 +19,19 @@
         },
         {
             "id": 4,
-            "src": "/marco-lab-pictures/lab-office.webp",
-            "alt": "research office",
+            "src": "/marco-lab-pictures/butterfly_picture_4.webp",
+            "alt": "blue butterfly picture 3",
             "active": false
         },
         {
             "id": 5,
-            "src": "/marco-lab-pictures/butterfly-1.webp",
-            "alt": "butterfly picture 3",
-            "active": false
-        },
-        {
-            "id": 6,
             "src": "/marco-lab-pictures/butterfly-2.webp",
             "alt": "butterfly picture outside",
+            "active": false
+        },{
+            "id": 6,
+            "src": "/marco-lab-pictures/bird_picture.webp",
+            "alt": "bird rgb color picture",
             "active": false
         }
     ]

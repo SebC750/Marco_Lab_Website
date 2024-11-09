@@ -1,21 +1,21 @@
 [
     {
-        "field": "Spectrophotometry",
-        "brief_description": "This is a technique that uses bifurcated optical fibers to simultaneously illuminate and collect light from a sample. It’s commonly used for analyzing solutions or surfaces by measuring light absorption or reflection, making it useful in fields like chemistry and biology.",
-        "article_link": "https://www.azom.com/article.aspx?ArticleID=13370",
-        "card_picture": "marco-lab-pictures/spectrophotometry_pic.webp"
+        "field": "Biophotonics",
+        "brief_description": "Biophotonics is the study of the interaction of light with biological materials. It combines biology and photonics (the science of light) to develop imaging, sensing, and therapeutic techniques. Applications of biophotonics include medical imaging (like optical coherence tomography), disease diagnosis, and minimally invasive treatments using laser technology.",
+        "article_link": "https://pure.rug.nl/ws/portalfiles/portal/14499056/c1.pdf",
+        "card_picture": "marco-lab-pictures/spectrophotometry_picture.webp"
     },
     {
-        "field": "Integrating sphere",
-        "brief_description": "An integrating sphere is a hollow, spherical device with a reflective inner surface used to measure light diffusion. It captures scattered light, providing a uniform illumination or collection of light, which is ideal for optical measurements in applications such as colorimetry and radiometry.",
-        "article_link": "https://en.wikipedia.org/wiki/Integrating_sphere",
-        "card_picture": "marco-lab-pictures/integrating_sphere_pic.webp"
+        "field": "Cell Electrophysiology",
+        "brief_description": "Cell electrophysiology is the study of the electrical properties of cells, particularly the flow of ions across cell membranes and the resulting electrical currents. This field is essential for understanding how cells, especially neurons and muscle cells, generate and respond to electrical signals. Techniques like patch-clamp recording are used to study ion channels, action potentials, and cellular responses to stimuli.",
+        "article_link": "https://revistas.udea.edu.co/index.php/iatreia/article/view/345508",
+        "card_picture": "marco-lab-pictures/cell_electrophysiology.webp"
     },
     {
-        "field": "Model lipid bilayer",
-        "brief_description": "A model lipid bilayer is a synthetic representation of cell membranes, often used in laboratory settings to study membrane dynamics, permeability, and interactions with various substances. This model helps researchers understand biological processes at the cellular level.",
-        "article_link": "https://en.wikipedia.org/wiki/Model_lipid_bilayer",
-        "card_picture": "marco-lab-pictures/lipid_bilayer_pic.webp"
+        "field": "Cell membranes",
+        "brief_description": "The cell membrane, also known as the plasma membrane, is a protective barrier that surrounds the cell. It regulates the entry and exit of substances, maintains the cell's structural integrity, and facilitates communication with other cells. Composed mainly of lipids and proteins, the cell membrane plays a crucial role in cellular processes such as signaling, adhesion, and transport of nutrients.",
+        "article_link": "https://pubs.acs.org/doi/abs/10.1021/acs.langmuir.3c00250",
+        "card_picture": "marco-lab-pictures/cell_membranes_fixed.webp"
         
     }
 ]
