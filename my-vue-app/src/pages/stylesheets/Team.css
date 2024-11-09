@@ -22,7 +22,7 @@
 }
 .grade-list-item:hover{
     transition: all 0.3s ease;
-    background-color: rgb(45, 155, 185)
+    background-color: #33d4f4;
 }
 .grade-list-item a:hover{
     color: white;

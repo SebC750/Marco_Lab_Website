@@ -22,7 +22,7 @@ const OurResearchSection = () => {
             </div>
           </div>
           <div className="col-12 col-xl-6">
-            <img src="marco-lab-pictures/research_section_Fig1_HTML.webp" loading="lazy" className="img-fluid w-100 h-100" alt="optics picture" />
+            <img src="marco-lab-pictures/research_section_Fig1_HTML.webp" loading="lazy" className="img-fluid w-100 h-100" alt="picture of butterfly wing scales and their cellular composition" />
           </div>
         </div>
       </div>

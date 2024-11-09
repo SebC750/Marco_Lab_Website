@@ -18,7 +18,7 @@ const Footer = () => {
                         <img src="/marco-lab-pictures/uoa-address.png" loading="lazy" className="img-fluid img-thumbnail rounded-0 d-block w-auto h-auto" alt="university natural sciences building address" />
                     </div>
                     <div className="col d-none d-md-block">
-                         <h4> Quick links</h4>
+                         <h2 className="fw-semibold"> Quick links</h2>
                          <ul className="list">
                             <li className="list-item"> <Link to="/team" className="text-white" > Team </Link></li>
                             <li className="list-item"> <Link to="/research" className="text-white" > Research </Link></li>

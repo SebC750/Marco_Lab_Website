@@ -24,8 +24,6 @@ const FieldOfStudySection = () => {
                                                     {val.brief_description}
                                                 </div>
                                                 <div className="mt-auto">
-
-
                                                     <a href={val.article_link} role="button" className="btn btn-light d-flex justify-content-center align-items-center d-block w-100 btn-lg rounded-0 fs-4 gap-4">
                                                         <i className="bi bi-file-earmark-text fs-1"></i>
                                                         Click to read more</a>
