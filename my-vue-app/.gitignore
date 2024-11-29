@@ -11,6 +11,8 @@ node_modules
 dist
 dist-ssr
 *.local
+marco-lab-pictures
+.env
 
 # Editor directories and files
 .vscode/*

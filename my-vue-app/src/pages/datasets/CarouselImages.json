@@ -1,36 +1,16 @@
     [
         {
-            "id": 1,
-            "src": "/marco-lab-pictures/butterfly-bg.webp",
+            "src": "marco-lab-pictures/purple_butterfly.webp",
             "alt": "butterfly image 1",
             "active": true
         },
+
         {
-            "id": 2,
-            "src": "/marco-lab-pictures/butterfly-pic.webp",
-            "alt": "butterfly image 2",
-            "active": false
-        },
-        {
-            "id": 3,
-            "src": "/marco-lab-pictures/uoa-greenhouse.webp",
-            "alt": "greenhouse",
-            "active": false
-        },
-        {
-            "id": 4,
-            "src": "/marco-lab-pictures/butterfly_picture_4.webp",
+            "src": "marco-lab-pictures/butterfly_picture_4.webp",
             "alt": "blue butterfly picture 3",
             "active": false
-        },
-        {
-            "id": 5,
-            "src": "/marco-lab-pictures/butterfly-2.webp",
-            "alt": "butterfly picture outside",
-            "active": false
         },{
-            "id": 6,
-            "src": "/marco-lab-pictures/bird_picture.webp",
+            "src": "marco-lab-pictures/bird_picture.webp",
             "alt": "bird rgb color picture",
             "active": false
         }

@@ -6,35 +6,27 @@ import publications from "./datasets/Publications.json";
 import { Link } from 'react-router-dom';
 import ResearchSortCol from "./components/ResearchSortCol.jsx";
 import Footer from "./components/Footer.jsx";
-
+import {sortByLatest, searchBySubject} from "../functions/filteringFunctions.js"
 const ITEMS_PER_PAGE = 10;
 
 function Research() {
     const [researchPapers, updateResearchPapers] = useState([]);
     const [pageNumber, setPageNumber] = useState(1);
+    const totalPages = Math.ceil(researchPapers.length / ITEMS_PER_PAGE);
 
     useEffect(() => {
         window.scrollTo(0, 0);
         updateResearchPapers(publications);
     }, []);
 
-    const filterBySubject = (subject) => {
-        const filteredResearchPapers = publications.filter((val) =>
-            val.abstract.includes(subject) || val.publication_title.includes(subject)
-        );
+    const handleFilterBySubject = (subject) => {
+        const filteredResearchPapers = searchBySubject(publications, subject);
         updateResearchPapers(filteredResearchPapers);
         setPageNumber(1);
     };
 
-    const sortByYear = () => {
-        const sortedResearchPapersYear = [...publications].sort((a, b) => {
-            if (b.publication_year !== a.publication_year) {
-                return b.publication_year - a.publication_year;
-            }
-            const dateA = new Date(a.publication_date + " " + a.publication_year);
-            const dateB = new Date(b.publication_date + " " + b.publication_year);
-            return dateB - dateA;
-        });
+    const handleSortByLatest = () => {
+        const sortedResearchPapersYear = sortByLatest(publications);
         updateResearchPapers(sortedResearchPapersYear);
         setPageNumber(1);
     };
@@ -60,8 +52,6 @@ function Research() {
         ));
     };
 
-    const totalPages = Math.ceil(researchPapers.length / ITEMS_PER_PAGE);
-
     return (
         <div>
             <Navbar />
@@ -73,7 +63,7 @@ function Research() {
                 <div className="research-body">
                     <div className="container">
                         <div className="col">
-                            <ResearchSortCol filterBySubject={filterBySubject} sortByYear={sortByYear} />
+                            <ResearchSortCol filterBySubject={handleFilterBySubject} sortByLatest={handleSortByLatest} />
                             <div className="research-list">
                                 <div className="pub-title">
                                     <h2>Publications</h2>

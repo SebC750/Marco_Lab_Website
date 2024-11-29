@@ -38,12 +38,13 @@ function Team() {
                                     <div key={val.id} className="col-12 mb-3 d-flex">
                                         <div className="card w-100 h-100 team-card mb-2 shadow shadow-md">
                                             <img
-                                                src={`${val.foto_perfil ? val.foto_perfil : "/marco-lab-pictures/default_profile_picture.svg"}`}
+                                                src={`${val.foto_perfil ? val.foto_perfil : "/marco-lab-pictures/default_profile_picture.webp"}`}
                                                 className="card-img-top"
                                                 height="300px"
                                                 id="profile-picture"
                                                 alt="Profile picture"
                                             />
+                                            
                                             <div className="card-body d-flex flex-column justify-content-between">
                                                 <h4 className="card-title"> {val.nombre} </h4>
                                                 <div className="d-flex flex-column gap-2">
