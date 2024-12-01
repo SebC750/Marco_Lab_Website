@@ -25,3 +25,4 @@ The about page is an FAQ page that serves to clarify about other things that peo
 - React.js
 - Bootstrap
 - Vite
+- Firebase
