@@ -3,6 +3,7 @@ import Navbar from "./Navbar.jsx";
 import "./stylesheets/Research.css";
 import "./stylesheets/Home.css";
 import publications from "./datasets/Publications.json";
+import orcidAPI from '../api/api.js';
 import { Link } from 'react-router-dom';
 import ResearchSortCol from "./components/ResearchSortCol.jsx";
 import Footer from "./components/Footer.jsx";
