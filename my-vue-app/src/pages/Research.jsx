@@ -2,52 +2,77 @@ import React, { useState, useEffect } from 'react';
 import Navbar from "./Navbar.jsx";
 import "./stylesheets/Research.css";
 import "./stylesheets/Home.css";
-import publications from "./datasets/Publications.json";
-import orcidAPI from '../api/api.js';
+import fetchAllPublications from '../functions/apiFunctions.js';
 import { Link } from 'react-router-dom';
 import ResearchSortCol from "./components/ResearchSortCol.jsx";
 import Footer from "./components/Footer.jsx";
-import {sortByLatest, searchBySubject} from "../functions/filteringFunctions.js"
+import { sortByLatest, searchBySubject, sortByEarliest } from "../functions/filteringFunctions.js"
 const ITEMS_PER_PAGE = 10;
 
 function Research() {
+    const [allResearchPapers, setAllResearchPapers] = useState([])
     const [researchPapers, updateResearchPapers] = useState([]);
     const [pageNumber, setPageNumber] = useState(1);
     const totalPages = Math.ceil(researchPapers.length / ITEMS_PER_PAGE);
 
     useEffect(() => {
-        window.scrollTo(0, 0);
-        updateResearchPapers(publications);
+        fetchPublications();
     }, []);
 
+    const fetchPublications = async () => {
+        const allPublications = await fetchAllPublications();
+        setAllResearchPapers(allPublications);
+        updateResearchPapers(allPublications)
+        setPageNumber(1);
+    };
+
     const handleFilterBySubject = (subject) => {
-        const filteredResearchPapers = searchBySubject(publications, subject);
+        const filteredResearchPapers = searchBySubject(allResearchPapers, subject);
         updateResearchPapers(filteredResearchPapers);
         setPageNumber(1);
     };
 
     const handleSortByLatest = () => {
-        const sortedResearchPapersYear = sortByLatest(publications);
+        const sortedResearchPapersYear = sortByLatest(researchPapers);
         updateResearchPapers(sortedResearchPapersYear);
         setPageNumber(1);
     };
-
+    
+    const handleSortByEarliest = () => {
+        const sortedResearchPapersYear = sortByEarliest(researchPapers);
+        updateResearchPapers(sortedResearchPapersYear);
+        setPageNumber(1);
+    };
+    const handleReset = () => {
+        updateResearchPapers(allResearchPapers);
+        setPageNumber(1);
+    };
     const renderPapers = () => {
         const startIndex = (pageNumber - 1) * ITEMS_PER_PAGE;
         const endIndex = startIndex + ITEMS_PER_PAGE;
         return researchPapers.slice(startIndex, endIndex).map((paper, index) => (
             <div key={index} className="container text-white bg-info mt-3 p-4 rounded-0" id="paper-container">
                 <div className="publication-date">
-                    <h5>{paper.publication_date} {paper.publication_year}</h5>
+                    {paper.publicationDate
+                        ? `Date published: 
+                        ${paper.publicationDate.year?.value ? paper.publicationDate.year?.value : ""}
+                        ${paper.publicationDate.month?.value ? "- "+paper.publicationDate.month?.value : ""}
+                        ${paper.publicationDate.day?.value ? "- "+paper.publicationDate.day?.value : ""}`
+                        : "Publication date not available"}
                 </div>
-                <h4>{paper.publication_title}</h4>
+                <h4> <strong> {paper.title} </strong></h4>
+                <h5> <strong> Publication type: </strong> {paper.type} </h5>
+                <h5> <strong> Publication Journal: </strong> {paper.journalTitle?.value} </h5>
                 <div className="divider"></div>
-                <h5>Abstract</h5>
-                <p>{paper.abstract}</p>
                 <div className="link-to-research">
-                    <Link to={paper.publication_url}>
-                        <button className="btn btn-light btn-lg rounded-0 d-md-block w-md-50 w-100">View full article</button>
+                    {paper.publicationUrl?.value ? (
+                        <Link to={paper.publicationUrl?.value}>                   
+                        <button className="btn btn-light btn-lg rounded-0 d-md-block w-md-50"> View full article</button>
                     </Link>
+                    ): (             
+                        <button className="btn btn-light btn-lg rounded-0 d-md-block w-md-50" disabled> Article link not available </button>
+                    )}
+                    
                 </div>
             </div>
         ));
@@ -55,25 +80,34 @@ function Research() {
 
     return (
         <div>
-            <Navbar />
-            <div className="">
+            <Navbar />         
                 <div className="container">
                     <h1 className="text-center pt-2">Research</h1>
                     <hr />
-                </div>           
+                </div>
                 <div className="research-body">
                     <div className="container">
                         <div className="col">
-                            <ResearchSortCol filterBySubject={handleFilterBySubject} sortByLatest={handleSortByLatest} />
+                            <ResearchSortCol filterBySubject={handleFilterBySubject} sortByLatest={handleSortByLatest} sortByEarliest={handleSortByEarliest}/>
+                         <div className="border-dark-info border-5 mt-3">
+                         <button 
+                            className="btn btn-info btn-lg w-100 text-white rounded-0 " 
+                            onClick={handleReset}
+                        >
+                            Reset Filters
+                        </button>
+                            </div>   
+                            
                             <div className="research-list">
                                 <div className="pub-title">
                                     <h2>Publications</h2>
                                 </div>
                                 {renderPapers()}
                             </div>
+                            
                             <nav className="bg-dark p-4 mb-3 pagination-nav d-flex justify-content-center gap-4">
                                 <button
-                                    className={`btn btn-info btn-lg ${pageNumber === 1 ? 'disabled' : ''}`}
+                                    className={`btn btn-info btn-lg text-white ${pageNumber === 1 ? 'disabled' : ''}`}
                                     onClick={() => setPageNumber(pageNumber - 1)}
                                     disabled={pageNumber === 1}
                                 >
@@ -83,7 +117,7 @@ function Research() {
                                     {[...Array(totalPages)].map((_, index) => (
                                         <button
                                             key={index}
-                                            className={`btn btn-info btn-lg ${pageNumber === index + 1 ? 'active' : ''}`}
+                                            className={`btn btn-info btn-lg text-white ${pageNumber === index + 1 ? 'active' : ''}`}
                                             onClick={() => setPageNumber(index + 1)}
                                         >
                                             {index + 1}
@@ -92,7 +126,7 @@ function Research() {
                                 </div>
 
                                 <button
-                                    className={`btn btn-info btn-lg ${pageNumber === totalPages ? 'disabled' : ''}`}
+                                    className={`btn btn-info btn-lg text-white ${pageNumber === totalPages ? 'disabled' : ''}`}
                                     onClick={() => setPageNumber(pageNumber + 1)}
                                     disabled={pageNumber === totalPages}
                                 >
@@ -102,7 +136,7 @@ function Research() {
                         </div>
                     </div>
                 </div>
-            </div>
+            
             <Footer />
         </div>
     );

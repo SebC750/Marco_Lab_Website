@@ -10,7 +10,7 @@ function About() {
     return (
         <div>
             <Navbar />
-            <div className="container">
+            <div className="container mb-5 pb-5">
                 <div className="p-2 text-center">
                     <h1> About Us </h1>
                 </div>

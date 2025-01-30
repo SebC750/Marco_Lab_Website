@@ -28,6 +28,10 @@
     height: auto;
     margin-top: 20px;
 }
+.border-dark-info{
+    border-style: solid;
+    border-color: #066275;
+}
 #search-bar{
     color: white;
 }
@@ -35,8 +39,6 @@
     margin-bottom: 20px;
     width: 100%;
 }
-
-
 #paper-container{
     border-radius: 6px;
 }

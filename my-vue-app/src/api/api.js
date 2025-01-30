@@ -35,11 +35,15 @@ class OrcIDAPI{
                .then(data => data.json())
                .then(result => result["bulk"][0]["work"])
                .catch(e => console.error(e));
+               if (response && response["short-description"]) {
+                    response.description = response["short-description"];
+                  }
                return response; 
           }catch(e){
                console.error("Could not retrieve data. ERROR: ", e)
           }      
      }
+    
 }
 
 const orcidAPI = new OrcIDAPI("https://pub.orcid.org/v3.0/0000-0003-3437-6308/works");
